@@ -25,7 +25,7 @@ This artifact is a review draft only. It does not mark the manuscript final and 
 |---|---|
 | Build date | 2026-07-09 |
 | Output file | `dist/The-Leimbach-method-review-draft.pdf` |
-| Page count | 97 pages |
+| Page count | 87 pages |
 | Page size | Letter |
 | Source order | `MANUSCRIPT.md` and `Publishing/02-table-of-contents.md` |
 | Review label | Present on title page and footer |
@@ -39,16 +39,16 @@ Representative pages were rendered to PNG and visually inspected:
 
 | Page | Area Checked | Result |
 |---|---|---|
-| 1 | Title/front matter page and safety notice | Clean front-matter layout; review-draft label and urgent-symptom safety notice visible |
-| 16 | Table-heavy nutrition page, Macro Targets | Monospaced tables readable; no obvious clipping, overlap, broken glyphs, or black boxes |
-| 62 | Table-heavy training page, Six-Week Strength Block | Dense training tables readable in monospaced layout; no obvious clipping or overlap |
-| 71 | Recovery/safety page, Heat-Stress Recovery | Safety language visible; heat-stress table readable |
-| 84 | Dashboard/checklist page, Weekly Dashboard Template | Wide check-in and weekly metrics tables readable in monospaced layout |
-| 96 | Final Review Checklist | Checklist text readable; no obvious clipping or overlap |
+| 1 | Title/front matter page and safety notice | Clean title layout; review-draft label and urgent-symptom safety notice visible |
+| 14 | Table-heavy nutrition page, Macro Targets | Monospaced tables readable; no obvious clipping, overlap, broken glyphs, or black boxes |
+| 56 | Table-heavy training page, Six-Week Strength Block | Dense training tables readable in monospaced layout; no obvious clipping or overlap |
+| 64 | Recovery/safety page, Heat-Stress Recovery | Safety language visible; heat-stress table readable |
+| 75 | Dashboard/checklist page, Weekly Dashboard Template | Wide check-in and weekly metrics tables readable in monospaced layout |
+| 86 | Final Review Checklist | Checklist text readable; no obvious clipping or overlap |
 
 ## Verification Notes
 
-- The PDF was checked with `pdfinfo` and `pypdf`; both reported 97 pages.
+- The PDF was checked with `pdfinfo`, which reported 87 pages.
 - Representative pages were rendered with Poppler `pdftoppm` using a writable temp font cache.
 - The generated PDF uses readable repository paths rather than relying on clickable Markdown link behavior.
 - Tables and checklists are preserved in a lean monospaced layout for review readability, not final publication typography.
