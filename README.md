@@ -1,100 +1,59 @@
 ---
 title: "The Leimbach Method"
 subtitle: "Powerbuilding, Nutrition, Recovery, and Performance"
-status: "project framework"
-last_updated: "2026-07-08"
+status: "review draft"
+last_updated: "2026-07-09"
 ---
 
 # The Leimbach Method
 
 **A personal performance manual for Mika Leimbach**
 
-**Athlete profile:** 33 years old · 6'4" · approximately 260 lb  
+The Leimbach Method is a review-draft performance manual that combines implementation guidance, nutrition, strength training, recovery, tracking, an exercise library, and publication-prep documents into one source repository. The project is maintained in Markdown so chapters can be reviewed, revised, linked, version-controlled, and later exported to PDF.
+
+**Athlete profile:** 33 years old, 6'4", approximately 260 lb  
 **Primary objective:** Build toward a lean, strong 275 lb while improving powerlifting performance, conditioning, recovery, and long-term health.
 
-> This repository is the source library for the final publication. Chapters are maintained in Markdown so they can be reviewed, revised, version-controlled, and later exported to PDF.
+## Current Status
 
-## Master Table of Contents
+This repository is a **review draft**. It is not final publication copy and is not medical advice. Nutrition, hydration, supplement, recovery, pain, heat-stress, and training decisions should be reviewed for individual fit before use or publication.
 
-### Volume I — Nutrition
+Heat illness symptoms, chest pain, fainting, severe shortness of breath, neurological symptoms, or rapidly worsening symptoms require urgent medical attention.
 
-1. [Athlete Profile](Nutrition/01-athlete-profile.md)
-2. [Goals and Nutrition Philosophy](Nutrition/02-goals-and-nutrition-philosophy.md)
-3. [Macro Targets](Nutrition/03-macro-targets.md)
-4. [Day-Shift Meal Timing](Nutrition/04-day-shift-meal-timing.md)
-5. [Night-Shift Meal Timing](Nutrition/05-night-shift-meal-timing.md)
-6. [Training, Cardio, and Rest-Day Nutrition](Nutrition/06-day-type-nutrition.md)
-7. [Fourteen-Day Meal Plan](Nutrition/07-fourteen-day-meal-plan.md)
-8. [Meal-Prep Workflow](Nutrition/08-meal-prep-workflow.md)
-9. [Costco and H-E-B Grocery Guide](Nutrition/09-grocery-guide.md)
-10. [Hydration and Electrolytes](Nutrition/10-hydration-electrolytes.md)
-11. [Supplement Framework](Nutrition/11-supplements.md)
-12. [Progress and Macro Adjustments](Nutrition/12-adjustment-protocol.md)
+## Who This Method Is For
 
-### Volume II — Training
+This method is written for a large strength athlete working rotating oilfield shifts who wants a practical system for building size, strength, conditioning, and recovery capacity. It assumes long workdays, hot environments, inconsistent sleep, heavy barbell training, and the need for simple weekly decisions.
 
-1. [Program Overview](Training/01-program-overview.md)
-2. [Readiness and Autoregulation](Training/02-readiness-autoregulation.md)
-3. [Warm-Up and Movement Preparation](Training/03-warm-up-mobility.md)
-4. [Squat Development](Training/04-squat-system.md)
-5. [Bench Press Development](Training/05-bench-system.md)
-6. [Deadlift Development](Training/06-deadlift-system.md)
-7. [Accessory Training](Training/07-accessory-training.md)
-8. [Core Training](Training/08-core-training.md)
-9. [Conditioning](Training/09-conditioning.md)
-10. [Deloads and Fatigue Management](Training/10-deloads.md)
-11. [Fifty-Two-Week Plan](Training/11-fifty-two-week-plan.md)
-12. [Exercise Library](Training/12-exercise-library.md)
+## Main Sections
 
-### Volume III — Recovery
+- [Implementation Guide](Implementation/01-start-here.md): start-here roadmap, first-week setup, mid-block entry, weekly operating rhythm, common scenarios, and copy-ready checklists.
+- [Volume I - Nutrition](Nutrition/01-athlete-profile.md): athlete profile, nutrition philosophy, macro targets, meal timing, meal prep, groceries, hydration, supplements, and adjustment rules.
+- [Volume II - Training](Training/01-program-overview.md): program overview, readiness, warm-up, squat, bench, deadlift, accessory work, core work, conditioning, deloads, the first 6-week block, and progression rules.
+- [Volume III - Recovery](Recovery/01-recovery-overview.md): recovery overview, sleep, shift work, heat stress, soreness and pain management, weekly planning, and recovery checklists.
+- [Volume IV - Tracking](Tracking/01-tracking-overview.md): tracking overview, bodyweight and waist tracking, training logs, recovery logs, weekly review, and dashboard template.
+- [Exercise Library](Exercise-Library/01-library-overview.md): squat, bench, deadlift, accessory, core, conditioning, and substitution guidance.
+- [Publishing](Publishing/01-publication-overview.md): publication overview, table of contents, front matter, back matter, PDF export checklist, and final review checklist.
 
-1. [Sleep](Recovery/01-sleep.md)
-2. [Shift-Work Recovery](Recovery/02-shift-work-recovery.md)
-3. [Heat Management](Recovery/03-heat-management.md)
-4. [Mobility and Stretching](Recovery/04-mobility-stretching.md)
-5. [Fatigue, Pain, and Training Decisions](Recovery/05-fatigue-pain.md)
-6. [Medical Monitoring](Recovery/06-medical-monitoring.md)
-7. [Travel and Schedule Disruptions](Recovery/07-travel.md)
+## How To Use This Repository
 
-### Volume IV — Tracking
-
-1. [Weekly Check-In](Tracking/01-weekly-check-in.md)
-2. [Bodyweight and Measurements](Tracking/02-bodyweight-measurements.md)
-3. [Training Log](Tracking/03-training-log.md)
-4. [Nutrition Log](Tracking/04-nutrition-log.md)
-5. [Recovery Score](Tracking/05-recovery-score.md)
-6. [Monthly Review](Tracking/06-monthly-review.md)
-
-### Recipe Library
-
-- [Recipe Library Index](Recipes/README.md)
-- [Recipe Template](Recipes/recipe-template.md)
-- [Mexican](Recipes/Mexican/README.md)
-- [Italian](Recipes/Italian/README.md)
-- [Asian](Recipes/Asian/README.md)
-- [BBQ](Recipes/BBQ/README.md)
-- [Breakfast](Recipes/Breakfast/README.md)
-- [Soups](Recipes/Soups/README.md)
-- [Protein Desserts](Recipes/Protein-Desserts/README.md)
-- [Shakes and Smoothies](Recipes/Shakes-Smoothies/README.md)
-
-### Logs and Supporting Material
-
-- [Progress Logs](Progress%20Logs/README.md)
-- [Style Guide](STYLE_GUIDE.md)
-- [Reference Guide](REFERENCES.md)
-- [Change Log](CHANGELOG.md)
+1. Start with [Implementation/01-start-here.md](Implementation/01-start-here.md) if you want to use the method before reading every chapter.
+2. Use [MANUSCRIPT.md](MANUSCRIPT.md) as the linked assembly order for review and future PDF export.
+3. Read the chapters in the order listed in [Publishing/02-table-of-contents.md](Publishing/02-table-of-contents.md) when reviewing the complete manual.
+4. Use the Tracking volume to connect Nutrition, Training, and Recovery decisions during weekly review.
+5. Treat all chapters as review drafts until coaching, safety, copy, layout, and PDF proof review are complete.
 
 ## Publication Workflow
 
-1. Draft each chapter in its assigned Markdown file.
-2. Replace placeholders with verified, individualized material.
-3. Add figures, tables, citations, and cross-links.
-4. Change front-matter status from `template` to `review`.
-5. Complete coach and athlete review.
-6. Change status to `final`.
-7. Export approved chapters to the master PDF.
+1. Confirm all intended chapters are present and still marked for review.
+2. Complete athlete/user, coach/programming, nutrition, recovery/safety, copy, and layout review.
+3. Resolve unsupported claims, placeholders, inconsistent references, and broken links.
+4. Prepare a PDF build from the linked manuscript assembly.
+5. Proof the exported PDF before any status is changed to final.
 
-## Important Note
+## Next Steps Before Final Publication
 
-This repository is an organizational and publishing framework. Medical, nutrition, hydration, supplement, and training recommendations must be reviewed for accuracy and individualized risk before publication or use.
+- Complete final content review across Implementation, Nutrition, Training, Recovery, Tracking, Exercise Library, and Publishing.
+- Confirm safety language is conservative and appears near the front of the manuscript.
+- Confirm references and links are consistent.
+- Confirm tables, page breaks, headings, and checklists render cleanly in PDF.
+- Create a PDF only after the review checklists are complete.
