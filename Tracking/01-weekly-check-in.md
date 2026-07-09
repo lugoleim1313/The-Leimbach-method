@@ -1,0 +1,185 @@
+---
+title: "Weekly Check-In"
+volume: "Volume IV — Tracking"
+chapter: 1
+status: "template"
+last_updated: "2026-07-08"
+author: "The Leimbach Method"
+---
+
+# Weekly Check-In
+
+> **Volume:** Volume IV — Tracking  
+> **Chapter:** 1  
+> **Status:** Template / not final coaching guidance
+
+## Purpose
+
+Capture the minimum data needed to make evidence-based weekly coaching decisions.
+
+## Chapter Contents
+
+- [Week Summary](#week-summary)
+- [Bodyweight Trend](#bodyweight-trend)
+- [Training Performance](#training-performance)
+- [Nutrition Adherence](#nutrition-adherence)
+- [Recovery](#recovery)
+- [Next-Week Decisions](#next-week-decisions)
+
+---
+
+
+## Week Summary
+
+> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+
+### Key Points
+
+- 
+- 
+- 
+
+### Working Table
+
+| Item | Target / Standard | Notes |
+|---|---:|---|
+|  |  |  |
+|  |  |  |
+
+### Figure or Image Placeholder
+
+![Week Summary illustration](../Assets/Images/placeholder-01.jpg)
+
+*Figure 1.1 — Add a concise caption and source credit.*
+
+## Bodyweight Trend
+
+> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+
+### Key Points
+
+- 
+- 
+- 
+
+### Working Table
+
+| Item | Target / Standard | Notes |
+|---|---:|---|
+|  |  |  |
+|  |  |  |
+
+### Figure or Image Placeholder
+
+![Bodyweight Trend illustration](../Assets/Images/placeholder-01.jpg)
+
+*Figure 1.1 — Add a concise caption and source credit.*
+
+## Training Performance
+
+> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+
+### Key Points
+
+- 
+- 
+- 
+
+### Working Table
+
+| Item | Target / Standard | Notes |
+|---|---:|---|
+|  |  |  |
+|  |  |  |
+
+### Figure or Image Placeholder
+
+![Training Performance illustration](../Assets/Images/placeholder-01.jpg)
+
+*Figure 1.1 — Add a concise caption and source credit.*
+
+## Nutrition Adherence
+
+> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+
+### Key Points
+
+- 
+- 
+- 
+
+### Working Table
+
+| Item | Target / Standard | Notes |
+|---|---:|---|
+|  |  |  |
+|  |  |  |
+
+### Figure or Image Placeholder
+
+![Nutrition Adherence illustration](../Assets/Images/placeholder-01.jpg)
+
+*Figure 1.1 — Add a concise caption and source credit.*
+
+## Recovery
+
+> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+
+### Key Points
+
+- 
+- 
+- 
+
+### Working Table
+
+| Item | Target / Standard | Notes |
+|---|---:|---|
+|  |  |  |
+|  |  |  |
+
+### Figure or Image Placeholder
+
+![Recovery illustration](../Assets/Images/placeholder-01.jpg)
+
+*Figure 1.1 — Add a concise caption and source credit.*
+
+## Next-Week Decisions
+
+> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+
+### Key Points
+
+- 
+- 
+- 
+
+### Working Table
+
+| Item | Target / Standard | Notes |
+|---|---:|---|
+|  |  |  |
+|  |  |  |
+
+### Figure or Image Placeholder
+
+![Next-Week Decisions illustration](../Assets/Images/placeholder-01.jpg)
+
+*Figure 1.1 — Add a concise caption and source credit.*
+
+
+## Action Checklist
+
+- [ ] Finalize chapter text.
+- [ ] Verify quantities, calculations, and claims.
+- [ ] Add tables or figures where they improve understanding.
+- [ ] Add image captions and source credits.
+- [ ] Complete references.
+- [ ] Review formatting and internal links.
+- [ ] Mark status as `review` or `final` in the front matter.
+
+## Coach Review Notes
+
+- 
+- 
+-
