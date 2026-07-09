@@ -55,8 +55,8 @@ Use the same six-meal order on day shift or night shift. Move meals by 30-60 min
 | Meal 2 | 5:30-6:30 a.m., early shift | 6:00-7:00 p.m., early shift |
 | Meal 3 | 9:30-10:30 a.m., mid-shift | 10:00-11:00 p.m., midnight meal |
 | Meal 4 | 1:30-2:30 p.m., late shift | 2:00-3:00 a.m., late shift |
-| Meal 5 | 5:00-6:00 p.m., post-shift or pre-training | 6:00-6:30 a.m., post-shift or pre-training |
-| Meal 6 | 7:30-9:00 p.m., post-training / before bed | 7:30-8:30 a.m., before sleep |
+| Meal 5 | 7:00-7:30 p.m., post-shift or pre-training | 7:00-7:30 a.m., post-shift or pre-training |
+| Meal 6 | 8:30-9:30 p.m., post-training / before bed | 8:00-9:00 a.m., before sleep |
 
 For training days, Meal 5 should usually be the lighter pre-training meal and Meal 6 should usually be the larger post-training meal. If training happens before shift, swap those roles while keeping the same daily food totals.
 
