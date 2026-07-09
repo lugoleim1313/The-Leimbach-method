@@ -25,12 +25,13 @@ This artifact is a review draft only. It does not mark the manuscript final and 
 |---|---|
 | Build date | 2026-07-09 |
 | Output file | `dist/The-Leimbach-method-review-draft.pdf` |
-| Page count | 7 pages |
+| Page count | 97 pages |
 | Page size | Letter |
 | Source order | `MANUSCRIPT.md` and `Publishing/02-table-of-contents.md` |
 | Review label | Present on title page and footer |
 | Page numbers | Present |
 | Safety disclaimer near front | Present |
+| Full manuscript content | Present |
 
 ## Rendered Pages Checked
 
@@ -38,26 +39,25 @@ Representative pages were rendered to PNG and visually inspected:
 
 | Page | Area Checked | Result |
 |---|---|---|
-| 1 | Title/front matter page and safety notice | Clean title layout; review-draft label and urgent-symptom safety notice visible |
-| 3 | Table-heavy nutrition proof page | Tables readable; no obvious clipping, overlap, broken glyphs, or black boxes |
-| 4 | Table-heavy training proof page | Dense training table readable; no obvious clipping or overlap |
-| 5 | Recovery/safety proof page | Safety language visible; table readable |
-| 6 | Dashboard/checklist proof page | Wide check-in and weekly metrics tables readable |
-| 7 | Final review checklist proof page | Checklist table readable; no obvious clipping or overlap |
+| 1 | Title/front matter page and safety notice | Clean front-matter layout; review-draft label and urgent-symptom safety notice visible |
+| 16 | Table-heavy nutrition page, Macro Targets | Monospaced tables readable; no obvious clipping, overlap, broken glyphs, or black boxes |
+| 62 | Table-heavy training page, Six-Week Strength Block | Dense training tables readable in monospaced layout; no obvious clipping or overlap |
+| 71 | Recovery/safety page, Heat-Stress Recovery | Safety language visible; heat-stress table readable |
+| 84 | Dashboard/checklist page, Weekly Dashboard Template | Wide check-in and weekly metrics tables readable in monospaced layout |
+| 96 | Final Review Checklist | Checklist text readable; no obvious clipping or overlap |
 
 ## Verification Notes
 
-- The PDF was checked with `pdfinfo` and `pypdf`; both reported 7 pages.
-- Representative pages were rendered with Poppler `pdftoppm`.
-- The local sandbox produced repeated Poppler font-cache warnings because the default fontconfig cache path was not writable. Rendering still completed after using a writable temp cache for the final render check.
+- The PDF was checked with `pdfinfo` and `pypdf`; both reported 97 pages.
+- Representative pages were rendered with Poppler `pdftoppm` using a writable temp font cache.
 - The generated PDF uses readable repository paths rather than relying on clickable Markdown link behavior.
-- Tables are formatted for review readability, not final publication typography.
-- This is a compact review-proof PDF. A later full-manuscript PDF pass should expand from proof layout into full chapter content once the review layout is approved.
+- Tables and checklists are preserved in a lean monospaced layout for review readability, not final publication typography.
+- The full review PDF follows the manuscript assembly order and includes front matter, table of contents, Implementation, Nutrition, Training, Recovery, Tracking, Exercise Library, back matter, PDF export checklist, and final review checklist.
 - The final PDF has not been created.
 
 ## Known Limitations For Later Proofing
 
-- This is a first review PDF, so page breaks should still be proofed manually across the full document.
+- This is a first full review PDF, so page breaks should still be proofed manually across the full document.
 - Very wide source tables may need final layout tuning before publication.
 - Placeholder text from approved publication placeholders remains where it does not block readability.
 - Final cover design, edition metadata, release notes, and final PDF export settings remain future publication work.
