@@ -2,16 +2,16 @@
 title: "Day-Shift Meal Timing"
 volume: "Volume I — Nutrition"
 chapter: 4
-status: "template"
-last_updated: "2026-07-08"
+status: "review"
+last_updated: "2026-07-09"
 author: "The Leimbach Method"
 ---
 
 # Day-Shift Meal Timing
 
-> **Volume:** Volume I — Nutrition  
+> **Volume:** Volume I - Nutrition  
 > **Chapter:** 4  
-> **Status:** Template / not final coaching guidance
+> **Status:** Draft for coach review; not final medical or clinical guidance
 
 ## Purpose
 
@@ -28,167 +28,101 @@ Create a practical meal and hydration schedule for a 3:00 a.m. to 7:00 p.m. work
 
 ---
 
-
 ## Shift Timeline
 
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+The day-shift plan assumes the athlete is awake before 3:00 a.m., works until 7:00 p.m., and may train after the shift. The schedule is long enough that food must be packed before work starts.
 
-### Key Points
+| Time | Feeding | Purpose | Example |
+|---|---|---|---|
+| 2:00-2:30 a.m. | Wake-up meal | Start protein and carbs early | Overnight oats with whey, Greek yogurt, berries, and banana |
+| 5:30-6:30 a.m. | Work meal 1 | Prevent early energy crash | Chicken, rice, beans, salsa, avocado |
+| 9:30-10:30 a.m. | Work meal 2 | Keep calories moving | Steak or fish bowl with rice/potatoes and fruit |
+| 1:30-2:30 p.m. | Work meal 3 | Main mid-shift fuel | Soup plus rice, lean meat, beans, and tortillas |
+| 5:00-6:00 p.m. | Pre-training meal or snack | Prepare for post-shift training | Shake plus fruit, rice cakes, oats, or a lower-fat bowl |
+| 7:30-9:00 p.m. | Post-training meal | Refill carbs and protein | Pasta with lean meat sauce or BBQ chicken and rice |
+| 9:30-10:30 p.m. | Bedtime protein | Finish protein without heavy digestion | Greek-yogurt protein dessert or casein-style shake |
 
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Shift Timeline illustration](../Assets/Images/placeholder-04.jpg)
-
-*Figure 4.1 — Add a concise caption and source credit.*
+**Unconfirmed assumption:** exact wake time, commute time, break access, and training time are not confirmed. Move feedings 30-60 minutes as needed while keeping the same order.
 
 ## Wake-Up Meal
 
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+The wake-up meal should be prepared the night before. The athlete should not be making complicated food before a 3:00 a.m. start.
 
-### Key Points
+Good wake-up meal targets:
 
-- 
-- 
-- 
+- 45-60 g protein.
+- 70-120 g carbs on training days.
+- 10-25 g fat depending on appetite.
+- Fluids and electrolytes if the shift starts dehydrated.
 
-### Working Table
+Practical options:
 
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Wake-Up Meal illustration](../Assets/Images/placeholder-04.jpg)
-
-*Figure 4.1 — Add a concise caption and source credit.*
+- 100 g dry oats mixed with whey, Greek yogurt, berries, and banana.
+- 300 g Greek yogurt with 40 g whey, 80-100 g cereal or granola, and fruit.
+- Rice bowl with 200 g cooked chicken, 300 g cooked rice, salsa, and 50-75 g avocado.
 
 ## Work Meals
 
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+The workday needs 2-3 packed meals plus a backup. Each main meal should be easy to eat cold or reheated and should include a known protein amount.
 
-### Key Points
+| Meal Build | Training Day | Cardio Day | Rest Day |
+|---|---:|---:|---:|
+| Cooked protein | 200-250 g | 200-250 g | 200-250 g |
+| Cooked rice/potatoes/pasta | 350-450 g | 275-375 g | 200-300 g |
+| Beans or fruit | 100-200 g | 100-200 g | 100-150 g |
+| Avocado/oil/cheese/sauce | 10-25 g fat | 10-25 g fat | 15-30 g fat |
 
-- 
-- 
-- 
+Backup foods for missed breaks:
 
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Work Meals illustration](../Assets/Images/placeholder-04.jpg)
-
-*Figure 4.1 — Add a concise caption and source credit.*
+- Whey shake plus banana.
+- Greek yogurt cup plus granola.
+- Rice cakes and jerky.
+- Ready-to-drink protein plus fruit.
+- Soup in a thermos with cooked rice added.
 
 ## Training Window
 
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+If lifting happens after the 7:00 p.m. shift, the pre-training feeding should be lighter and lower in fat. The goal is to arrive at the gym fueled but not sluggish.
 
-### Key Points
+Best pre-training options 60-120 minutes before lifting:
 
-- 
-- 
-- 
+- Whey shake plus banana and oats.
+- Chicken and rice with salsa, little added fat.
+- Greek yogurt, honey, berries, and cereal.
+- Soup with rice and lean protein if digestion is good.
 
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Training Window illustration](../Assets/Images/placeholder-04.jpg)
-
-*Figure 4.1 — Add a concise caption and source credit.*
+If training must happen before the shift, use a smaller carb-and-protein meal before training and move the larger breakfast to the first work break.
 
 ## Post-Training Meal
 
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+The post-training meal is the largest opportunity to finish the day. It should include a full protein serving, a large carbohydrate serving, and enough fat to close the calorie gap without making sleep uncomfortable.
 
-### Key Points
+Examples:
 
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Post-Training Meal illustration](../Assets/Images/placeholder-04.jpg)
-
-*Figure 4.1 — Add a concise caption and source credit.*
+- 250 g cooked chicken, 450 g cooked rice, beans, salsa, and avocado.
+- 225 g lean steak, 500 g potatoes, vegetables, and olive-oil-based sauce.
+- 250 g lean meat sauce, 350-450 g cooked pasta, parmesan, and fruit.
+- BBQ chicken bowl with rice, beans, corn, and sauce.
 
 ## Bedtime Nutrition
 
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+Bedtime nutrition should finish protein and calories while protecting sleep. If dinner was large and late, keep this small. If the day ran short, use a dense but easy option.
 
-### Key Points
+Good bedtime options:
 
-- 
-- 
-- 
+- 300-400 g Greek yogurt mixed with whey and berries.
+- Protein shake with milk and a banana.
+- Cottage cheese or Greek yogurt with honey and granola.
+- Small steak/chicken leftovers if appetite is still strong.
 
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Bedtime Nutrition illustration](../Assets/Images/placeholder-04.jpg)
-
-*Figure 4.1 — Add a concise caption and source credit.*
-
-
-## Action Checklist
-
-- [ ] Finalize chapter text.
-- [ ] Verify quantities, calculations, and claims.
-- [ ] Add tables or figures where they improve understanding.
-- [ ] Add image captions and source credits.
-- [ ] Complete references.
-- [ ] Review formatting and internal links.
-- [ ] Mark status as `review` or `final` in the front matter.
+Avoid turning bedtime into a second dinner if it disrupts sleep. Poor sleep will make the next day's appetite, training, and bodyweight trend harder to interpret.
 
 ## Coach Review Notes
 
-- 
-- 
-- 
-
+- Confirm actual break times and whether reheating food is available.
+- Confirm whether post-shift training is the default or only one option.
+- Confirm caffeine cutoff time for day shift.
 
 ## References
 
-1. Author or Organization. *Title of source*. Publisher or Journal, Year.
-2. Add a stable URL, DOI, edition, or access date where applicable.
-3. Use numbered citations in the text, such as **[1]**.
-
-> **Reference status:** Draft placeholders only. Verify every citation before publication.
+> **Reference status:** Draft coaching content. Add evidence-based references before changing this chapter to `final`.
