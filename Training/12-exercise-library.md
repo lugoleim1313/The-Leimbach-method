@@ -2,7 +2,7 @@
 title: "Exercise Library"
 volume: "Volume II — Training"
 chapter: 12
-status: "template"
+status: "review"
 last_updated: "2026-07-08"
 author: "The Leimbach Method"
 ---
@@ -11,7 +11,7 @@ author: "The Leimbach Method"
 
 > **Volume:** Volume II — Training  
 > **Chapter:** 12  
-> **Status:** Template / not final coaching guidance
+> **Status:** Draft for coach review; not final medical or clinical guidance
 
 ## Purpose
 
@@ -174,9 +174,7 @@ Create standardized exercise entries with purpose, execution, cues, errors, subs
 - [ ] Verify quantities, calculations, and claims.
 - [ ] Add tables or figures where they improve understanding.
 - [ ] Add image captions and source credits.
-- [ ] Complete references.
 - [ ] Review formatting and internal links.
-- [ ] Mark status as `review` or `final` in the front matter.
 
 ## Coach Review Notes
 
@@ -187,8 +185,12 @@ Create standardized exercise entries with purpose, execution, cues, errors, subs
 
 ## References
 
-1. Author or Organization. *Title of source*. Publisher or Journal, Year.
-2. Add a stable URL, DOI, edition, or access date where applicable.
-3. Use numbered citations in the text, such as **[1]**.
+- NSCA Essentials of Strength Training and Conditioning for periodization, exercise selection, and fatigue management.
+- ACSM resistance-training guidance for conservative progression, volume, intensity, and exercise safety.
+- Peer-reviewed RPE/autoregulation literature for avoiding unnecessary max testing during plan updates.
 
-> **Reference status:** Draft placeholders only. Verify every citation before publication.
+## Final-Review Notes
+
+- Confirm exact editions, dates, and links during final layout.
+- Keep this chapter in `review` until coaching and safety review are complete.
+- Keep safety language conservative; these sources support guidance context, not individualized medical care.

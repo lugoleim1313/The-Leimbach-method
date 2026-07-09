@@ -93,4 +93,11 @@ Heat illness symptoms, chest pain, fainting, severe shortness of breath, neurolo
 
 ## References
 
-> **Reference status:** Draft coaching content. Add evidence-based references before changing this chapter to `final`.
+- American Academy of Sleep Medicine and CDC sleep-health guidance for sleep duration, consistency, and fatigue context.
+- NIOSH shift-work and long-work-hour guidance for fatigue-aware scheduling.
+
+## Final-Review Notes
+
+- Confirm exact editions, dates, and links during final layout.
+- Keep this chapter in `review` until coaching and safety review are complete.
+- Keep safety language conservative; these sources support guidance context, not individualized medical care.

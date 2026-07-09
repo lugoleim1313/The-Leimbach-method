@@ -107,4 +107,12 @@ Get clinician review before using supplements if there are medications, high blo
 
 ## References
 
-> **Reference status:** Draft coaching content. Add evidence-based references before changing this chapter to `final`.
+- ISSN position stands on creatine, caffeine, protein, and sports nutrition evidence hierarchy.
+- IOC consensus statements on dietary supplements and high-performance athletes.
+- NIH Office of Dietary Supplements fact sheets for supplement safety and medication-interaction cautions.
+
+## Final-Review Notes
+
+- Confirm exact editions, dates, and links during final layout.
+- Keep this chapter in `review` until coaching and safety review are complete.
+- Keep safety language conservative; these sources support guidance context, not individualized medical care.

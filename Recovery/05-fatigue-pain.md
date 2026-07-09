@@ -2,7 +2,7 @@
 title: "Fatigue, Pain, and Training Decisions"
 volume: "Volume III — Recovery"
 chapter: 5
-status: "template"
+status: "review"
 last_updated: "2026-07-08"
 author: "The Leimbach Method"
 ---
@@ -11,7 +11,7 @@ author: "The Leimbach Method"
 
 > **Volume:** Volume III — Recovery  
 > **Chapter:** 5  
-> **Status:** Template / not final coaching guidance
+> **Status:** Draft for coach review; not final medical or clinical guidance
 
 ## Purpose
 
@@ -174,9 +174,7 @@ Separate normal discomfort, modification-worthy symptoms, and medical red flags.
 - [ ] Verify quantities, calculations, and claims.
 - [ ] Add tables or figures where they improve understanding.
 - [ ] Add image captions and source credits.
-- [ ] Complete references.
 - [ ] Review formatting and internal links.
-- [ ] Mark status as `review` or `final` in the front matter.
 
 ## Coach Review Notes
 
@@ -187,8 +185,12 @@ Separate normal discomfort, modification-worthy symptoms, and medical red flags.
 
 ## References
 
-1. Author or Organization. *Title of source*. Publisher or Journal, Year.
-2. Add a stable URL, DOI, edition, or access date where applicable.
-3. Use numbered citations in the text, such as **[1]**.
+- ACSM and NSCA recovery guidance for soreness, mobility, and training modification.
+- NIH MedlinePlus, Mayo Clinic, and Cleveland Clinic general red-flag resources for pain or symptom escalation.
+- CDC/NIOSH/OSHA heat-stress guidance where heat exposure contributes to fatigue or symptoms.
 
-> **Reference status:** Draft placeholders only. Verify every citation before publication.
+## Final-Review Notes
+
+- Confirm exact editions, dates, and links during final layout.
+- Keep this chapter in `review` until coaching and safety review are complete.
+- Keep safety language conservative; these sources support guidance context, not individualized medical care.

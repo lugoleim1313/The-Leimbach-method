@@ -2,7 +2,7 @@
 title: "Monthly Review"
 volume: "Volume IV — Tracking"
 chapter: 6
-status: "template"
+status: "review"
 last_updated: "2026-07-08"
 author: "The Leimbach Method"
 ---
@@ -11,7 +11,7 @@ author: "The Leimbach Method"
 
 > **Volume:** Volume IV — Tracking  
 > **Chapter:** 6  
-> **Status:** Template / not final coaching guidance
+> **Status:** Draft for coach review; not final medical or clinical guidance
 
 ## Purpose
 
@@ -174,12 +174,22 @@ Evaluate four weeks and make one clear set of changes for the next block.
 - [ ] Verify quantities, calculations, and claims.
 - [ ] Add tables or figures where they improve understanding.
 - [ ] Add image captions and source credits.
-- [ ] Complete references.
 - [ ] Review formatting and internal links.
-- [ ] Mark status as `review` or `final` in the front matter.
 
 ## Coach Review Notes
 
 - 
 - 
 -
+
+## References
+
+- ACSM and NSCA training-monitoring guidance for logging readiness, load, RPE, and recovery trends.
+- ISSN and sports nutrition guidance for bodyweight, waist, hydration, and nutrition trend context.
+- AASM/CDC sleep guidance and CDC/NIOSH heat-stress resources where recovery or heat exposure affects tracking.
+
+## Final-Review Notes
+
+- Confirm exact editions, dates, and links during final layout.
+- Keep this chapter in `review` until coaching and safety review are complete.
+- Keep safety language conservative; these sources support guidance context, not individualized medical care.

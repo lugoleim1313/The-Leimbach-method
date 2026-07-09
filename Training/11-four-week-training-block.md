@@ -174,4 +174,12 @@ Weeks 5-6 after a Week 4 start should consolidate and deload. Week 5 should not 
 
 ## References
 
-> **Reference status:** Draft coaching content. Add evidence-based references before changing this chapter to `final`.
+- NSCA Essentials of Strength Training and Conditioning for progressive overload, exercise selection, and fatigue management.
+- ACSM resistance-training guidance for strength training frequency, volume, intensity, and safe progression.
+- Peer-reviewed RPE/autoregulation literature for using session readiness and perceived effort without max testing.
+
+## Final-Review Notes
+
+- Confirm exact editions, dates, and links during final layout.
+- Keep this chapter in `review` until coaching and safety review are complete.
+- Keep safety language conservative; these sources support guidance context, not individualized medical care.

@@ -110,4 +110,12 @@ This phase is working when:
 
 ## References
 
-> **Reference status:** Draft coaching content. Add evidence-based references before changing this chapter to `final`.
+- ISSN and ACSM sports nutrition guidance for strength athletes and body-composition goals.
+- NSCA strength-training references for aligning nutrition support with progressive training.
+- CDC/NIOSH/OSHA heat-stress guidance for oilfield shift and hydration context.
+
+## Final-Review Notes
+
+- Confirm exact editions, dates, and links during final layout.
+- Keep this chapter in `review` until coaching and safety review are complete.
+- Keep safety language conservative; these sources support guidance context, not individualized medical care.

@@ -91,4 +91,11 @@ Pain that changes technique, neurological symptoms, persistent joint issues, or 
 
 ## References
 
-> **Reference status:** Draft coaching content. Add evidence-based references before changing this chapter to `final`.
+- NSCA strength-training references for movement patterns, assistance work, and fatigue-cost management.
+- ACSM resistance-training guidance for exercise selection, progression, and conservative modification.
+
+## Final-Review Notes
+
+- Confirm exact editions, dates, and links during final layout.
+- Keep this chapter in `review` until coaching and safety review are complete.
+- Keep safety language conservative; these sources support guidance context, not individualized medical care.

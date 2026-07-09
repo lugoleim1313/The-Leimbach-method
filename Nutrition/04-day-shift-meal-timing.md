@@ -125,4 +125,12 @@ Avoid turning bedtime into a second dinner if it disrupts sleep. Poor sleep will
 
 ## References
 
-> **Reference status:** Draft coaching content. Add evidence-based references before changing this chapter to `final`.
+- ISSN nutrient-timing guidance for protein/carbohydrate distribution around training.
+- NIOSH work-schedule and shift-work education for fatigue-aware planning.
+- CDC/NIOSH/OSHA heat-stress guidance where shift heat exposure affects hydration and recovery.
+
+## Final-Review Notes
+
+- Confirm exact editions, dates, and links during final layout.
+- Keep this chapter in `review` until coaching and safety review are complete.
+- Keep safety language conservative; these sources support guidance context, not individualized medical care.
