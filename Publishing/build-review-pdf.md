@@ -13,7 +13,7 @@ author: "The Leimbach Method"
 
 ## Purpose
 
-This file documents the first compact review PDF build for The Leimbach Method. The output is a proofing artifact, not a final publication PDF. All source chapters remain in `review` status.
+This file documents the first full review-manuscript PDF build for The Leimbach Method. The output is a proofing artifact, not a final publication PDF. All source chapters remain in `review` status.
 
 ## Output
 
@@ -44,7 +44,7 @@ The generated review PDF includes:
 
 ## Build Format
 
-The first review PDF was generated from the manuscript assembly and table of contents using a local ReportLab build process. The artifact is a compact proof draft: it includes the front safety notice, source order, section/volume order, and representative table/checklist pages for layout review before a later full-manuscript PDF pass.
+The full review PDF was generated from the Markdown source files using a local PDF build process. Markdown links were converted to readable text, tables and checklists were preserved in a monospaced review layout, and each source chapter includes its source path and `review` status near the chapter heading.
 
 The PDF includes:
 
@@ -53,9 +53,9 @@ The PDF includes:
 - Conservative safety disclaimer near the front
 - Page numbers
 - Review-draft footer
-- Source-order table with repository paths
+- Source paths for included chapters
 - Review status labels
-- Representative table formatting for proof review
+- Monospaced table and checklist formatting for proof review
 
 ## Safety Disclaimer Placement
 
