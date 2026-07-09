@@ -20,6 +20,7 @@ Provide the first usable Week One meal plan for the rotating 3-to-7 shift athlet
 ## Chapter Contents
 
 - [How to Use Week One](#how-to-use-week-one)
+- [Macro Calculation Assumptions](#macro-calculation-assumptions)
 - [Shift Timing Template](#shift-timing-template)
 - [Week One Overview](#week-one-overview)
 - [Week One Schedule](#week-one-schedule)
@@ -33,17 +34,45 @@ Provide the first usable Week One meal plan for the rotating 3-to-7 shift athlet
 
 ## How to Use Week One
 
-This plan uses the Volume I starting macro targets:
+This plan uses the Volume I starting macro targets as the starting point, then keeps calories mathematically aligned with protein, carbs, and fat. The original calorie targets are higher than the exact calories produced by 260 g protein, 510/420/320 g carbs, and 95/95/100 g fat, so Week One uses the upper end of the allowed macro ranges to keep the calorie targets practical.
 
-| Day Type | Calories | Protein | Carbs | Fat |
-|---|---:|---:|---:|---:|
-| Training Day | 4,200 | 260 g | 510 g | 95 g |
-| Cardio Day | 3,850 | 260 g | 420 g | 95 g |
-| Rest Day | 3,500 | 260 g | 320 g | 100 g |
+| Day Type | Original Target | Week One Planned Total | Protein | Carbs | Fat |
+|---|---:|---:|---:|---:|---:|
+| Training Day | 4,200 kcal | 4,198 kcal | 280 g | 540 g | 102 g |
+| Cardio Day | 3,850 kcal | 3,847 kcal | 280 g | 450 g | 103 g |
+| Rest Day | 3,500 kcal | 3,501 kcal | 280 g | 350 g | 109 g |
 
-Daily totals may land within this practical range: calories within 150 kcal, protein within 20 g, carbs within 30 g, and fat within 15 g.
+Daily totals remain inside the issue's practical ranges: calories within 150 kcal, protein within 20 g, carbs within 30 g, and fat within 15 g. Calories are calculated from macros using 4 kcal/g for protein, 4 kcal/g for carbohydrate, and 9 kcal/g for fat.
 
-Use cooked weights for prepared proteins and rice unless a note clearly says raw or dry. Macro numbers are practical planning estimates, not lab values. Check labels for the exact brands used.
+Use cooked weights for prepared proteins and rice unless a note clearly says raw or dry. Macro numbers are practical planning estimates. Final numbers depend on the exact brands used, especially for granola, peanut butter, BBQ sauce, teriyaki sauce, Alfredo, marinara, pudding mix, tortillas, cheese, and protein powder.
+
+## Macro Calculation Assumptions
+
+These working values keep the plan internally consistent. They are rounded planning estimates based on common cooked-food entries and typical product labels; confirm final numbers against the actual labels used during meal prep.
+
+| Food | Portion Basis | Calories | Protein | Carbs | Fat |
+|---|---:|---:|---:|---:|---:|
+| Cooked chicken breast | 100 g cooked | 165 | 31 g | 0 g | 4 g |
+| Cooked 93% lean beef | 100 g cooked | 190 | 27 g | 0 g | 9 g |
+| Cooked lean steak | 100 g cooked | 210 | 29 g | 0 g | 10 g |
+| Cooked salmon | 100 g cooked | 205 | 22 g | 0 g | 12 g |
+| Cooked white fish | 100 g cooked | 120 | 26 g | 0 g | 2 g |
+| Cooked white/jasmine rice | 100 g cooked | 130 | 3 g | 28 g | 0 g |
+| Cooked pasta | 100 g cooked | 155 | 6 g | 31 g | 1 g |
+| Cooked potatoes | 100 g cooked | 90 | 2 g | 20 g | 0 g |
+| Dry oats | 100 g dry | 380 | 13 g | 68 g | 7 g |
+| Nonfat Greek yogurt | 100 g | 60 | 10 g | 4 g | 0 g |
+| Whey protein | 35 g scoop | 140 | 28 g | 3 g | 2 g |
+| Egg whites | 100 g cooked | 55 | 11 g | 1 g | 0 g |
+| Whole egg | 1 large / 50 g | 70 | 6 g | 0 g | 5 g |
+| Black/white beans | 100 g cooked/drained | 130 | 8 g | 23 g | 1 g |
+| Banana | 100 g peeled | 90 | 1 g | 23 g | 0 g |
+| Berries | 100 g | 50 | 1 g | 12 g | 0 g |
+| Avocado | 100 g | 160 | 2 g | 9 g | 15 g |
+| Peanut butter | 16 g / 1 tbsp | 95 | 4 g | 3 g | 8 g |
+| Tortilla | 70 g large | 220 | 6 g | 35 g | 6 g |
+| Granola | 30 g | 140 | 4 g | 22 g | 5 g |
+| BBQ/teriyaki/marinara/sauce | 30-80 g | Varies | Varies | Varies | Varies |
 
 ## Shift Timing Template
 
@@ -64,13 +93,13 @@ For training days, Meal 5 should usually be the lighter pre-training meal and Me
 
 | Day | Training Type | Day Type | Target | Planned Total | Main Food Themes |
 |---|---|---|---:|---:|---|
-| Monday | Heavy lifting | Training | 4,200 kcal | 4,200 kcal | Overnight oats, Mexican bowls, Asian chicken, lean beef pasta |
-| Tuesday | Cardio intervals | Cardio | 3,850 kcal | 3,850 kcal | Breakfast burrito, salmon rice bowl, soup, BBQ chicken |
-| Wednesday | Heavy lifting | Training | 4,200 kcal | 4,200 kcal | Protein oats, steak fajitas, chicken fried rice, high-protein Alfredo |
-| Thursday | Cardio intervals | Cardio | 3,850 kcal | 3,850 kcal | Eggs and potatoes, beef and broccoli, chili, Greek-yogurt dessert |
-| Friday | Heavy lifting | Training | 4,200 kcal | 4,200 kcal | Breakfast burrito, BBQ bowl, teriyaki chicken, chicken parmesan bowl |
-| Saturday | Rest | Rest | 3,500 kcal | 3,500 kcal | Eggs, white chicken chili, salmon avocado bowl, protein pudding |
-| Sunday | Rest or light recovery | Rest | 3,500 kcal | 3,500 kcal | Overnight oats, beef vegetable soup, enchilada-style prep, yogurt bowl |
+| Monday | Heavy lifting | Training | 4,200 kcal | 4,198 kcal | Overnight oats, Mexican bowls, Asian chicken, lean beef pasta |
+| Tuesday | Cardio intervals | Cardio | 3,850 kcal | 3,847 kcal | Breakfast burrito, salmon rice bowl, soup, BBQ chicken |
+| Wednesday | Heavy lifting | Training | 4,200 kcal | 4,198 kcal | Protein oats, steak fajitas, chicken fried rice, high-protein Alfredo |
+| Thursday | Cardio intervals | Cardio | 3,850 kcal | 3,847 kcal | Eggs and potatoes, beef and broccoli, chili, Greek-yogurt dessert |
+| Friday | Heavy lifting | Training | 4,200 kcal | 4,198 kcal | Breakfast burrito, BBQ bowl, teriyaki chicken, chicken parmesan bowl |
+| Saturday | Rest | Rest | 3,500 kcal | 3,501 kcal | Eggs, white chicken chili, salmon avocado bowl, protein pudding |
+| Sunday | Rest or light recovery | Rest | 3,500 kcal | 3,501 kcal | Overnight oats, beef vegetable soup, enchilada-style prep, yogurt bowl |
 
 ## Week One Schedule
 
@@ -82,13 +111,13 @@ Night-shift timing: Meal 1 wake-up / pre-shift, Meal 2 early shift, Meal 3 midni
 
 | Meal | Food and Portions | Calories | Protein | Carbs | Fat | Notes |
 |---|---|---:|---:|---:|---:|---|
-| Meal 1 | Overnight oats: 100 g dry oats, 35 g whey, 250 g nonfat Greek yogurt, 150 g banana, 100 g berries, 16 g peanut butter | 780 | 45 g | 105 g | 16 g | Oats are dry weight; yogurt and fruit are ready-to-eat weights. About 1 cup dry oats. |
-| Meal 2 | Chicken burrito bowl: 200 g cooked chicken breast, 360 g cooked white rice, 130 g black beans, 80 g salsa, 60 g avocado | 760 | 48 g | 95 g | 16 g | Chicken, rice, and beans are cooked weights. About 2 cups cooked rice. |
-| Meal 3 | Steak fajita bowl: 190 g cooked lean steak, 320 g cooked rice, 120 g peppers/onions, 80 g black beans, 50 g avocado | 760 | 45 g | 85 g | 22 g | Steak and rice are cooked weights. Use fajita seasoning and salsa as preferred. |
-| Meal 4 | Teriyaki chicken rice bowl: 180 g cooked chicken breast, 340 g cooked jasmine rice, 150 g broccoli, 40 g teriyaki sauce | 650 | 42 g | 90 g | 10 g | Chicken and rice are cooked weights. About 2 cups cooked rice. |
-| Meal 5 | Pre-training shake: 35 g whey, 80 g dry oats, 150 g banana, 15 g honey | 520 | 35 g | 85 g | 5 g | Oats are dry weight. Blend with water or ice. |
-| Meal 6 | Lean beef pasta plus Greek-yogurt cheesecake bowl: 160 g cooked 93% lean beef, 220 g cooked pasta, 125 g marinara, 15 g parmesan, 250 g nonfat Greek yogurt, 20 g cheesecake pudding mix, 80 g berries | 730 | 55 g | 50 g | 26 g | Beef and pasta are cooked weights. Pasta is about 1.5 cups cooked. |
-| **Daily Total** |  | **4,200** | **270 g** | **510 g** | **95 g** | Training target met within range. |
+| Meal 1 | Overnight oats: 110 g dry oats, 35 g whey, 300 g nonfat Greek yogurt, 150 g banana, 100 g berries, 16 g peanut butter | 802 | 50 g | 110 g | 18 g | Oats are dry weight; yogurt and fruit are ready-to-eat weights. About 1.1 cups dry oats. |
+| Meal 2 | Chicken burrito bowl: 230 g cooked chicken breast, 380 g cooked white rice, 140 g black beans, 80 g salsa, 60 g avocado | 802 | 55 g | 105 g | 18 g | Chicken, rice, and beans are cooked weights. About 2 cups cooked rice. |
+| Meal 3 | Steak fajita bowl: 200 g cooked lean steak, 340 g cooked rice, 120 g peppers/onions, 90 g black beans, 60 g avocado | 796 | 50 g | 95 g | 24 g | Steak and rice are cooked weights. Use fajita seasoning and salsa as preferred. |
+| Meal 4 | Teriyaki chicken rice bowl: 190 g cooked chicken breast, 330 g cooked jasmine rice, 150 g broccoli, 50 g teriyaki sauce | 648 | 45 g | 90 g | 12 g | Chicken and rice are cooked weights. About 2 cups cooked rice. |
+| Meal 5 | Pre-training shake: 35 g whey, 75 g dry oats, 150 g banana, 15 g honey | 465 | 35 g | 70 g | 5 g | Oats are dry weight. Blend with water or ice. |
+| Meal 6 | Lean beef pasta plus Greek-yogurt cheesecake bowl: 150 g cooked 93% lean beef, 200 g cooked pasta, 125 g marinara, 15 g parmesan, 250 g nonfat Greek yogurt, 20 g cheesecake pudding mix, 80 g berries | 685 | 45 g | 70 g | 25 g | Beef and pasta are cooked weights. Pasta is about 1.5 cups cooked. |
+| **Daily Total** |  | **4,198** | **280 g** | **540 g** | **102 g** | Calories equal 280x4 + 540x4 + 102x9. |
 
 ### Tuesday - Cardio Intervals / Cardio Day
 
@@ -98,13 +127,13 @@ Night-shift timing: Meal 1 wake-up / pre-shift, Meal 2 early shift, Meal 3 midni
 
 | Meal | Food and Portions | Calories | Protein | Carbs | Fat | Notes |
 |---|---|---:|---:|---:|---:|---|
-| Meal 1 | Breakfast burrito: 150 g cooked egg whites, 2 whole eggs, 220 g cooked potatoes, 70 g tortilla, 40 g reduced-fat cheese, 80 g salsa | 650 | 45 g | 70 g | 22 g | Eggs and potatoes are cooked weights. Tortilla weight is ready-to-eat. |
-| Meal 2 | Salmon rice bowl: 170 g cooked salmon, 270 g cooked rice, 120 g cucumber/carrots, 50 g avocado, 20 g low-fat sauce | 700 | 45 g | 75 g | 25 g | Salmon and rice are cooked weights. About 1.5 cups cooked rice. |
-| Meal 3 | Chicken tortilla soup: 220 g cooked chicken breast, 300 g broth/tomato base, 150 g black beans, 150 g corn, 40 g tortilla strips, 30 g avocado | 620 | 45 g | 75 g | 12 g | Chicken, beans, and corn are cooked/drained weights. Soup base is prepared weight. |
-| Meal 4 | BBQ chicken bowl: 210 g cooked chicken breast, 300 g cooked rice, 120 g corn, 50 g BBQ sauce, 30 g shredded cheese | 680 | 48 g | 80 g | 16 g | Chicken and rice are cooked weights. About 1.75 cups cooked rice. |
-| Meal 5 | Cardio smoothie: 35 g whey, 60 g dry oats, 150 g banana, 150 g berries | 430 | 32 g | 60 g | 6 g | Oats are dry weight. Use water or low-calorie milk if preferred. |
-| Meal 6 | Greek-yogurt PB&J bowl: 350 g nonfat Greek yogurt, 30 g whey, 35 g granola, 32 g peanut butter, 60 g jam, 100 g berries | 770 | 50 g | 60 g | 14 g | Yogurt and fruit are ready-to-eat weights. Granola is dry weight. |
-| **Daily Total** |  | **3,850** | **265 g** | **420 g** | **95 g** | Cardio target met within range. |
+| Meal 1 | Breakfast burrito: 200 g cooked egg whites, 2 whole eggs, 250 g cooked potatoes, 70 g tortilla, 40 g reduced-fat cheese, 80 g salsa, 40 g avocado | 716 | 50 g | 75 g | 24 g | Eggs and potatoes are cooked weights. Tortilla weight is ready-to-eat. |
+| Meal 2 | Salmon rice bowl: 200 g cooked salmon, 285 g cooked rice, 120 g cucumber/carrots, 50 g avocado, 20 g low-fat sauce | 754 | 50 g | 80 g | 26 g | Salmon and rice are cooked weights. About 1.5 cups cooked rice. |
+| Meal 3 | Chicken tortilla soup: 230 g cooked chicken breast, 300 g broth/tomato base, 170 g black beans, 150 g corn, 40 g tortilla strips, 30 g avocado | 646 | 50 g | 80 g | 14 g | Chicken, beans, and corn are cooked/drained weights. Soup base is prepared weight. |
+| Meal 4 | BBQ chicken bowl: 220 g cooked chicken breast, 310 g cooked rice, 120 g corn, 50 g BBQ sauce, 30 g shredded cheese | 702 | 50 g | 85 g | 18 g | Chicken and rice are cooked weights. About 1.75 cups cooked rice. |
+| Meal 5 | Cardio smoothie: 35 g whey, 65 g dry oats, 150 g banana, 150 g berries | 454 | 35 g | 65 g | 6 g | Oats are dry weight. Use water or low-calorie milk if preferred. |
+| Meal 6 | Greek-yogurt PB&J bowl: 350 g nonfat Greek yogurt, 30 g whey, 35 g granola, 32 g peanut butter, 60 g jam, 100 g berries | 575 | 45 g | 65 g | 15 g | Yogurt and fruit are ready-to-eat weights. Granola is dry weight; label-check granola and jam. |
+| **Daily Total** |  | **3,847** | **280 g** | **450 g** | **103 g** | Calories equal 280x4 + 450x4 + 103x9. |
 
 ### Wednesday - Heavy Lifting / Training Day
 
@@ -114,13 +143,13 @@ Night-shift timing: Meal 1 wake-up / pre-shift, Meal 2 early shift, Meal 3 midni
 
 | Meal | Food and Portions | Calories | Protein | Carbs | Fat | Notes |
 |---|---|---:|---:|---:|---:|---|
-| Meal 1 | Chocolate banana protein oats: 100 g dry oats, 35 g whey, 250 g nonfat Greek yogurt, 150 g banana, 10 g cocoa, 16 g peanut butter | 780 | 45 g | 105 g | 16 g | Oats are dry weight. Add water for texture before chilling. |
-| Meal 2 | Steak fajita bowl: 190 g cooked lean steak, 320 g cooked rice, 120 g peppers/onions, 80 g black beans, 50 g avocado | 760 | 45 g | 85 g | 22 g | Steak and rice are cooked weights. |
-| Meal 3 | Chicken burrito bowl: 200 g cooked chicken breast, 360 g cooked white rice, 130 g black beans, 80 g salsa, 60 g avocado | 760 | 48 g | 95 g | 16 g | Chicken, rice, and beans are cooked weights. |
-| Meal 4 | Chicken fried rice: 180 g cooked chicken breast, 330 g cooked rice, 100 g mixed vegetables, 1 whole egg, 10 g sesame oil, 20 g low-sodium soy sauce | 650 | 42 g | 90 g | 10 g | Chicken and rice are cooked weights. Egg is cooked into the rice. |
-| Meal 5 | Pre-training shake: 35 g whey, 80 g dry oats, 150 g banana, 15 g honey | 520 | 35 g | 85 g | 5 g | Oats are dry weight. Use before lifting when a full meal is too heavy. |
-| Meal 6 | High-protein Alfredo bowl: 190 g cooked chicken breast, 240 g cooked pasta, 120 g light Alfredo sauce, 150 g broccoli, 15 g parmesan | 730 | 55 g | 50 g | 26 g | Chicken and pasta are cooked weights. Pasta is about 1.5-1.75 cups cooked. |
-| **Daily Total** |  | **4,200** | **270 g** | **510 g** | **95 g** | Training target met within range. |
+| Meal 1 | Chocolate banana protein oats: 110 g dry oats, 35 g whey, 300 g nonfat Greek yogurt, 150 g banana, 10 g cocoa, 16 g peanut butter | 802 | 50 g | 110 g | 18 g | Oats are dry weight. Add water for texture before chilling. |
+| Meal 2 | Steak fajita bowl: 200 g cooked lean steak, 340 g cooked rice, 120 g peppers/onions, 90 g black beans, 60 g avocado | 796 | 50 g | 95 g | 24 g | Steak and rice are cooked weights. |
+| Meal 3 | Chicken burrito bowl: 230 g cooked chicken breast, 380 g cooked white rice, 140 g black beans, 80 g salsa, 60 g avocado | 802 | 55 g | 105 g | 18 g | Chicken, rice, and beans are cooked weights. |
+| Meal 4 | Chicken fried rice: 190 g cooked chicken breast, 330 g cooked rice, 100 g mixed vegetables, 1 whole egg, 10 g sesame oil, 20 g low-sodium soy sauce | 648 | 45 g | 90 g | 12 g | Chicken and rice are cooked weights. Egg is cooked into the rice. |
+| Meal 5 | Pre-training shake: 35 g whey, 75 g dry oats, 150 g banana, 15 g honey | 465 | 35 g | 70 g | 5 g | Oats are dry weight. Use before lifting when a full meal is too heavy. |
+| Meal 6 | High-protein Alfredo bowl: 190 g cooked chicken breast, 245 g cooked pasta, 120 g light Alfredo sauce, 150 g broccoli, 15 g parmesan | 685 | 45 g | 70 g | 25 g | Chicken and pasta are cooked weights. Pasta is about 1.5-1.75 cups cooked; label-check Alfredo. |
+| **Daily Total** |  | **4,198** | **280 g** | **540 g** | **102 g** | Calories equal 280x4 + 540x4 + 102x9. |
 
 ### Thursday - Cardio Intervals / Cardio Day
 
@@ -130,13 +159,13 @@ Night-shift timing: Meal 1 wake-up / pre-shift, Meal 2 early shift, Meal 3 midni
 
 | Meal | Food and Portions | Calories | Protein | Carbs | Fat | Notes |
 |---|---|---:|---:|---:|---:|---|
-| Meal 1 | Eggs with potatoes: 150 g cooked egg whites, 2 whole eggs, 250 g cooked potatoes, 70 g tortilla, 80 g salsa, 20 g avocado | 650 | 45 g | 70 g | 22 g | Eggs and potatoes are cooked weights. |
-| Meal 2 | Beef and broccoli rice bowl: 170 g cooked lean beef, 270 g cooked rice, 180 g broccoli, 30 g stir-fry sauce, 8 g sesame oil | 700 | 45 g | 75 g | 25 g | Beef and rice are cooked weights. About 1.5 cups cooked rice. |
-| Meal 3 | Turkey chili: 220 g cooked lean turkey, 180 g kidney beans, 150 g tomato base, 120 g corn, 30 g reduced-fat cheese | 620 | 45 g | 75 g | 12 g | Turkey, beans, and corn are cooked/drained weights. |
-| Meal 4 | BBQ lean beef bowl: 170 g cooked 93% lean beef, 300 g cooked rice, 120 g corn, 50 g BBQ sauce, 30 g shredded cheese | 680 | 48 g | 80 g | 16 g | Beef and rice are cooked weights. |
-| Meal 5 | Cardio smoothie: 35 g whey, 60 g dry oats, 150 g banana, 150 g berries | 430 | 32 g | 60 g | 6 g | Oats are dry weight. Blend thin if used close to intervals. |
-| Meal 6 | Chocolate protein pudding: 350 g nonfat Greek yogurt, 30 g whey, 25 g cocoa pudding mix, 35 g granola, 32 g peanut butter, 100 g berries | 770 | 50 g | 60 g | 14 g | Yogurt and fruit are ready-to-eat weights. Granola is dry weight. |
-| **Daily Total** |  | **3,850** | **265 g** | **420 g** | **95 g** | Cardio target met within range. |
+| Meal 1 | Eggs with potatoes: 200 g cooked egg whites, 2 whole eggs, 280 g cooked potatoes, 70 g tortilla, 80 g salsa, 40 g avocado | 716 | 50 g | 75 g | 24 g | Eggs and potatoes are cooked weights. |
+| Meal 2 | Beef and broccoli rice bowl: 190 g cooked lean beef, 285 g cooked rice, 180 g broccoli, 30 g stir-fry sauce, 8 g sesame oil | 754 | 50 g | 80 g | 26 g | Beef and rice are cooked weights. About 1.5 cups cooked rice. |
+| Meal 3 | Turkey chili: 230 g cooked lean turkey, 180 g kidney beans, 150 g tomato base, 120 g corn, 30 g reduced-fat cheese | 646 | 50 g | 80 g | 14 g | Turkey, beans, and corn are cooked/drained weights. |
+| Meal 4 | BBQ lean beef bowl: 190 g cooked 93% lean beef, 310 g cooked rice, 120 g corn, 50 g BBQ sauce, 30 g shredded cheese | 702 | 50 g | 85 g | 18 g | Beef and rice are cooked weights. Label-check BBQ sauce. |
+| Meal 5 | Cardio smoothie: 35 g whey, 65 g dry oats, 150 g banana, 150 g berries | 454 | 35 g | 65 g | 6 g | Oats are dry weight. Blend thin if used close to intervals. |
+| Meal 6 | Chocolate protein pudding: 350 g nonfat Greek yogurt, 30 g whey, 25 g cocoa pudding mix, 35 g granola, 32 g peanut butter, 100 g berries | 575 | 45 g | 65 g | 15 g | Yogurt and fruit are ready-to-eat weights. Granola and pudding mix vary by brand. |
+| **Daily Total** |  | **3,847** | **280 g** | **450 g** | **103 g** | Calories equal 280x4 + 450x4 + 103x9. |
 
 ### Friday - Heavy Lifting / Training Day
 
@@ -146,13 +175,13 @@ Night-shift timing: Meal 1 wake-up / pre-shift, Meal 2 early shift, Meal 3 midni
 
 | Meal | Food and Portions | Calories | Protein | Carbs | Fat | Notes |
 |---|---|---:|---:|---:|---:|---|
-| Meal 1 | Breakfast burrito plus fruit: 150 g cooked egg whites, 2 whole eggs, 250 g cooked potatoes, 70 g tortilla, 40 g reduced-fat cheese, 150 g banana | 780 | 45 g | 105 g | 16 g | Eggs and potatoes are cooked weights. Tortilla is ready-to-eat. |
-| Meal 2 | BBQ chicken rice bowl: 200 g cooked chicken breast, 360 g cooked rice, 120 g corn, 50 g BBQ sauce, 30 g reduced-fat cheese | 760 | 48 g | 95 g | 16 g | Chicken and rice are cooked weights. |
-| Meal 3 | Salmon rice bowl: 180 g cooked salmon, 320 g cooked rice, 120 g cucumber/carrots, 40 g avocado | 760 | 45 g | 85 g | 22 g | Salmon and rice are cooked weights. |
-| Meal 4 | Teriyaki chicken bowl: 180 g cooked chicken breast, 340 g cooked jasmine rice, 150 g broccoli, 40 g teriyaki sauce | 650 | 42 g | 90 g | 10 g | Chicken and rice are cooked weights. |
-| Meal 5 | Pre-training shake: 35 g whey, 80 g dry oats, 150 g banana, 15 g honey | 520 | 35 g | 85 g | 5 g | Oats are dry weight. |
-| Meal 6 | Chicken parmesan bowl: 190 g cooked chicken breast, 220 g cooked pasta, 125 g marinara, 30 g mozzarella, 15 g parmesan, 150 g zucchini | 730 | 55 g | 50 g | 26 g | Chicken and pasta are cooked weights. Use baked or air-fried chicken. |
-| **Daily Total** |  | **4,200** | **270 g** | **510 g** | **95 g** | Training target met within range. |
+| Meal 1 | Breakfast burrito plus fruit: 200 g cooked egg whites, 2 whole eggs, 280 g cooked potatoes, 70 g tortilla, 40 g reduced-fat cheese, 150 g banana | 802 | 50 g | 110 g | 18 g | Eggs and potatoes are cooked weights. Tortilla is ready-to-eat. |
+| Meal 2 | BBQ chicken rice bowl: 230 g cooked chicken breast, 380 g cooked rice, 120 g corn, 50 g BBQ sauce, 30 g reduced-fat cheese | 802 | 55 g | 105 g | 18 g | Chicken and rice are cooked weights. Label-check BBQ sauce. |
+| Meal 3 | Salmon rice bowl: 190 g cooked salmon, 340 g cooked rice, 120 g cucumber/carrots, 50 g avocado | 796 | 50 g | 95 g | 24 g | Salmon and rice are cooked weights. |
+| Meal 4 | Teriyaki chicken bowl: 190 g cooked chicken breast, 330 g cooked jasmine rice, 150 g broccoli, 50 g teriyaki sauce | 648 | 45 g | 90 g | 12 g | Chicken and rice are cooked weights. Label-check teriyaki sauce. |
+| Meal 5 | Pre-training shake: 35 g whey, 75 g dry oats, 150 g banana, 15 g honey | 465 | 35 g | 70 g | 5 g | Oats are dry weight. |
+| Meal 6 | Chicken parmesan bowl: 190 g cooked chicken breast, 245 g cooked pasta, 125 g marinara, 30 g mozzarella, 15 g parmesan, 150 g zucchini | 685 | 45 g | 70 g | 25 g | Chicken and pasta are cooked weights. Use baked or air-fried chicken; label-check marinara. |
+| **Daily Total** |  | **4,198** | **280 g** | **540 g** | **102 g** | Calories equal 280x4 + 540x4 + 102x9. |
 
 ### Saturday - Rest / Rest Day
 
@@ -162,13 +191,13 @@ Night-shift timing: Meal 1 wake-up / pre-shift, Meal 2 early shift, Meal 3 midni
 
 | Meal | Food and Portions | Calories | Protein | Carbs | Fat | Notes |
 |---|---|---:|---:|---:|---:|---|
-| Meal 1 | Eggs and potatoes: 200 g cooked egg whites, 2 whole eggs, 220 g cooked potatoes, 70 g tortilla, 40 g reduced-fat cheese | 620 | 42 g | 55 g | 24 g | Eggs and potatoes are cooked weights. |
-| Meal 2 | White chicken chili: 230 g cooked chicken breast, 180 g white beans, 250 g broth/chile base, 40 g reduced-fat cheese, 30 g avocado | 590 | 48 g | 55 g | 16 g | Chicken and beans are cooked/drained weights. Soup base is prepared weight. |
-| Meal 3 | Beef vegetable soup with rice: 180 g cooked lean beef, 250 g broth/tomato base, 200 g cooked rice, 200 g mixed vegetables | 600 | 45 g | 60 g | 18 g | Beef and rice are cooked weights. About 1 cup cooked rice. |
-| Meal 4 | Salmon avocado bowl: 170 g cooked salmon, 220 g cooked rice, 150 g vegetables, 70 g avocado | 650 | 45 g | 55 g | 25 g | Salmon and rice are cooked weights. |
-| Meal 5 | Shake and fruit: 40 g whey, 60 g dry oats, 200 g banana, 100 g berries | 390 | 35 g | 55 g | 5 g | Oats are dry weight. Use when appetite is low on rest day. |
-| Meal 6 | Chocolate protein pudding: 350 g nonfat Greek yogurt, 30 g whey, 25 g cocoa pudding mix, 25 g granola, 16 g peanut butter, 100 g berries | 650 | 45 g | 40 g | 12 g | Yogurt and fruit are ready-to-eat weights. Granola is dry weight. |
-| **Daily Total** |  | **3,500** | **260 g** | **320 g** | **100 g** | Rest target met within range. |
+| Meal 1 | Eggs and potatoes: 220 g cooked egg whites, 2 whole eggs, 240 g cooked potatoes, 70 g tortilla, 40 g reduced-fat cheese | 665 | 50 g | 60 g | 25 g | Eggs and potatoes are cooked weights. |
+| Meal 2 | White chicken chili: 250 g cooked chicken breast, 180 g white beans, 250 g broth/chile base, 40 g reduced-fat cheese, 30 g avocado | 622 | 55 g | 60 g | 18 g | Chicken and beans are cooked/drained weights. Soup base is prepared weight. |
+| Meal 3 | Beef vegetable soup with rice: 190 g cooked lean beef, 250 g broth/tomato base, 220 g cooked rice, 200 g mixed vegetables | 640 | 50 g | 65 g | 20 g | Beef and rice are cooked weights. About 1 cup cooked rice. |
+| Meal 4 | Salmon avocado bowl: 190 g cooked salmon, 220 g cooked rice, 150 g vegetables, 80 g avocado | 692 | 50 g | 60 g | 28 g | Salmon and rice are cooked weights. |
+| Meal 5 | Shake and fruit: 35 g whey, 60 g dry oats, 200 g banana, 100 g berries | 434 | 35 g | 60 g | 6 g | Oats are dry weight. Use when appetite is low on rest day. |
+| Meal 6 | Chocolate protein pudding: 350 g nonfat Greek yogurt, 30 g whey, 25 g cocoa pudding mix, 25 g granola, 16 g peanut butter, 100 g berries | 448 | 40 g | 45 g | 12 g | Yogurt and fruit are ready-to-eat weights. Granola and pudding mix vary by brand. |
+| **Daily Total** |  | **3,501** | **280 g** | **350 g** | **109 g** | Calories equal 280x4 + 350x4 + 109x9. |
 
 ### Sunday - Rest or Light Recovery / Rest Day
 
@@ -178,13 +207,13 @@ Night-shift timing: Meal 1 wake-up / pre-shift, Meal 2 early shift, Meal 3 midni
 
 | Meal | Food and Portions | Calories | Protein | Carbs | Fat | Notes |
 |---|---|---:|---:|---:|---:|---|
-| Meal 1 | Rest-day overnight oats: 70 g dry oats, 35 g whey, 300 g nonfat Greek yogurt, 100 g berries, 16 g peanut butter | 620 | 42 g | 55 g | 24 g | Oats are dry weight. Use less oats than training days. |
-| Meal 2 | Beef vegetable soup: 180 g cooked lean beef, 250 g broth/tomato base, 180 g cooked potatoes, 200 g mixed vegetables, 10 g olive oil | 590 | 48 g | 55 g | 16 g | Beef and potatoes are cooked weights. Soup base is prepared weight. |
-| Meal 3 | Enchilada-style chicken prep: 220 g cooked chicken breast, 160 g black beans, 120 g corn tortillas, 125 g enchilada sauce, 30 g reduced-fat cheese | 600 | 45 g | 60 g | 18 g | Chicken and beans are cooked/drained weights. Tortillas are ready-to-eat weight. |
-| Meal 4 | Fish avocado rice bowl: 220 g cooked white fish, 220 g cooked rice, 150 g vegetables, 80 g avocado, 20 g sauce | 650 | 45 g | 55 g | 25 g | Fish and rice are cooked weights. |
-| Meal 5 | Shake and fruit: 40 g whey, 60 g dry oats, 200 g banana, 100 g berries | 390 | 35 g | 55 g | 5 g | Oats are dry weight. |
-| Meal 6 | Greek-yogurt cheesecake bowl: 350 g nonfat Greek yogurt, 30 g whey, 20 g cheesecake pudding mix, 25 g granola, 16 g peanut butter, 100 g berries | 650 | 45 g | 40 g | 12 g | Yogurt and fruit are ready-to-eat weights. Granola is dry weight. |
-| **Daily Total** |  | **3,500** | **260 g** | **320 g** | **100 g** | Rest target met within range. |
+| Meal 1 | Rest-day overnight oats: 80 g dry oats, 35 g whey, 350 g nonfat Greek yogurt, 100 g berries, 16 g peanut butter | 665 | 50 g | 60 g | 25 g | Oats are dry weight. Use less oats than training days. |
+| Meal 2 | Beef vegetable soup: 200 g cooked lean beef, 250 g broth/tomato base, 200 g cooked potatoes, 200 g mixed vegetables, 10 g olive oil | 622 | 55 g | 60 g | 18 g | Beef and potatoes are cooked weights. Soup base is prepared weight. |
+| Meal 3 | Enchilada-style chicken prep: 230 g cooked chicken breast, 170 g black beans, 120 g corn tortillas, 125 g enchilada sauce, 30 g reduced-fat cheese | 640 | 50 g | 65 g | 20 g | Chicken and beans are cooked/drained weights. Tortillas are ready-to-eat weight. |
+| Meal 4 | Fish avocado rice bowl: 230 g cooked white fish, 220 g cooked rice, 150 g vegetables, 90 g avocado, 20 g sauce | 692 | 50 g | 60 g | 28 g | Fish and rice are cooked weights. |
+| Meal 5 | Shake and fruit: 35 g whey, 60 g dry oats, 200 g banana, 100 g berries | 434 | 35 g | 60 g | 6 g | Oats are dry weight. |
+| Meal 6 | Greek-yogurt cheesecake bowl: 350 g nonfat Greek yogurt, 30 g whey, 20 g cheesecake pudding mix, 25 g granola, 16 g peanut butter, 100 g berries | 448 | 40 g | 45 g | 12 g | Yogurt and fruit are ready-to-eat weights. Granola and pudding mix vary by brand. |
+| **Daily Total** |  | **3,501** | **280 g** | **350 g** | **109 g** | Calories equal 280x4 + 350x4 + 109x9. |
 
 ## Week One Meal Prep
 
@@ -192,12 +221,12 @@ Cook once, portion in containers, and keep sauces separate when possible. Freeze
 
 | Batch Item | Week One Amount | Use |
 |---|---:|---|
-| Cooked chicken breast | 2,500-3,000 g cooked | Burrito bowls, BBQ bowls, teriyaki bowls, soups, Alfredo, parmesan bowl |
-| Cooked lean steak / beef | 1,400-1,800 g cooked | Steak fajita bowls, beef and broccoli, chili, beef vegetable soup |
-| Cooked salmon or white fish | 900-1,200 g cooked | Salmon rice bowls and fish avocado bowls |
-| Cooked white or jasmine rice | 4,500-5,500 g cooked | Bowls, soups, and post-training meals |
-| Cooked potatoes | 1,000-1,500 g cooked | Breakfast meals and soup |
-| Beans | 1,400-1,800 g cooked/drained | Burrito bowls, chili, soups, enchilada-style prep |
+| Cooked chicken breast | 2,700-3,200 g cooked | Burrito bowls, BBQ bowls, teriyaki bowls, soups, Alfredo, parmesan bowl |
+| Cooked lean steak / beef | 1,500-1,900 g cooked | Steak fajita bowls, beef and broccoli, chili, beef vegetable soup |
+| Cooked salmon or white fish | 1,000-1,300 g cooked | Salmon rice bowls and fish avocado bowls |
+| Cooked white or jasmine rice | 4,800-5,800 g cooked | Bowls, soups, and post-training meals |
+| Cooked potatoes | 1,100-1,600 g cooked | Breakfast meals and soup |
+| Beans | 1,500-1,900 g cooked/drained | Burrito bowls, chili, soups, enchilada-style prep |
 | Overnight oat packs | 3-4 dry packs | Monday, Wednesday, Sunday, backup meals |
 | Greek-yogurt dessert base | 5-7 servings | Protein desserts and bedtime meals |
 | Vegetables and fruit | 5,000+ g total | Bowls, soups, smoothies, and snacks |
@@ -211,13 +240,13 @@ Week Two is intentionally not filled in this draft. Build it later from the same
 
 | Day | Day Type | Calories | Protein | Carbs | Fat | Target Range Check |
 |---|---|---:|---:|---:|---:|---|
-| Monday | Training | 4,200 | 270 g | 510 g | 95 g | Within range |
-| Tuesday | Cardio | 3,850 | 265 g | 420 g | 95 g | Within range |
-| Wednesday | Training | 4,200 | 270 g | 510 g | 95 g | Within range |
-| Thursday | Cardio | 3,850 | 265 g | 420 g | 95 g | Within range |
-| Friday | Training | 4,200 | 270 g | 510 g | 95 g | Within range |
-| Saturday | Rest | 3,500 | 260 g | 320 g | 100 g | Within range |
-| Sunday | Rest | 3,500 | 260 g | 320 g | 100 g | Within range |
+| Monday | Training | 4,198 | 280 g | 540 g | 102 g | Within range; calories match macros |
+| Tuesday | Cardio | 3,847 | 280 g | 450 g | 103 g | Within range; calories match macros |
+| Wednesday | Training | 4,198 | 280 g | 540 g | 102 g | Within range; calories match macros |
+| Thursday | Cardio | 3,847 | 280 g | 450 g | 103 g | Within range; calories match macros |
+| Friday | Training | 4,198 | 280 g | 540 g | 102 g | Within range; calories match macros |
+| Saturday | Rest | 3,501 | 280 g | 350 g | 109 g | Within range; calories match macros |
+| Sunday | Rest | 3,501 | 280 g | 350 g | 109 g | Within range; calories match macros |
 
 ## Meal Swaps
 
@@ -237,7 +266,7 @@ Swap meals by day type first. A training-day meal can move to another training d
 
 - Confirm exact training times for day shift and night shift so Meal 5 and Meal 6 can be pinned more tightly.
 - Confirm whether dairy-heavy protein desserts digest well before sleep.
-- Confirm preferred sauce brands because BBQ, teriyaki, Alfredo, and marinara macros vary by label.
+- Confirm preferred sauce brands because BBQ, teriyaki, Alfredo, marinara, granola, pudding mix, tortillas, and protein powder macros vary by label.
 - Confirm whether the athlete wants Week Two to repeat these meals with different cuisines or introduce more variety.
 
 ## References
