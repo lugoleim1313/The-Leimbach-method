@@ -132,4 +132,12 @@ Heat illness symptoms require urgent medical attention. Stop work/training, get 
 
 ## References
 
-> **Reference status:** Draft coaching content. Add evidence-based references before changing this chapter to `final`.
+- ACSM exercise fluid-replacement guidance for practical hydration during training.
+- CDC/NIOSH/OSHA workplace heat-stress guidance for heat exposure, rest, and red-flag escalation.
+- NIH MedlinePlus general medical information for dehydration and urgent symptom context.
+
+## Final-Review Notes
+
+- Confirm exact editions, dates, and links during final layout.
+- Keep this chapter in `review` until coaching and safety review are complete.
+- Keep safety language conservative; these sources support guidance context, not individualized medical care.

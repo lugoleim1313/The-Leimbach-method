@@ -78,4 +78,13 @@ Urgent medical attention is needed for heat illness symptoms, chest pain, fainti
 
 ## References
 
-> **Reference status:** Draft coaching content. Add evidence-based references before changing this chapter to `final`.
+- American Academy of Sleep Medicine and CDC sleep-health guidance for sleep duration, consistency, and fatigue context.
+- NIOSH shift-work and long-work-hour guidance for fatigue-aware scheduling.
+- CDC/NIOSH/OSHA heat-stress guidance for heat exposure, cooling/rest, and urgent symptom escalation.
+- NIH MedlinePlus, Mayo Clinic, and Cleveland Clinic general red-flag resources for conservative pain/symptom escalation.
+
+## Final-Review Notes
+
+- Confirm exact editions, dates, and links during final layout.
+- Keep this chapter in `review` until coaching and safety review are complete.
+- Keep safety language conservative; these sources support guidance context, not individualized medical care.

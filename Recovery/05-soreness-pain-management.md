@@ -90,4 +90,10 @@ Stop the aggravating movement, choose a non-aggravating alternative if available
 
 ## References
 
-> **Reference status:** Draft coaching content. Add evidence-based references before changing this chapter to `final`.
+- NIH MedlinePlus, Mayo Clinic, and Cleveland Clinic general red-flag resources for conservative pain/symptom escalation.
+
+## Final-Review Notes
+
+- Confirm exact editions, dates, and links during final layout.
+- Keep this chapter in `review` until coaching and safety review are complete.
+- Keep safety language conservative; these sources support guidance context, not individualized medical care.
