@@ -2,8 +2,8 @@
 title: "Conditioning"
 volume: "Volume II — Training"
 chapter: 9
-status: "template"
-last_updated: "2026-07-08"
+status: "review"
+last_updated: "2026-07-09"
 author: "The Leimbach Method"
 ---
 
@@ -11,184 +11,103 @@ author: "The Leimbach Method"
 
 > **Volume:** Volume II — Training  
 > **Chapter:** 9  
-> **Status:** Template / not final coaching guidance
+> **Status:** Draft for coach review; not final medical or clinical guidance
 
-## Purpose
+## Purpose and Scope
 
-Program two weekly interval sessions without compromising strength, muscle gain, or recovery.
+Conditioning supports work capacity, recovery between sets, heart-rate control during long shifts, and general fitness without crushing lower-body recovery. The default structure is Tuesday and Thursday intervals, with optional easy walking on recovery days.
 
-## Chapter Contents
+Chest pain, severe shortness of breath, fainting, unusual dizziness, neurological symptoms, pain, injury concerns, or persistent joint issues should be reviewed with a qualified coach and clinician.
 
-- [Goals](#goals)
-- [Modality Selection](#modality-selection)
-- [Interval Prescriptions](#interval-prescriptions)
-- [Progression](#progression)
-- [Placement in the Week](#placement-in-the-week)
-- [Recovery Rules](#recovery-rules)
+## Why Conditioning Matters for Strength Athletes
 
----
+| Benefit | Training Meaning |
+|---|---|
+| Better work capacity | More productive lifting sessions without dragging between sets |
+| Better recovery habits | Easy movement can support rest days without adding heavy stress |
+| Better shift tolerance | Long workdays feel less like a separate sport |
+| Body composition support | Helps the lean-gain phase stay athletic |
 
+## Current Weekly Conditioning Structure
 
-## Goals
+| Day | Conditioning |
+|---|---|
+| Tuesday | Cardio intervals |
+| Thursday | Cardio intervals |
+| Saturday | Optional easy walk or mobility |
+| Sunday | Optional easy walk or light movement |
 
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+## Conditioning Rules
 
-### Key Points
+| Rule | Standard |
+|---|---|
+| Improve work capacity without ruining lower-body recovery | Leave enough legs for squat and deadlift days |
+| Keep intervals short and repeatable | Quality beats dramatic one-off tests |
+| Do not turn every cardio day into a test | Most sessions should be repeatable next week |
+| Adjust for heat and shift fatigue | Reduce intensity, duration, or total rounds when readiness is low |
 
-- 
-- 
-- 
+## Recommended Modes
 
-### Working Table
+| Mode | Best Use | Notes |
+|---|---|---|
+| Bike | Default interval choice | Low joint impact and easy to control |
+| Sled push/pull | Strength-friendly conditioning | Manage quad fatigue before squat day |
+| Incline walk | Low-readiness or recovery day | Easy to scale |
+| Row/air bike | Hard intervals if tolerated | Watch back/hip fatigue |
+| Sprinting | Advanced option only | Use only if joints and recovery are ready |
 
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
+## Interval Templates
 
-### Figure or Image Placeholder
+| Template | Prescription | Use |
+|---|---|---|
+| Beginner/rebuild intervals | 6-8 rounds: 20 sec hard / 100 sec easy | Return from layoff or poor readiness |
+| Standard interval day | 8-10 rounds: 30 sec hard / 90 sec easy | Normal Tuesday/Thursday option |
+| Low-readiness interval day | 10-20 min incline walk or easy bike | Poor sleep, heavy shift, sore legs |
+| Heat-adjusted interval day | 5-8 shorter rounds, longer rest, lower output | Hot shift or outdoor heat exposure |
 
-![Goals illustration](../Assets/Images/placeholder-09.jpg)
+## Placement Around Heavy Squat/Deadlift Days
 
-*Figure 9.1 — Add a concise caption and source credit.*
+| Timing | Rule |
+|---|---|
+| Tuesday after Monday squat | Keep intervals hard enough to train, not so hard they ruin Wednesday |
+| Thursday before Friday deadlift | Avoid high-soreness modes; bike or incline walk works well |
+| After night shift | Start with low-readiness template unless warm-up says otherwise |
+| During heat waves | Lower output and prioritize hydration, electrolytes, and recovery |
 
-## Modality Selection
+## Readiness-Based Conditioning Adjustments
 
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+| Readiness | Conditioning Adjustment |
+|---|---|
+| Green | Complete planned interval template |
+| Yellow | Reduce rounds by 20-30% or use lower-impact mode |
+| Red | Easy walk/bike only or skip conditioning |
+| Symptoms or unusual breathing/chest signs | Stop and seek medical review |
 
-### Key Points
+## Copy-Ready Conditioning Templates
 
-- 
-- 
-- 
+| Day | Template | Mode | Notes |
+|---|---|---|---|
+| Tuesday | Standard intervals | Bike or sled | Keep Wednesday lift in mind |
+| Thursday | Standard or low-readiness intervals | Bike or incline walk | Protect Friday deadlift |
+| Saturday | Optional easy walk | Walk | Recovery only |
+| Sunday | Optional light movement | Walk/mobility | Prepare for Monday |
 
-### Working Table
+## Copy-Ready Conditioning Checklist
 
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Modality Selection illustration](../Assets/Images/placeholder-09.jpg)
-
-*Figure 9.1 — Add a concise caption and source credit.*
-
-## Interval Prescriptions
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Interval Prescriptions illustration](../Assets/Images/placeholder-09.jpg)
-
-*Figure 9.1 — Add a concise caption and source credit.*
-
-## Progression
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Progression illustration](../Assets/Images/placeholder-09.jpg)
-
-*Figure 9.1 — Add a concise caption and source credit.*
-
-## Placement in the Week
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Placement in the Week illustration](../Assets/Images/placeholder-09.jpg)
-
-*Figure 9.1 — Add a concise caption and source credit.*
-
-## Recovery Rules
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Recovery Rules illustration](../Assets/Images/placeholder-09.jpg)
-
-*Figure 9.1 — Add a concise caption and source credit.*
-
-
-## Action Checklist
-
-- [ ] Finalize chapter text.
-- [ ] Verify quantities, calculations, and claims.
-- [ ] Add tables or figures where they improve understanding.
-- [ ] Add image captions and source credits.
-- [ ] Complete references.
-- [ ] Review formatting and internal links.
-- [ ] Mark status as `review` or `final` in the front matter.
+- [ ] Tuesday/Thursday conditioning selected before the week starts.
+- [ ] Mode is joint-friendly and recoverable.
+- [ ] Intervals are short and repeatable.
+- [ ] Session is not treated like a weekly test.
+- [ ] Heat exposure and shift fatigue are considered.
+- [ ] Lower-body soreness is checked before Thursday intervals.
+- [ ] Chest pain, severe shortness of breath, fainting, unusual dizziness, neurological symptoms, pain, injury concerns, or persistent joint issues are flagged for coach/clinician review.
 
 ## Coach Review Notes
 
-- 
-- 
-- 
-
+- Confirm whether bike, sled, incline walk, rower, or air bike is most available.
+- Confirm how Tuesday intervals affect Wednesday lifting.
+- Review chest pain, severe shortness of breath, neurological symptoms, pain, injury concerns, or persistent joint issues with a coach and clinician.
 
 ## References
 
-1. Author or Organization. *Title of source*. Publisher or Journal, Year.
-2. Add a stable URL, DOI, edition, or access date where applicable.
-3. Use numbered citations in the text, such as **[1]**.
-
-> **Reference status:** Draft placeholders only. Verify every citation before publication.
+> **Reference status:** Draft coaching content. Add evidence-based references before changing this chapter to `final`.
