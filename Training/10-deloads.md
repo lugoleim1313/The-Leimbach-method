@@ -2,8 +2,8 @@
 title: "Deloads and Fatigue Management"
 volume: "Volume II — Training"
 chapter: 10
-status: "template"
-last_updated: "2026-07-08"
+status: "review"
+last_updated: "2026-07-09"
 author: "The Leimbach Method"
 ---
 
@@ -11,184 +11,107 @@ author: "The Leimbach Method"
 
 > **Volume:** Volume II — Training  
 > **Chapter:** 10  
-> **Status:** Template / not final coaching guidance
+> **Status:** Draft for coach review; not final medical or clinical guidance
 
-## Purpose
+## Purpose and Scope
 
-Define planned and reactive deloads, fatigue markers, and return-to-loading decisions.
+Deloads keep training moving when fatigue climbs faster than adaptation. The goal is to reduce stress long enough for performance, joints, motivation, and technique to rebound without abandoning the program.
 
-## Chapter Contents
+Pain, injury concerns, neurological symptoms, chest pain, severe shortness of breath, or persistent joint issues should be reviewed with a qualified coach and clinician.
 
-- [Fatigue Markers](#fatigue-markers)
-- [Planned Deloads](#planned-deloads)
-- [Reactive Deloads](#reactive-deloads)
-- [Volume Reduction](#volume-reduction)
-- [Intensity Reduction](#intensity-reduction)
-- [Return Criteria](#return-criteria)
+## What a Deload Is and Is Not
 
----
+| Deload Is | Deload Is Not |
+|---|---|
+| A planned reduction in training stress | A punishment |
+| A way to restore performance | A week of doing nothing by default |
+| A chance to sharpen technique | A max-out week |
+| A recovery tool during hard work blocks | A reason to slash food aggressively |
 
+## Planned vs Reactive Deloads
 
-## Fatigue Markers
+| Type | When It Happens | Best Use |
+|---|---|---|
+| Planned deload | Scheduled after a hard block | Predictable fatigue management |
+| Reactive deload | Triggered by performance/readiness decline | Shift work, heat exposure, poor sleep, joint pain trend |
 
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+## When to Deload
 
-### Key Points
+| Signal | What It Means |
+|---|---|
+| Performance drop | Loads that should move well keep slowing down |
+| Joint pain trend | Repeated irritation or worsening pain needs review |
+| Poor sleep accumulation | Several short or low-quality nights stack up |
+| High work stress | Long shifts or overtime reduce training quality |
+| Heat exposure accumulation | Hot workdays create repeated dehydration/fatigue stress |
+| Motivation/focus crash | Normal sessions feel unusually hard to start |
+| Technique breakdown | Positions fail at loads that are normally clean |
 
-- 
-- 
-- 
+## Deload Options
 
-### Working Table
+| Option | How To Use |
+|---|---|
+| Reduce load | Keep movement pattern, lower weight 10-20% |
+| Reduce volume | Keep some intensity, cut sets by 30-50% |
+| Reduce intensity | Avoid top sets above RPE 6-7 |
+| Technique-only week | Use clean, fast reps and leave the gym fresher |
+| Extra recovery days | Move or skip sessions during severe work/sleep stress |
 
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
+## Sample 1-Week Deload Structure
 
-### Figure or Image Placeholder
+| Day | Session | Deload Focus |
+|---|---|---|
+| Monday | Squat/bench technique | 2-4 easy work sets, no grinders, light accessories |
+| Tuesday | Conditioning | Easy bike or walk; no hard intervals |
+| Wednesday | Bench plus light hinge | Technique reps, upper-back pump, low fatigue |
+| Thursday | Conditioning | Easy incline walk or bike |
+| Friday | Deadlift technique | Light singles/triples, no heavy back-offs |
+| Saturday | Recovery | Walk, mobility, food prep, sleep |
+| Sunday | Recovery | Light movement optional |
 
-![Fatigue Markers illustration](../Assets/Images/placeholder-10.jpg)
+## How Cardio Changes During Deload
 
-*Figure 10.1 — Add a concise caption and source credit.*
+Conditioning should help recovery during a deload. Replace hard intervals with easy walking, easy bike, or shorter low-readiness intervals. Do not use deload week to test conditioning.
 
-## Planned Deloads
+## How Nutrition Changes During Deload
 
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+| Rule | Standard |
+|---|---|
+| Do not aggressively cut food because training is lighter | Recovery still needs fuel |
+| Keep protein stable | Protein target does not change |
+| Carbs | Slight reduction only if activity is lower and appetite drops |
+| Hydration/electrolytes | Keep aligned with heat exposure and shifts |
 
-### Key Points
+## Returning From Deload
 
-- 
-- 
-- 
+| Return Step | Rule |
+|---|---|
+| First week back | Resume normal structure but avoid bonus volume |
+| Main lifts | Start with planned submaximal work and assess bar speed |
+| Accessories | Add back priority movements first |
+| Conditioning | Return to standard intervals only if legs and readiness are good |
+| If symptoms persist | Do not force progression; get coach/clinician review |
 
-### Working Table
+## Copy-Ready Deload Decision Checklist
 
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Planned Deloads illustration](../Assets/Images/placeholder-10.jpg)
-
-*Figure 10.1 — Add a concise caption and source credit.*
-
-## Reactive Deloads
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Reactive Deloads illustration](../Assets/Images/placeholder-10.jpg)
-
-*Figure 10.1 — Add a concise caption and source credit.*
-
-## Volume Reduction
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Volume Reduction illustration](../Assets/Images/placeholder-10.jpg)
-
-*Figure 10.1 — Add a concise caption and source credit.*
-
-## Intensity Reduction
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Intensity Reduction illustration](../Assets/Images/placeholder-10.jpg)
-
-*Figure 10.1 — Add a concise caption and source credit.*
-
-## Return Criteria
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Return Criteria illustration](../Assets/Images/placeholder-10.jpg)
-
-*Figure 10.1 — Add a concise caption and source credit.*
-
-
-## Action Checklist
-
-- [ ] Finalize chapter text.
-- [ ] Verify quantities, calculations, and claims.
-- [ ] Add tables or figures where they improve understanding.
-- [ ] Add image captions and source credits.
-- [ ] Complete references.
-- [ ] Review formatting and internal links.
-- [ ] Mark status as `review` or `final` in the front matter.
+- [ ] Performance has dropped for more than one session.
+- [ ] Joint pain trend is worsening or repeated.
+- [ ] Sleep debt has accumulated.
+- [ ] Work stress or heat exposure has stacked up.
+- [ ] Motivation/focus is unusually low.
+- [ ] Technique is breaking down at normal loads.
+- [ ] Deload option selected: reduce load / reduce volume / reduce intensity / technique-only / extra recovery days.
+- [ ] Cardio changed to easy recovery work.
+- [ ] Protein kept stable.
+- [ ] Food not aggressively cut.
+- [ ] Pain, injury, neurological symptoms, chest pain, severe shortness of breath, or persistent joint issues flagged for coach/clinician review.
 
 ## Coach Review Notes
 
-- 
-- 
-- 
-
+- Confirm whether deloads should be planned every block or triggered by readiness.
+- Confirm the best deload option after night-shift blocks and high-heat weeks.
+- Review pain, injury concerns, neurological symptoms, chest pain, severe shortness of breath, or persistent joint issues with a coach and clinician.
 
 ## References
 
-1. Author or Organization. *Title of source*. Publisher or Journal, Year.
-2. Add a stable URL, DOI, edition, or access date where applicable.
-3. Use numbered citations in the text, such as **[1]**.
-
-> **Reference status:** Draft placeholders only. Verify every citation before publication.
+> **Reference status:** Draft coaching content. Add evidence-based references before changing this chapter to `final`.
