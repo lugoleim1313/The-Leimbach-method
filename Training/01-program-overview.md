@@ -2,8 +2,8 @@
 title: "Program Overview"
 volume: "Volume II — Training"
 chapter: 1
-status: "template"
-last_updated: "2026-07-08"
+status: "review"
+last_updated: "2026-07-09"
 author: "The Leimbach Method"
 ---
 
@@ -11,184 +11,92 @@ author: "The Leimbach Method"
 
 > **Volume:** Volume II — Training  
 > **Chapter:** 1  
-> **Status:** Template / not final coaching guidance
+> **Status:** Draft for coach review; not final medical or clinical guidance
 
-## Purpose
+## Purpose and Scope
 
-Define the training system, annual structure, priorities, constraints, and progression model.
+Volume II turns the athlete's strength goals into a repeatable weekly training system. The plan is built for a 33-year-old, 6'4", roughly 260 lb rotating-shift oilfield athlete building toward a lean, strong 275 lb while chasing a 600+ lb squat, 405 lb bench, and 700 lb deadlift.
 
-## Chapter Contents
+This volume is not a rehab plan or medical protocol. Pain, injury concerns, neurological symptoms, or persistent joint issues should be reviewed with a qualified coach and clinician.
 
-- [Training Mission](#training-mission)
-- [Weekly Structure](#weekly-structure)
-- [Annual Phases](#annual-phases)
-- [Main-Lift Priorities](#main-lift-priorities)
-- [Volume and Intensity](#volume-and-intensity)
-- [Success Metrics](#success-metrics)
+## Athlete Profile Summary
 
----
+| Item | Current Context |
+|---|---|
+| Athlete | Male, 33 years old, 6'4", approximately 260 lb |
+| Long-term bodyweight goal | Lean, strong 275 lb |
+| Previous meet numbers | Squat 235 kg, bench 157.5 kg, deadlift 255 kg |
+| Long-term strength targets | Squat 600+ lb, bench 405 lb, deadlift 700 lb |
+| Work constraint | Rotating 3-to-7 day/night shifts, long oilfield workdays |
+| Weekly training frame | 3 heavy lifting days, 2 cardio interval days, 2 recovery days |
 
+## Main Goals
 
-## Training Mission
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Training Mission illustration](../Assets/Images/placeholder-01.jpg)
-
-*Figure 1.1 — Add a concise caption and source credit.*
+| Goal | Training Meaning |
+|---|---|
+| Build the big three | Practice squat, bench, and deadlift with enough frequency to improve skill |
+| Stay durable | Progress only as fast as joints, sleep, work stress, and readiness allow |
+| Keep volume repeatable | Use work that can be completed across day shift, night shift, and heat exposure |
+| Support lean gain | Connect training quality with nutrition, hydration, recovery, and bodyweight tracking |
 
 ## Weekly Structure
 
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+| Day | Primary Focus | Notes |
+|---|---|---|
+| Monday | Heavy lifting | Squat emphasis, bench practice, lower-body accessories |
+| Tuesday | Cardio intervals | Short, repeatable conditioning; avoid burying legs before Wednesday |
+| Wednesday | Heavy lifting | Bench emphasis, squat/deadlift variation, upper accessories |
+| Thursday | Cardio intervals | Keep output honest but recoverable |
+| Friday | Heavy lifting | Deadlift emphasis, bench volume, posterior-chain accessories |
+| Saturday | Rest/recovery | Walking, mobility, food prep, sleep catch-up |
+| Sunday | Rest/recovery or light movement | Easy movement only if it improves readiness |
 
-### Key Points
+## Training Philosophy
 
-- 
-- 
-- 
+| Principle | How It Shows Up |
+|---|---|
+| Heavy strength practice | Heavy but controlled top work; no constant max testing |
+| Repeatable volume | Enough sets to grow without requiring perfect life conditions |
+| Recovery-first progression | Add load or volume when readiness and performance support it |
+| Shift-work flexibility | Move heavy sessions around work blocks without guilt |
+| Build while durable | Technique, warm-ups, and autoregulation keep the long game intact |
 
-### Working Table
+## Day-Shift and Night-Shift Considerations
 
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
+| Schedule | Training Move |
+|---|---|
+| Day shift with early start | Train after shift only if readiness is green/yellow; otherwise move heavy work to the next better window |
+| Night shift | Train after waking when possible, before the shift drains focus and hydration |
+| Training after shift | Keep expectations conservative; use readiness rules before top sets |
+| Hot outdoor day | Review hydration, electrolytes, and warm-up bar speed before loading heavy |
+| Rotation change | Use a lighter technique day or recovery day instead of forcing a peak session |
 
-### Figure or Image Placeholder
+## Connection to Other Volumes
 
-![Weekly Structure illustration](../Assets/Images/placeholder-01.jpg)
+| Volume | Connection |
+|---|---|
+| Nutrition | Fuels heavy days, cardio days, recovery days, and lean weight gain |
+| Recovery | Sleep, heat management, soreness, and shift stress drive readiness |
+| Tracking | Bodyweight, waist, performance, pain notes, and session RPE guide adjustments |
 
-*Figure 1.1 — Add a concise caption and source credit.*
+## Copy-Ready Weekly Training Overview
 
-## Annual Phases
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Annual Phases illustration](../Assets/Images/placeholder-01.jpg)
-
-*Figure 1.1 — Add a concise caption and source credit.*
-
-## Main-Lift Priorities
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Main-Lift Priorities illustration](../Assets/Images/placeholder-01.jpg)
-
-*Figure 1.1 — Add a concise caption and source credit.*
-
-## Volume and Intensity
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Volume and Intensity illustration](../Assets/Images/placeholder-01.jpg)
-
-*Figure 1.1 — Add a concise caption and source credit.*
-
-## Success Metrics
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Success Metrics illustration](../Assets/Images/placeholder-01.jpg)
-
-*Figure 1.1 — Add a concise caption and source credit.*
-
-
-## Action Checklist
-
-- [ ] Finalize chapter text.
-- [ ] Verify quantities, calculations, and claims.
-- [ ] Add tables or figures where they improve understanding.
-- [ ] Add image captions and source credits.
-- [ ] Complete references.
-- [ ] Review formatting and internal links.
-- [ ] Mark status as `review` or `final` in the front matter.
+| Day | Session | Main Lift Focus | Conditioning/Recovery | Readiness Note |
+|---|---|---|---|---|
+| Monday | Heavy Lift 1 | Squat | Optional easy walk | Green: full work; yellow: trim volume; red: technique/recovery |
+| Tuesday | Cardio | None | Intervals | Keep recoverable |
+| Wednesday | Heavy Lift 2 | Bench | Optional mobility | Adjust for shift fatigue |
+| Thursday | Cardio | None | Intervals | Stop before it hurts Friday pulls |
+| Friday | Heavy Lift 3 | Deadlift | Optional easy walk | Manage lower-back fatigue |
+| Saturday | Recovery | None | Mobility/walk | Food prep and sleep |
+| Sunday | Recovery | None | Light movement optional | Prepare for Monday |
 
 ## Coach Review Notes
 
-- 
-- 
-- 
-
+- Confirm preferred training days when the work schedule flips from day shift to night shift.
+- Confirm current best gym lifts before percentages or exact loading are finalized.
+- Review pain, injury concerns, neurological symptoms, or persistent joint issues with a coach and clinician before progressing load.
 
 ## References
 
-1. Author or Organization. *Title of source*. Publisher or Journal, Year.
-2. Add a stable URL, DOI, edition, or access date where applicable.
-3. Use numbered citations in the text, such as **[1]**.
-
-> **Reference status:** Draft placeholders only. Verify every citation before publication.
+> **Reference status:** Draft coaching content. Add evidence-based references before changing this chapter to `final`.

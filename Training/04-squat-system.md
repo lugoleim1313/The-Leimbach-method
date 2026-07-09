@@ -2,8 +2,8 @@
 title: "Squat Development"
 volume: "Volume II — Training"
 chapter: 4
-status: "template"
-last_updated: "2026-07-08"
+status: "review"
+last_updated: "2026-07-09"
 author: "The Leimbach Method"
 ---
 
@@ -11,184 +11,106 @@ author: "The Leimbach Method"
 
 > **Volume:** Volume II — Training  
 > **Chapter:** 4  
-> **Status:** Template / not final coaching guidance
+> **Status:** Draft for coach review; not final medical or clinical guidance
 
 ## Purpose
 
-Build the squat through technique, programming, variation selection, accessory work, and fatigue control.
+The squat system builds a bigger, more consistent competition squat while managing fatigue from heavy lifting, cardio intervals, and rotating oilfield shifts. The target is 600+ lb long term, built from technical consistency and repeatable weekly exposure.
 
-## Chapter Contents
+Pain, injury concerns, neurological symptoms, or persistent hip, knee, or back issues should be reviewed with a qualified coach and clinician.
 
-- [Technical Model](#technical-model)
-- [Primary Programming](#primary-programming)
-- [Variations](#variations)
-- [Accessory Selection](#accessory-selection)
-- [Common Weak Points](#common-weak-points)
-- [Progression](#progression)
+## Baseline and Target
 
----
+| Item | Number |
+|---|---:|
+| Past meet squat | 235 kg / about 518 lb |
+| Long-term target | 600+ lb |
 
+## Technical Priorities
 
-## Technical Model
+| Priority | Standard |
+|---|---|
+| Bracing | Big breath, ribs down, trunk locked before descent |
+| Foot pressure | Tripod foot; pressure through midfoot without heel/toe rocking |
+| Bar position | Consistent shelf; wrists and elbows support tight upper back |
+| Depth consistency | Hit the same legal depth in training reps |
+| Controlled descent | Fast enough to be athletic, controlled enough to keep position |
+| Drive out of the hole | Chest and hips rise together; push floor away |
 
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+## Weekly Squat Exposure
 
-### Key Points
+| Day | Squat Role |
+|---|---|
+| Monday heavy lift | Main squat day |
+| Wednesday heavy lift | Secondary squat or pause/tempo variation |
+| Friday heavy lift | Light squat patterning only if recovery allows |
 
-- 
-- 
-- 
+## Main Squat Day Example
 
-### Working Table
+| Block | Work |
+|---|---|
+| Warm-up | Full squat warm-up and ramp sets |
+| Top work | 1-3 top sets of 1-5 reps at planned RPE |
+| Back-off volume | 3-5 sets of 3-6 reps with clean speed |
+| Secondary lift | Bench practice or upper-body volume |
+| Accessories | Quads, hamstrings, trunk, upper back |
 
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
+## Secondary Squat or Variation Example
 
-### Figure or Image Placeholder
+| Variation | Use |
+|---|---|
+| Pause squat | Depth, tightness, drive from bottom |
+| Tempo squat | Position control and descent discipline |
+| Front squat | Upper-back strength and quad focus |
+| Safety-bar squat | Squat volume with less shoulder demand |
+| Beltless squat | Bracing practice at lower loads |
 
-![Technical Model illustration](../Assets/Images/placeholder-04.jpg)
+## Accessory Priorities
 
-*Figure 4.1 — Add a concise caption and source credit.*
+| Priority | Options |
+|---|---|
+| Quads | Leg press, split squat, hack squat, step-up |
+| Hamstrings/glutes | RDL, hamstring curl, back extension |
+| Trunk | Plank, dead bug, weighted carry, cable chop |
+| Upper back | Rows, pulldowns, rear-delt work |
+| Adductors | Copenhagen variation, adductor machine, lateral lunge |
 
-## Primary Programming
+## Common Weak Points and Fixes
 
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+| Weak Point | Likely Training Fix |
+|---|---|
+| Folding forward | Bracing, upper-back work, front squat, pause squat |
+| Losing depth | Ankle/hip warm-up, pause squats, consistent stance |
+| Knees caving | Foot pressure, tempo work, single-leg work |
+| Slow out of hole | Pause squat, pin squat, quad volume |
+| Shifting side to side | Reduce load, film reps, unilateral accessories |
 
-### Key Points
+## Readiness-Based Adjustments
 
-- 
-- 
-- 
+| Readiness | Squat Adjustment |
+|---|---|
+| Green | Complete planned top sets and back-off work |
+| Yellow | Cap top set, remove 1-2 back-off sets, keep technique crisp |
+| Red | Technique squat, light variation, or move squat day |
 
-### Working Table
+## Copy-Ready Squat Day Template
 
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Primary Programming illustration](../Assets/Images/placeholder-04.jpg)
-
-*Figure 4.1 — Add a concise caption and source credit.*
-
-## Variations
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Variations illustration](../Assets/Images/placeholder-04.jpg)
-
-*Figure 4.1 — Add a concise caption and source credit.*
-
-## Accessory Selection
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Accessory Selection illustration](../Assets/Images/placeholder-04.jpg)
-
-*Figure 4.1 — Add a concise caption and source credit.*
-
-## Common Weak Points
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Common Weak Points illustration](../Assets/Images/placeholder-04.jpg)
-
-*Figure 4.1 — Add a concise caption and source credit.*
-
-## Progression
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Progression illustration](../Assets/Images/placeholder-04.jpg)
-
-*Figure 4.1 — Add a concise caption and source credit.*
-
-
-## Action Checklist
-
-- [ ] Finalize chapter text.
-- [ ] Verify quantities, calculations, and claims.
-- [ ] Add tables or figures where they improve understanding.
-- [ ] Add image captions and source credits.
-- [ ] Complete references.
-- [ ] Review formatting and internal links.
-- [ ] Mark status as `review` or `final` in the front matter.
+| Section | Prescription | Notes |
+|---|---|---|
+| Readiness color | Green / Yellow / Red |  |
+| Warm-up | 10-minute minimum or full squat warm-up |  |
+| Main squat | Top set(s): ___ x ___ @ RPE ___ |  |
+| Back-off squat | ___ sets x ___ reps |  |
+| Variation | Pause / tempo / front / safety-bar |  |
+| Accessories | Quad, hamstring, trunk, upper back |  |
+| Pain/technique notes |  | Review if pain changes movement |
 
 ## Coach Review Notes
 
-- 
-- 
-- 
-
+- Confirm current squat training max before loading targets are finalized.
+- Confirm stance, bar position, and depth standard with video review.
+- Review pain, injury concerns, neurological symptoms, or persistent hip/knee/back issues with a coach and clinician.
 
 ## References
 
-1. Author or Organization. *Title of source*. Publisher or Journal, Year.
-2. Add a stable URL, DOI, edition, or access date where applicable.
-3. Use numbered citations in the text, such as **[1]**.
-
-> **Reference status:** Draft placeholders only. Verify every citation before publication.
+> **Reference status:** Draft coaching content. Add evidence-based references before changing this chapter to `final`.
