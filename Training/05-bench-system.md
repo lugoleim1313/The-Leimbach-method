@@ -2,8 +2,8 @@
 title: "Bench Press Development"
 volume: "Volume II — Training"
 chapter: 5
-status: "template"
-last_updated: "2026-07-08"
+status: "review"
+last_updated: "2026-07-09"
 author: "The Leimbach Method"
 ---
 
@@ -11,184 +11,107 @@ author: "The Leimbach Method"
 
 > **Volume:** Volume II — Training  
 > **Chapter:** 5  
-> **Status:** Template / not final coaching guidance
+> **Status:** Draft for coach review; not final medical or clinical guidance
 
 ## Purpose
 
-Build the bench press through technical practice, upper-body hypertrophy, and triceps strength.
+The bench system builds a stronger, more repeatable press through setup, upper-back tightness, pressing volume, triceps strength, and shoulder-friendly progression. The long-term target is a 405 lb bench.
 
-## Chapter Contents
+Pain, injury concerns, neurological symptoms, or persistent shoulder, elbow, wrist, or pec issues should be reviewed with a qualified coach and clinician.
 
-- [Technical Model](#technical-model)
-- [Primary Programming](#primary-programming)
-- [Variations](#variations)
-- [Accessory Selection](#accessory-selection)
-- [Common Weak Points](#common-weak-points)
-- [Progression](#progression)
+## Baseline and Target
 
----
+| Item | Number |
+|---|---:|
+| Past meet bench | 157.5 kg / about 347 lb |
+| Long-term target | 405 lb |
 
+## Technical Priorities
 
-## Technical Model
+| Priority | Standard |
+|---|---|
+| Setup and arch | Stable arch that keeps shoulders pinned and feet useful |
+| Upper-back tightness | Shoulder blades set before unrack and stay set |
+| Leg drive | Feet drive the body back into the bench without hips rising |
+| Touch point | Consistent lower-chest/sternum touch |
+| Bar path | Slight back-toward-rack press path, not straight up from touch |
+| Pause control | Still bar on the chest without relaxing |
+| Lockout | Finish with elbows locked and shoulders still tight |
 
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+## Weekly Bench Exposure
 
-### Key Points
+| Day | Bench Role |
+|---|---|
+| Monday heavy lift | Bench technique after squat or moderate volume |
+| Wednesday heavy lift | Main bench day |
+| Friday heavy lift | Secondary bench, close-grip, or volume work |
 
-- 
-- 
-- 
+## Main Bench Day Example
 
-### Working Table
+| Block | Work |
+|---|---|
+| Warm-up | Bench warm-up, upper back, ramp sets |
+| Top work | 1-3 top sets of 1-5 reps at planned RPE |
+| Back-off volume | 3-6 sets of 3-8 reps |
+| Secondary press | Close-grip, Spoto, incline, or dumbbell press |
+| Accessories | Rows, triceps, rear delts, lats |
 
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
+## Secondary Bench or Volume Example
 
-### Figure or Image Placeholder
+| Variation | Use |
+|---|---|
+| Paused bench | Competition skill and control |
+| Close-grip bench | Triceps and lockout |
+| Spoto press | Tightness near the chest |
+| Incline press | Upper chest and shoulder-friendly volume |
+| Dumbbell bench | Hypertrophy with freer shoulder path |
 
-![Technical Model illustration](../Assets/Images/placeholder-05.jpg)
+## Accessory Priorities
 
-*Figure 5.1 — Add a concise caption and source credit.*
+| Priority | Options |
+|---|---|
+| Upper back | Chest-supported row, cable row, pulldown |
+| Triceps | Pushdowns, rolling extensions, close-grip work |
+| Rear delts | Reverse fly, face pull, band pull-apart |
+| Shoulders | Lateral raise, controlled overhead variation if tolerated |
+| Pec volume | Dumbbell press, machine press, push-up |
 
-## Primary Programming
+## Common Weak Points and Fixes
 
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
+| Weak Point | Likely Training Fix |
+|---|---|
+| Losing tightness on chest | Paused bench, Spoto press, setup practice |
+| Miss off chest | Paused work, dumbbell pressing, upper-back tightness |
+| Mid-range stall | Close-grip bench, triceps volume |
+| Lockout weakness | Board/pin work if appropriate, triceps accessories |
+| Shoulder irritation | Review setup, reduce irritating variation, coach/clinician review |
 
-### Key Points
+## Readiness-Based Adjustments
 
-- 
-- 
-- 
+| Readiness | Bench Adjustment |
+|---|---|
+| Green | Complete planned top work and volume |
+| Yellow | Keep top work submaximal; trim 1-2 volume sets |
+| Red | Technique bench, light dumbbells, upper-back work, or move session |
 
-### Working Table
+## Copy-Ready Bench Day Template
 
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Primary Programming illustration](../Assets/Images/placeholder-05.jpg)
-
-*Figure 5.1 — Add a concise caption and source credit.*
-
-## Variations
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Variations illustration](../Assets/Images/placeholder-05.jpg)
-
-*Figure 5.1 — Add a concise caption and source credit.*
-
-## Accessory Selection
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Accessory Selection illustration](../Assets/Images/placeholder-05.jpg)
-
-*Figure 5.1 — Add a concise caption and source credit.*
-
-## Common Weak Points
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Common Weak Points illustration](../Assets/Images/placeholder-05.jpg)
-
-*Figure 5.1 — Add a concise caption and source credit.*
-
-## Progression
-
-> **Draft note:** Replace this callout with finalized coaching guidance, data, or narrative.
-
-### Key Points
-
-- 
-- 
-- 
-
-### Working Table
-
-| Item | Target / Standard | Notes |
-|---|---:|---|
-|  |  |  |
-|  |  |  |
-
-### Figure or Image Placeholder
-
-![Progression illustration](../Assets/Images/placeholder-05.jpg)
-
-*Figure 5.1 — Add a concise caption and source credit.*
-
-
-## Action Checklist
-
-- [ ] Finalize chapter text.
-- [ ] Verify quantities, calculations, and claims.
-- [ ] Add tables or figures where they improve understanding.
-- [ ] Add image captions and source credits.
-- [ ] Complete references.
-- [ ] Review formatting and internal links.
-- [ ] Mark status as `review` or `final` in the front matter.
+| Section | Prescription | Notes |
+|---|---|---|
+| Readiness color | Green / Yellow / Red |  |
+| Warm-up | Bench warm-up and ramp sets |  |
+| Main bench | Top set(s): ___ x ___ @ RPE ___ |  |
+| Back-off bench | ___ sets x ___ reps |  |
+| Secondary press | Variation: ___ |  |
+| Accessories | Row, triceps, rear delts, lats |  |
+| Pain/technique notes |  | Review if pain changes movement |
 
 ## Coach Review Notes
 
-- 
-- 
-- 
-
+- Confirm grip width, arch tolerance, and meet pause standard.
+- Confirm weekly bench frequency after the first training block.
+- Review pain, injury concerns, neurological symptoms, or persistent shoulder/elbow/wrist/pec issues with a coach and clinician.
 
 ## References
 
-1. Author or Organization. *Title of source*. Publisher or Journal, Year.
-2. Add a stable URL, DOI, edition, or access date where applicable.
-3. Use numbered citations in the text, such as **[1]**.
-
-> **Reference status:** Draft placeholders only. Verify every citation before publication.
+> **Reference status:** Draft coaching content. Add evidence-based references before changing this chapter to `final`.
