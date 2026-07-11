@@ -2,7 +2,7 @@
 title: "Review PDF Notes"
 volume: "Publishing"
 status: "review"
-last_updated: "2026-07-09"
+last_updated: "2026-07-10"
 author: "The Leimbach Method"
 ---
 
@@ -13,9 +13,9 @@ author: "The Leimbach Method"
 
 ## Review PDF Artifact
 
-Generated review PDF:
+Generated Version 1.0 review PDF:
 
-- [../dist/The-Leimbach-method-review-draft.pdf](../dist/The-Leimbach-method-review-draft.pdf)
+- [../dist/The-Leimbach-Method-v1.0-review.pdf](../dist/The-Leimbach-Method-v1.0-review.pdf)
 
 This artifact is a review draft only. It does not mark the manuscript final and does not change any chapter status to `final`.
 
@@ -23,15 +23,18 @@ This artifact is a review draft only. It does not mark the manuscript final and 
 
 | Item | Result |
 |---|---|
-| Build date | 2026-07-09 |
-| Output file | `dist/The-Leimbach-method-review-draft.pdf` |
-| Page count | 87 pages |
+| Build date | 2026-07-10 |
+| Output file | `dist/The-Leimbach-Method-v1.0-review.pdf` |
+| Page count | 117 pages |
 | Page size | Letter |
-| Source order | `MANUSCRIPT.md` and `Publishing/02-table-of-contents.md` |
-| Review label | Present on title page and footer |
+| Source order | `MANUSCRIPT.md`, `Publishing/02-table-of-contents.md`, and Issue 34 front/back matter requirements |
+| Review label | Present on cover and footer |
 | Page numbers | Present |
 | Safety disclaimer near front | Present |
-| Full manuscript content | Present |
+| PDF bookmarks | Present |
+| Linked TOC annotations | Present |
+| Blank pages | None detected |
+| Full manuscript content | Present, with approved placeholders preserved where source copy is not yet present |
 
 ## Rendered Pages Checked
 
@@ -39,27 +42,31 @@ Representative pages were rendered to PNG and visually inspected:
 
 | Page | Area Checked | Result |
 |---|---|---|
-| 1 | Title/front matter page and safety notice | Clean title layout; review-draft label and urgent-symptom safety notice visible |
-| 14 | Table-heavy nutrition page, Macro Targets | Monospaced tables readable; no obvious clipping, overlap, broken glyphs, or black boxes |
-| 56 | Table-heavy training page, Six-Week Strength Block | Dense training tables readable in monospaced layout; no obvious clipping or overlap |
-| 64 | Recovery/safety page, Heat-Stress Recovery | Safety language visible; heat-stress table readable |
-| 75 | Dashboard/checklist page, Weekly Dashboard Template | Wide check-in and weekly metrics tables readable in monospaced layout |
-| 86 | Final Review Checklist | Checklist text readable; no obvious clipping or overlap |
+| 1 | Cover/title page | Clean review-cover layout; review-draft label and page footer visible |
+| 2 | Linked table of contents | Page numbers present; major sections and chapter entries visible |
+| 23 | Nutrition table page | Nutrition table readable; list formatting clean; no obvious clipping, overlap, broken glyphs, or black boxes |
+| 77 | Training table page, Six-Week Strength Block | Dense training tables readable with wrapped cells; no obvious clipping or overlap |
+| 87 | Recovery/safety page, Heat-Stress Recovery | Safety language visible; heat-stress content readable |
+| 102 | Tracking dashboard/checklist page | Dashboard and weekly metrics tables readable |
+| 117 | Final Review Checklist | Final checklist text readable; no obvious clipping or overlap |
 
 ## Verification Notes
 
-- The PDF was checked with `pdfinfo`, which reported 87 pages.
-- Representative pages were rendered with Poppler `pdftoppm` using a writable temp font cache.
-- The generated PDF uses readable repository paths rather than relying on clickable Markdown link behavior.
-- Tables and checklists are preserved in a lean monospaced layout for review readability, not final publication typography.
-- The full review PDF follows the manuscript assembly order and includes front matter, table of contents, Implementation, Nutrition, Training, Recovery, Tracking, Exercise Library, back matter, PDF export checklist, and final review checklist.
+- `pdfinfo` reported 117 pages, Letter page size, and readable metadata.
+- `pypdf` reported 117 pages, zero blank pages, 146 link annotations, and PDF outline entries.
+- Source validation reported no missing manuscript source files.
+- Duplicate source validation reported no duplicate chapter sources, except intentional extraction from `Publishing/03-front-matter.md` for title/safety and how-to-use sections.
+- Representative pages were rendered with Poppler `pdftoppm`.
+- `qpdf` was not installed in this environment, so the PDF was validated with `pdfinfo`, `pypdf`, and rendered PNG inspection instead.
+- The generated PDF uses readable repository source paths near chapter starts for review traceability.
+- Tables and checklists are preserved with wrapped table cells for review readability, not final publication typography.
 - The final PDF has not been created.
 
 ## Known Limitations For Later Proofing
 
-- This is a first full review PDF, so page breaks should still be proofed manually across the full document.
-- Very wide source tables may need final layout tuning before publication.
-- Placeholder text from approved publication placeholders remains where it does not block readability.
+- Copyright, dedication, foreword, The Promise, and About the Author remain placeholder sections because approved manuscript copy is not present in the repository.
+- Very wide source tables may still need final layout tuning before publication.
+- References remain broad in some chapters and should be proofed before final publication.
 - Final cover design, edition metadata, release notes, and final PDF export settings remain future publication work.
 
 ## Safety Review Reminder
