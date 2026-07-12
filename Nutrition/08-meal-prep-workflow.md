@@ -3,7 +3,7 @@ title: "Meal-Prep Workflow"
 volume: "Volume I — Nutrition"
 chapter: 8
 status: "review"
-last_updated: "2026-07-09"
+last_updated: "2026-07-12"
 author: "The Leimbach Method"
 ---
 
@@ -20,6 +20,7 @@ Turn the Week One meal plan into a repeatable prep system for a 260 lb rotating-
 ## Chapter Contents
 
 - [Weekly Prep Overview](#weekly-prep-overview)
+- [Modular Meal-Builder Prep](#modular-meal-builder-prep)
 - [Best Prep Day Options](#best-prep-day-options)
 - [90-Minute Fast Prep Workflow](#90-minute-fast-prep-workflow)
 - [2-Hour Full Prep Workflow](#2-hour-full-prep-workflow)
@@ -47,6 +48,34 @@ Prep the base proteins and carbs first, then build meals from the same parts. We
 | Greek-yogurt protein desserts | 5-7 servings | Bedtime meals, no-cook protein |
 
 Use cooked weights for prepared meats, rice, potatoes, and beans unless the recipe says dry or raw. Portion by meal role: training days get the biggest rice and pasta portions; rest days keep protein steady and pull carbs down through rice, potatoes, oats, and tortillas.
+
+## Modular Meal-Builder Prep
+
+Prep should create options, not force the same breakfast every day. Build a few base components, then assemble meals by role.
+
+| Meal Role | Prep Components | Options |
+|---|---|---|
+| Wake-up breakfast | Oat jars, burrito filling, yogurt bowls, smoothie packs | Overnight oats, Greek yogurt bowl, breakfast burrito, protein smoothie |
+| Bigger home breakfast | Cooked potatoes, lean steak, eggs/egg whites, avocado, tortillas | Steak and eggs, avocado toast with eggs, protein pancakes |
+| Work-shift bowl | Cooked protein, rice/potatoes, beans, vegetables, sauce cups | Chicken fajitas, steak rice bowl, salmon bowl, BBQ chicken, hibachi chicken, Korean beef |
+| Thermos or cooler meal | Chili, soup base, cooked rice, tortillas, shredded cheese | Turkey chili, tortilla soup, white chicken chili, beef vegetable soup |
+| Snack or dessert | Greek yogurt, whey, pudding mix, berries, granola, peanut butter | Cheesecake bowl, protein pudding, frozen yogurt bark, mousse-style bowl |
+| Emergency backup | Whey, oats packets, jerky, tuna/salmon pouches, rice cakes, fruit | No-cook protein and carb patch when the planned meal breaks |
+
+Prep two breakfast paths each week: one no-cook option and one hot option. For example, build overnight oats plus breakfast burrito filling, or Greek yogurt bowls plus steak/potato packs. This keeps breakfast from turning into an egg-only routine.
+
+### Breakfast Option Prep Notes
+
+| Option | Prep Move | Storage |
+|---|---|---|
+| Overnight oats | Build 3-4 jars or dry packs; add berries/banana close to eating if texture matters | Refrigerate assembled jars 3-4 days |
+| Greek yogurt bowl | Mix yogurt and whey; keep granola, cereal, cookies, or crunchy toppings separate | Refrigerate 3-4 days |
+| Breakfast burrito | Batch potatoes, egg whites/eggs, cheese, salsa; wrap only what will be eaten soon | Refrigerate 2-3 days or freeze wrapped burritos |
+| Protein smoothie | Build dry bags with whey/oats; pack fruit separately or use frozen fruit | Dry packs are shelf-stable; blend when needed |
+| Steak and eggs | Prep steak and potatoes; cook eggs fresh when possible | Steak/potatoes refrigerate 3-4 days |
+| Avocado toast with eggs | Keep bread/tortillas, avocado, eggs, and fruit ready; cook eggs fresh | Assemble day-of |
+| Cottage cheese bowl | Portion cottage cheese or high-protein dairy with fruit; keep granola separate | Refrigerate according to label date |
+| Protein pancakes | Portion dry mix or oats/whey; cook fresh or batch and freeze | Freeze cooked pancakes with parchment between servings |
 
 ## Best Prep Day Options
 

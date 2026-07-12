@@ -3,7 +3,7 @@ title: "Fourteen-Day Meal Plan"
 volume: "Volume I — Nutrition"
 chapter: 7
 status: "review"
-last_updated: "2026-07-09"
+last_updated: "2026-07-12"
 author: "The Leimbach Method"
 ---
 
@@ -20,6 +20,7 @@ Provide the first usable Week One meal plan for the rotating 3-to-7 shift athlet
 ## Chapter Contents
 
 - [How to Use Week One](#how-to-use-week-one)
+- [Meal Builder Rule](#meal-builder-rule)
 - [Macro Calculation Assumptions](#macro-calculation-assumptions)
 - [Shift Timing Template](#shift-timing-template)
 - [Week One Overview](#week-one-overview)
@@ -44,6 +45,61 @@ This plan uses the Volume I starting macro targets as the starting point, then k
 | Rest Day | 3,500 kcal, 260 g protein, 320 g carbs, 100 g fat | 3,350-3,650 kcal, 240-280 g protein, 290-350 g carbs, 85-115 g fat |
 
 Use cooked weights for prepared proteins and rice unless a note clearly says raw or dry. Macro numbers are practical planning estimates. Final numbers depend on the exact brands used, especially for granola, peanut butter, BBQ sauce, teriyaki sauce, Alfredo, marinara, pudding mix, tortillas, cheese, and protein powder.
+
+## Meal Builder Rule
+
+The meal plan is a working example, not a prison sentence. The daily target comes first; the meals are modular. Build the day by choosing meals that preserve the same role: wake-up meal, work-shift meal, pre-training meal, post-training meal, bedtime meal, or no-cook backup.
+
+Use this rule before changing the plan:
+
+1. Match the day type first: training, cardio, or rest.
+2. Keep protein steady.
+3. Move carbs toward training and away from rest-day meals.
+4. Keep fats lower before training and higher when the meal is farther from training.
+5. Recalculate the meal from the assumptions table when portions change.
+
+### Breakfast Options - Choose One
+
+Nobody needs to build this method around two dozen eggs. Eggs can be useful, but breakfast should rotate based on shift timing, appetite, prep time, and digestion.
+
+| Option | Best Use | Build | Macro Role |
+|---|---|---|---|
+| Overnight oats | Fast wake-up meal, cooler-friendly | Oats, whey, Greek yogurt, berries or banana, peanut butter if needed | High-carb training or moderate-carb rest option |
+| Greek yogurt bowl | No-cook, low appetite, before sleep | Greek yogurt, whey, berries, granola, pudding mix, peanut butter or jam | High-protein snack or dessert-style meal |
+| Breakfast burrito | Meal prep, long shift, bigger appetite | Tortilla, egg whites, 1-2 whole eggs, potatoes, cheese, salsa, avocado | Higher-calorie work meal |
+| Protein smoothie | Travel, pre-training, hot weather | Whey, oats, banana, berries, water or low-calorie milk | Lower-fat carb/protein option |
+| Steak and eggs | Weekend or home meal | Lean steak, 1-2 whole eggs, potatoes or rice, salsa | Higher-satiety meal; adjust fats carefully |
+| Avocado toast with eggs | Quick home meal | Toast or tortilla, eggs/egg whites, avocado, fruit or potatoes | Moderate-carb, higher-fat option |
+| Cottage cheese bowl | No-cook backup | Cottage cheese or high-protein dairy, fruit, granola, peanut butter if needed | High-protein snack or breakfast swap |
+| Protein pancakes | Training-day option | Protein pancake mix or oats/egg whites/whey, berries, syrup or jam | Higher-carb meal; label-check mix |
+
+### Lunch and Dinner Options - Choose One
+
+Lunch and dinner work the same way. Pick the cuisine that sounds edible, then keep the protein and carb role close to the meal being replaced.
+
+| Option | Best Use | Macro Role |
+|---|---|---|
+| Chicken Alfredo | Post-training or high-calorie dinner | Higher-carb, moderate-fat |
+| Steak and rice bowl | Heavy lifting day | High-protein, high-carb |
+| Salmon bowl | Cardio or rest day | Higher-fat protein meal |
+| Chicken fajitas | Work-shift meal | High-protein, flexible carbs |
+| Hibachi chicken | Prep-friendly bowl | High-carb, lower-fat if sauce is controlled |
+| Korean beef bowl | Higher-satiety work meal | Higher-fat protein; adjust rice as needed |
+| BBQ chicken bowl | Training or cardio day | High-carb, low-to-moderate fat |
+| Turkey chili | Cooler or thermos meal | High-protein, moderate-carb |
+
+### Snacks and Dessert Options
+
+Snacks are not random grazing. Choose one or two to patch the day without blowing up the macro target.
+
+| Category | Options | Use |
+|---|---|---|
+| Protein snacks | Protein shake, Greek yogurt, cottage cheese, beef jerky, protein pudding | Patch protein when a full meal is not practical |
+| Carb snacks | Fruit, rice cakes, oats packet, tortilla, jam or honey | Add carbs around training or long shifts |
+| Higher-fat snacks | Peanut butter sandwich, trail mix, avocado add-on | Add calories away from training |
+| Protein desserts | Cheesecake bowl, protein pudding, frozen yogurt bark, Oreo-style protein fluff, chocolate peanut butter mousse, high-protein ice cream, brownie mug cake | Keep dessert in the system instead of pretending it does not exist |
+
+The meal-builder standard is simple: if the swap helps adherence and the day still lands near the target range, it belongs in the method.
 
 ## Macro Calculation Assumptions
 

@@ -25,7 +25,7 @@ This artifact is a review draft only. It does not mark the manuscript final and 
 |---|---|
 | Build date | 2026-07-12 |
 | Output file | `dist/The-Leimbach-Method-v1.0-review.pdf` |
-| Page count | 140 pages |
+| Page count | 142 pages |
 | Page size | Letter |
 | Source order | `MANUSCRIPT.md`, the generated linked TOC, and Issue 34 front/back matter requirements |
 | Review label | Present on cover and footer |
@@ -40,6 +40,7 @@ This artifact is a review draft only. It does not mark the manuscript final and 
 | Front/back matter placeholders | Present; professionally labeled as review placeholders awaiting approved final copy |
 | Table readability pass | Present; dense tables use dynamic column widths, repeated headers, and alternating row backgrounds |
 | Full manuscript content | Present, with approved placeholders preserved where source copy is not yet present |
+| Modular nutrition meal-builder options | Present; breakfast, lunch, dinner, snack, and dessert option framework added without changing macro targets or meal rows |
 
 ## Rendered Pages Checked
 
@@ -52,6 +53,9 @@ Representative pages were rendered to PNG and visually inspected:
 | 5-10 | Front matter and foundation | Source TOC body pages removed; title, copyright, dedication, foreword placeholders and safety disclaimer remain visible |
 | 24, 27 | Nutrition table pages | Nutrition tables readable with clearer column weighting, repeated headers, and alternating row backgrounds |
 | 40-44, 47, 50, 52, 54, 55, 58 | Meal plan, meal prep, and grocery pages | Dense tables render cleanly without clipping; grocery and meal-plan rows remain readable |
+| 40-41 | Modular meal-builder options | Meal Builder Rule plus breakfast, lunch, dinner, snack, and dessert option tables render cleanly |
+| 48 | Modular meal-builder prep | Prep components and meal role table render cleanly |
+| 54-56 | Meal-builder grocery add-ons | Optional grocery add-ons and adjacent grocery tables render cleanly |
 | 67, 74, 76, 84, 86-89 | Training table pages | Training tables, including the six-week block, render cleanly with wrapped cells and clearer row separation |
 | 101, 104 | Recovery/safety pages | Heat-stress chapter starts on a clean page; safety language remains visible |
 | 108, 110, 116-117 | Tracking dashboard/checklist pages | Bodyweight, training log, dashboard, and worksheet tables render cleanly |
@@ -60,15 +64,15 @@ Representative pages were rendered to PNG and visually inspected:
 
 ## Verification Notes
 
-- `pdfinfo` reported 140 pages, Letter page size, and readable metadata.
-- `pypdf` reported 140 pages, zero blank pages, 144 link annotations, 72 PDF outline entries, and zero unresolved internal TOC link destinations.
+- `pdfinfo` reported 142 pages, Letter page size, and readable metadata.
+- `pypdf` reported 142 pages, zero blank pages, 144 link annotations, 72 PDF outline entries, and zero unresolved internal TOC link destinations.
 - Source validation reported no missing manuscript source files.
 - Duplicate source validation reported no duplicate chapter sources, except intentional extraction from `Publishing/03-front-matter.md` for title/safety and how-to-use sections.
 - The generated linked TOC remains near the front; the source `Publishing/02-table-of-contents.md` body is no longer rendered as duplicate reader-facing TOC pages.
 - Text extraction checks found no raw Markdown link remnants such as `](../` or `Start Here]`.
 - The consolidated `REFERENCES.md` section renders as grouped reference entries rather than a compressed placeholder table.
 - Front/back matter placeholder pages were rendered and visually inspected after placeholder cleanup.
-- Nutrition, meal-plan, grocery, training, tracking dashboard, and exercise-library table pages were rendered and visually inspected after the table readability pass.
+- Nutrition, meal-builder, meal-plan, grocery, training, tracking dashboard, and exercise-library table pages were rendered and visually inspected after the table readability pass.
 - Representative pages were rendered with Poppler `pdftoppm`.
 - `qpdf` was not installed in this environment, so the PDF was validated with `pdfinfo`, `pypdf`, and rendered PNG inspection instead.
 - The generated PDF uses readable repository source paths near chapter starts for review traceability.
