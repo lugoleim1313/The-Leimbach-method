@@ -37,6 +37,7 @@ This artifact is a review draft only. It does not mark the manuscript final and 
 | Duplicate source TOC pages | Removed from the reader-facing PDF body |
 | Raw Markdown link remnants | None detected in PDF text extraction checks |
 | Consolidated references | Present; placeholder reference row replaced with concise grouped references |
+| Front/back matter placeholders | Present; professionally labeled as review placeholders awaiting approved final copy |
 | Full manuscript content | Present, with approved placeholders preserved where source copy is not yet present |
 
 ## Rendered Pages Checked
@@ -47,14 +48,14 @@ Representative pages were rendered to PNG and visually inspected:
 |---|---|---|
 | 1 | Cover/title page | Clean review-cover layout; review-draft label and page footer visible |
 | 2-4 | Linked table of contents | Page numbers present; major sections and chapter entries visible |
-| 5-10 | Front matter and foundation | Source TOC body pages removed; placeholders and safety disclaimer remain visible |
+| 5-10 | Front matter and foundation | Source TOC body pages removed; title, copyright, dedication, foreword placeholders and safety disclaimer remain visible |
 | 24, 27 | Nutrition table pages | Nutrition tables readable; no obvious clipping, overlap, broken glyphs, or black boxes |
 | 40, 44, 50, 55 | Meal plan, meal prep, and grocery pages | Dense tables remain readable enough for review proofing |
 | 67, 74, 76, 84, 89 | Training table pages | Training tables readable with wrapped cells; chapter starts are cleaner |
 | 101, 104 | Recovery/safety pages | Heat-stress chapter starts on a clean page; safety language remains visible |
 | 119-120 | Tracking dashboard/checklist pages | Dashboard and weekly metrics tables readable |
 | 122, 125 | Exercise Library table pages | Substitution and variation tables readable |
-| 137-142 | References, Version History, Final Review Checklist | Consolidated references and final checklist readable; publication placeholders remain clearly labeled |
+| 135-142 | Back matter, references, version history, final checklist | The Promise and About the Author placeholders render cleanly; consolidated references and final checklist remain readable |
 
 ## Verification Notes
 
@@ -65,6 +66,7 @@ Representative pages were rendered to PNG and visually inspected:
 - The generated linked TOC remains near the front; the source `Publishing/02-table-of-contents.md` body is no longer rendered as duplicate reader-facing TOC pages.
 - Text extraction checks found no raw Markdown link remnants such as `](../` or `Start Here]`.
 - The consolidated `REFERENCES.md` section renders as grouped reference entries rather than a compressed placeholder table.
+- Front/back matter placeholder pages were rendered and visually inspected after placeholder cleanup.
 - Representative pages were rendered with Poppler `pdftoppm`.
 - `qpdf` was not installed in this environment, so the PDF was validated with `pdfinfo`, `pypdf`, and rendered PNG inspection instead.
 - The generated PDF uses readable repository source paths near chapter starts for review traceability.

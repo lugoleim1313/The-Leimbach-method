@@ -3,7 +3,7 @@ title: "Front Matter"
 volume: "Publishing"
 chapter: 3
 status: "review"
-last_updated: "2026-07-09"
+last_updated: "2026-07-12"
 author: "The Leimbach Method"
 ---
 
@@ -13,13 +13,15 @@ author: "The Leimbach Method"
 > **Chapter:** 3  
 > **Status:** Draft for review; not final publication guidance
 
-## Title Page Placeholder
+## Title Page Review Placeholder
 
 **The Leimbach Method**  
 Powerbuilding, Nutrition, Recovery, and Performance  
 Review Draft Manuscript
 
-Prepared as a linked publication assembly for review. Final title page copy, edition number, publication date, and release notes should be added only after final approval.
+Prepared as a linked publication assembly for review. Final title page copy, edition number, publication date, and release notes should be added only after author approval.
+
+**Placeholder status:** Final publication copy has not been approved. Do not replace this section with invented copy.
 
 ## Author And Project Attribution
 

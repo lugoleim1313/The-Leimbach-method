@@ -3,7 +3,7 @@ title: "Back Matter"
 volume: "Publishing"
 chapter: 4
 status: "review"
-last_updated: "2026-07-09"
+last_updated: "2026-07-12"
 author: "The Leimbach Method"
 ---
 
@@ -21,29 +21,31 @@ References should remain concise, relevant, and tied to the chapter where they s
 
 This back matter is a placeholder for the final review record. Do not use it to mark the manuscript complete until content, coaching, safety, copy, layout, and PDF proof review have been finished.
 
-## Glossary Placeholder
+Final publication copy for The Promise, About the Author, copyright, dedication, and foreword should be added only after author approval. Do not replace review placeholders with invented copy.
+
+## Glossary Review Placeholder
 
 Add glossary terms after the manuscript order is stable. Potential terms include RPE, autoregulation, deload, readiness, 7-day bodyweight average, waist tracking, heat stress, substitution intent, and weekly review.
 
-## Coach Review Notes Placeholder
+## Coach Review Notes Review Placeholder
 
 Use this section to collect coach review notes for programming logic, exercise substitutions, progression rules, deload triggers, conditioning placement, and readiness modifications.
 
 Pain, injury concerns, persistent joint symptoms, or symptoms that do not improve with normal load management should be reviewed with an appropriate coach and clinician.
 
-## Medical And Safety Review Notes Placeholder
+## Medical And Safety Review Notes Review Placeholder
 
 Use this section to collect safety-review notes for red-flag language, heat-stress cautions, hydration/electrolyte boundaries, supplement cautions, and conservative escalation guidance.
 
 Heat illness symptoms, chest pain, fainting, severe shortness of breath, neurological symptoms, or rapidly worsening symptoms require urgent medical attention.
 
-## Version History Placeholder
+## Version History Review Placeholder
 
 | Version | Date | Status | Notes |
 |---|---|---|---|
 | Review draft | 2026-07-09 | review | Publication assembly, table of contents, and PDF export prep added |
 
-## Appendix List Placeholder
+## Appendix List Review Placeholder
 
 - Implementation user checklists
 - Recovery checklists
