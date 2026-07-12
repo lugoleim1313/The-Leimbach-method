@@ -3,7 +3,7 @@ title: "Costco and H-E-B Grocery Guide"
 volume: "Volume I — Nutrition"
 chapter: 9
 status: "review"
-last_updated: "2026-07-09"
+last_updated: "2026-07-12"
 author: "The Leimbach Method"
 ---
 
@@ -21,6 +21,7 @@ Give a practical shopping system for the Week One meal plan and a two-week hitch
 
 - [Shopping Strategy](#shopping-strategy)
 - [One-Week Grocery List](#one-week-grocery-list)
+- [Meal-Builder Add-Ons](#meal-builder-add-ons)
 - [Two-Week Hitch Grocery List](#two-week-hitch-grocery-list)
 - [Costco List](#costco-list)
 - [H-E-B List](#h-e-b-list)
@@ -94,6 +95,24 @@ This list covers Week One with a small buffer for label differences, cooking los
 | Extras | Honey and jam | 1 bottle/jar each | Shakes and yogurt bowls |
 | Extras | Olive oil | 1 bottle | Cooking and planned fats |
 | Cooler | Ice packs and bottled water | Enough for full shift | Use frozen water bottles as backups |
+
+## Meal-Builder Add-Ons
+
+Use these when rotating breakfast, snacks, and protein desserts. They are optional; buy only the items that match the week's chosen meals.
+
+| Category | Item | Use |
+|---|---|---|
+| Breakfast options | Cottage cheese or high-protein dairy cups | Cottage cheese bowls, no-cook breakfast swaps |
+| Breakfast options | Protein pancake mix or pancake ingredients | Training-day breakfast option |
+| Breakfast options | Bread, English muffins, or extra tortillas | Avocado toast with eggs, breakfast sandwiches, burritos |
+| Breakfast options | Frozen fruit | Smoothies, oats, yogurt bowls |
+| Bowl options | Chicken thigh trimmed, sirloin, canned salmon, tuna pouches | Protein swaps when chicken breast gets old |
+| Lunch/dinner options | Fajita seasoning, Korean-style sauce, hibachi-style sauce, Alfredo, BBQ | Flavor rotation without changing the base macro structure |
+| Snack options | Rice cakes, fruit cups, pretzels, oats packets | Carb patches for training days and long shifts |
+| Snack options | Beef jerky, protein bars, tuna/salmon pouches | Emergency protein when a cooler meal fails |
+| Higher-calorie add-ons | Trail mix, peanut butter, avocado, olive oil | Add calories away from training when needed |
+| Dessert options | Sugar-free or regular pudding mix, cocoa, Greek yogurt, berries, granola | Cheesecake bowls, protein pudding, mousse-style bowls |
+| Dessert options | Oreo-style cookies, frozen yogurt, low-fat whipped topping | Optional protein dessert rotation; portion and label-check |
 
 ## Two-Week Hitch Grocery List
 
