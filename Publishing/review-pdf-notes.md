@@ -25,7 +25,7 @@ This artifact is a review draft only. It does not mark the manuscript final and 
 |---|---|
 | Build date | 2026-07-12 |
 | Output file | `dist/The-Leimbach-Method-v1.0-review.pdf` |
-| Page count | 141 pages |
+| Page count | 142 pages |
 | Page size | Letter |
 | Source order | `MANUSCRIPT.md`, the generated linked TOC, and Issue 34 front/back matter requirements |
 | Review label | Present on cover and footer |
@@ -36,6 +36,7 @@ This artifact is a review draft only. It does not mark the manuscript final and 
 | Blank pages | None detected |
 | Duplicate source TOC pages | Removed from the reader-facing PDF body |
 | Raw Markdown link remnants | None detected in PDF text extraction checks |
+| Consolidated references | Present; placeholder reference row replaced with concise grouped references |
 | Full manuscript content | Present, with approved placeholders preserved where source copy is not yet present |
 
 ## Rendered Pages Checked
@@ -53,16 +54,17 @@ Representative pages were rendered to PNG and visually inspected:
 | 101, 104 | Recovery/safety pages | Heat-stress chapter starts on a clean page; safety language remains visible |
 | 119-120 | Tracking dashboard/checklist pages | Dashboard and weekly metrics tables readable |
 | 122, 125 | Exercise Library table pages | Substitution and variation tables readable |
-| 137-141 | References, Version History, Final Review Checklist | Back matter and final checklist readable; placeholders remain clearly labeled |
+| 137-142 | References, Version History, Final Review Checklist | Consolidated references and final checklist readable; publication placeholders remain clearly labeled |
 
 ## Verification Notes
 
-- `pdfinfo` reported 141 pages, Letter page size, and readable metadata.
-- `pypdf` reported 141 pages, zero blank pages, 144 link annotations, 72 PDF outline entries, and zero unresolved internal TOC link destinations.
+- `pdfinfo` reported 142 pages, Letter page size, and readable metadata.
+- `pypdf` reported 142 pages, zero blank pages, 144 link annotations, 72 PDF outline entries, and zero unresolved internal TOC link destinations.
 - Source validation reported no missing manuscript source files.
 - Duplicate source validation reported no duplicate chapter sources, except intentional extraction from `Publishing/03-front-matter.md` for title/safety and how-to-use sections.
 - The generated linked TOC remains near the front; the source `Publishing/02-table-of-contents.md` body is no longer rendered as duplicate reader-facing TOC pages.
 - Text extraction checks found no raw Markdown link remnants such as `](../` or `Start Here]`.
+- The consolidated `REFERENCES.md` section renders as grouped reference entries rather than a compressed placeholder table.
 - Representative pages were rendered with Poppler `pdftoppm`.
 - `qpdf` was not installed in this environment, so the PDF was validated with `pdfinfo`, `pypdf`, and rendered PNG inspection instead.
 - The generated PDF uses readable repository source paths near chapter starts for review traceability.
@@ -73,7 +75,7 @@ Representative pages were rendered to PNG and visually inspected:
 
 - Copyright, dedication, foreword, The Promise, and About the Author remain placeholder sections because approved manuscript copy is not present in the repository.
 - Very wide source tables may still need final layout tuning before publication.
-- References remain broad in some chapters and should be proofed before final publication.
+- Chapter-level reference notes remain broad in some chapters and should be proofed against the consolidated reference list before final publication.
 - Final cover design, edition metadata, release notes, and final PDF export settings remain future publication work.
 
 ## Safety Review Reminder
