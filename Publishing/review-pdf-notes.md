@@ -62,11 +62,13 @@ Representative pages were rendered to PNG and visually inspected:
 | 108, 110, 116-117 | Tracking dashboard/checklist pages | Bodyweight, training log, dashboard, and worksheet tables render cleanly |
 | 119, 121, 124, 131 | Exercise Library table pages | Substitution and variation tables render cleanly |
 | 135-140 | Back matter, references, version history, final checklist | The Promise and About the Author review copy render cleanly; consolidated references and final checklist remain readable |
+| 1-8, 40, 135-141 | Issue #52 post-merge proof pages | Renamed cover, TOC, safety disclaimer, front matter review copy, meal-builder page, back matter, references, version history, and final checklist render cleanly |
 
 ## Verification Notes
 
 - Issue #48 proof pass rebuilt the PDF from merged `main` after the modular nutrition meal-builder update and rechecked the new nutrition pages.
 - Issue #50 title/front-back matter pass updated the review title to `Mika’s Method to the Madness`, renamed the PDF artifact, and replaced explicit publication placeholders with drafted review copy.
+- Issue #52 post-merge proof pass rebuilt the renamed PDF from merged `main` and rechecked metadata, TOC, bookmarks, links, page numbers, front matter, meal-builder content, back matter, references, version history, and final checklist pages.
 - `pdfinfo` reported 142 pages, Letter page size, and readable metadata.
 - `pypdf` reported 142 pages, zero blank pages, 144 link annotations, 72 PDF outline entries, and zero unresolved internal TOC link destinations.
 - Source validation reported no missing manuscript source files.
@@ -76,6 +78,7 @@ Representative pages were rendered to PNG and visually inspected:
 - The consolidated `REFERENCES.md` section renders as grouped reference entries rather than a compressed placeholder table.
 - Front/back matter review-copy pages were rendered and visually inspected after the title and placeholder-copy pass.
 - Issue #48 rendered and visually inspected cover page 1, TOC page 4, safety disclaimer page 5, meal-builder pages 40-41, modular prep page 48, grocery add-on page 55, and final checklist page 141.
+- Issue #52 rendered and visually inspected cover page 1, TOC page 2, safety disclaimer page 5, copyright page 6, dedication page 7, foreword page 8, meal-builder page 40, The Promise page 135, About the Author page 136, references page 137, version history page 139, and final checklist page 141.
 - Nutrition, meal-builder, meal-plan, grocery, training, tracking dashboard, and exercise-library table pages were rendered and visually inspected after the table readability pass.
 - Representative pages were rendered with Poppler `pdftoppm`.
 - `qpdf` was not installed in this environment, so the PDF was validated with `pdfinfo`, `pypdf`, and rendered PNG inspection instead.
