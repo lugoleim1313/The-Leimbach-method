@@ -4,7 +4,7 @@ volume: "Publishing"
 chapter: 1
 status: "review"
 last_updated: "2026-07-09"
-author: "The Leimbach Method"
+author: "Mika Leimbach"
 ---
 
 # Publication Overview
@@ -15,7 +15,7 @@ author: "The Leimbach Method"
 
 ## Purpose And Scope
 
-This chapter defines the publication assembly layer for The Leimbach Method. It explains how the existing review-draft chapters are organized into a manuscript, what still needs review, and what should wait for a later PDF build issue.
+This chapter defines the publication assembly layer for *Mika’s Method to the Madness*. It explains how the existing review-draft chapters are organized into a manuscript, what still needs review, and what should wait for a later PDF build issue.
 
 This layer does not finalize any chapter, does not replace coaching or clinical review, and does not create the final PDF.
 

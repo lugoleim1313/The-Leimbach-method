@@ -34,7 +34,11 @@ from reportlab.platypus.tableofcontents import TableOfContents
 
 
 ROOT = Path(__file__).resolve().parents[1]
-OUT = ROOT / "dist" / "The-Leimbach-Method-v1.0-review.pdf"
+BOOK_TITLE = "Mika’s Method to the Madness"
+BOOK_SUBTITLE = "Powerbuilding, Nutrition, Recovery, and Performance"
+REVIEW_LABEL = "Version 1.0 Review Manuscript"
+
+OUT = ROOT / "dist" / "Mikas-Method-to-the-Madness-v1.0-review.pdf"
 BUILD_NOTES = ROOT / "Publishing" / "review-pdf-notes.md"
 
 
@@ -47,11 +51,11 @@ class Chapter:
 
 
 CHAPTERS = [
-    Chapter("Front Matter", "Cover", None, "Review placeholder. Final cover artwork and final cover copy are not present in the repository."),
+    Chapter("Front Matter", "Cover", None, "Generated text cover for review. Final cover artwork is not present in the repository."),
     Chapter("Front Matter", "Title Page", ROOT / "Publishing/03-front-matter.md"),
-    Chapter("Front Matter", "Copyright Page", None, "Review placeholder. Approved copyright copy is not present in the repository."),
-    Chapter("Front Matter", "Dedication", None, "Review placeholder. Approved dedication copy is not present in the repository."),
-    Chapter("Front Matter", "Foreword", None, "Review placeholder. Approved foreword copy is not present in the repository."),
+    Chapter("Front Matter", "Copyright Page", ROOT / "Publishing/03-front-matter.md"),
+    Chapter("Front Matter", "Dedication", ROOT / "Publishing/03-front-matter.md"),
+    Chapter("Front Matter", "Foreword", ROOT / "Publishing/03-front-matter.md"),
     Chapter("Foundation", "The Leimbach Philosophy", ROOT / "README.md"),
     Chapter("Foundation", "How to Use This Manual", ROOT / "Publishing/03-front-matter.md"),
     Chapter("Implementation Guide", "Start Here", ROOT / "Implementation/01-start-here.md"),
@@ -104,8 +108,8 @@ CHAPTERS = [
     Chapter("Exercise Library", "Accessories", ROOT / "Exercise-Library/05-accessories.md"),
     Chapter("Exercise Library", "Core and Conditioning", ROOT / "Exercise-Library/06-core-conditioning.md"),
     Chapter("Exercise Library", "Substitution Rules", ROOT / "Exercise-Library/07-substitution-rules.md"),
-    Chapter("Back Matter", "The Promise", None, "Review placeholder. Approved promise copy is not present in the repository."),
-    Chapter("Back Matter", "About the Author", None, "Review placeholder. Approved author bio is not present in the repository."),
+    Chapter("Back Matter", "The Promise", ROOT / "Publishing/04-back-matter.md"),
+    Chapter("Back Matter", "About the Author", ROOT / "Publishing/04-back-matter.md"),
     Chapter("Back Matter", "References", ROOT / "REFERENCES.md"),
     Chapter("Back Matter", "Version History", ROOT / "Publishing/04-back-matter.md"),
     Chapter("Back Matter", "PDF Export Checklist", ROOT / "Publishing/05-pdf-export-checklist.md"),
@@ -131,7 +135,7 @@ def clean_inline(text: str) -> str:
     text = re.sub(r"!\[([^\]]*)\]\(([^)]+)\)", r"[Image: \1]", text)
     text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r"\1 (\2)", text)
     text = re.sub(r"`([^`]+)`", r"\1", text)
-    text = text.replace("**", "").replace("__", "")
+    text = text.replace("**", "").replace("__", "").replace("*", "")
     text = text.replace("–", "-").replace("—", "-")
     text = text.replace("✓", "[x]")
     return html.escape(text, quote=False)
@@ -160,28 +164,8 @@ STYLES = styles()
 
 PLACEHOLDER_INSTRUCTIONS = {
     "Cover": [
-        "Final cover artwork, final subtitle treatment, edition metadata, and any final cover copy still require author approval.",
-        "Do not generate artwork or invent final cover language in this review build.",
-    ],
-    "Copyright Page": [
-        "Approved copyright, rights, permissions, ISBN, disclaimer, and edition language are not present yet.",
-        "Do not insert legal or publication copy until the author supplies or approves it.",
-    ],
-    "Dedication": [
-        "Approved dedication copy is not present yet.",
-        "Leave this section as a placeholder until the author supplies final wording.",
-    ],
-    "Foreword": [
-        "Approved foreword copy is not present yet.",
-        "Leave this section as a placeholder until final foreword text is supplied and approved.",
-    ],
-    "The Promise": [
-        "Approved closing promise copy is not present yet.",
-        "Leave this section as a placeholder until the author supplies final wording.",
-    ],
-    "About the Author": [
-        "Approved author biography copy is not present yet.",
-        "Leave this section as a placeholder until the author supplies final wording.",
+        "Final cover artwork, subtitle treatment, edition metadata, and final cover design still require author approval.",
+        "This review build uses a text cover only.",
     ],
 }
 
@@ -195,14 +179,14 @@ class ReviewDoc(BaseDocTemplate):
             rightMargin=0.58 * inch,
             topMargin=0.62 * inch,
             bottomMargin=0.58 * inch,
-            title="The Leimbach Method v1.0 Review",
-            author="The Leimbach Method",
+            title=f"{BOOK_TITLE} v1.0 Review",
+            author="Mika Leimbach",
             subject="Version 1.0 review manuscript",
         )
         body = Frame(self.leftMargin, self.bottomMargin, self.width, self.height, id="body")
         self.addPageTemplates([PageTemplate(id="body", frames=[body], onPage=self.draw_page)])
         self._heading_count = 0
-        self._running = "The Leimbach Method v1.0 Review"
+        self._running = f"{BOOK_TITLE} v1.0 Review"
 
     def afterFlowable(self, flowable):
         if hasattr(flowable, "_bookmark_title"):
@@ -222,7 +206,7 @@ class ReviewDoc(BaseDocTemplate):
         canvas.line(doc.leftMargin, 0.55 * inch, doc.pagesize[0] - doc.rightMargin, 0.55 * inch)
         canvas.setFont("Times-Roman", 8)
         canvas.setFillColor(colors.HexColor("#555555"))
-        canvas.drawString(doc.leftMargin, 0.38 * inch, "The Leimbach Method v1.0 Review")
+        canvas.drawString(doc.leftMargin, 0.38 * inch, f"{BOOK_TITLE} v1.0 Review")
         canvas.drawRightString(doc.pagesize[0] - doc.rightMargin, 0.38 * inch, str(doc.page))
         canvas.restoreState()
 
@@ -389,14 +373,24 @@ def chapter_story(chapter: Chapter, previous_section: str | None) -> list:
         return flow
     text = chapter.path.read_text()
     if chapter.title == "Title Page":
-        flow.extend(parse_markdown(text, ("## Title Page Review Placeholder", "## Author And Project Attribution")))
+        flow.extend(parse_markdown(text, ("## Title Page", "## Copyright Page")))
         flow.extend(parse_markdown(text, ("## Safety Disclaimer", "## How To Use This Manual")))
+    elif chapter.title == "Copyright Page":
+        flow.extend(parse_markdown(text, ("## Copyright Page", "## Dedication")))
+    elif chapter.title == "Dedication":
+        flow.extend(parse_markdown(text, ("## Dedication", "## Foreword")))
+    elif chapter.title == "Foreword":
+        flow.extend(parse_markdown(text, ("## Foreword", "## Author And Project Attribution")))
     elif chapter.title == "How to Use This Manual":
         flow.extend(parse_markdown(text, ("## How To Use This Manual", "## Who This Manual Is For")))
     elif chapter.title == "The Leimbach Philosophy":
         flow.extend(parse_markdown(text, ("## Who This Method Is For", "## Main Sections")))
     elif chapter.title == "Version History":
         flow.extend(parse_markdown(text, ("## Version History Review Placeholder", "## Appendix List Review Placeholder")))
+    elif chapter.title == "The Promise":
+        flow.extend(parse_markdown(text, ("## The Promise", "## About the Author")))
+    elif chapter.title == "About the Author":
+        flow.extend(parse_markdown(text, ("## About the Author", "## Reference Note")))
     else:
         flow.extend(parse_markdown(text))
     return flow
@@ -405,16 +399,16 @@ def chapter_story(chapter: Chapter, previous_section: str | None) -> list:
 def cover_story() -> list:
     return [
         Spacer(1, 1.35 * inch),
-        Paragraph("COVER REVIEW PLACEHOLDER", STYLES["CoverSub"]),
+        Paragraph("REVIEW MANUSCRIPT", STYLES["CoverSub"]),
         Spacer(1, 0.35 * inch),
-        Paragraph("THE LEIMBACH METHOD", STYLES["CoverTitle"]),
-        Paragraph("Powerbuilding, Nutrition, Recovery, and Performance", STYLES["CoverSub"]),
+        Paragraph(BOOK_TITLE.upper(), STYLES["CoverTitle"]),
+        Paragraph(BOOK_SUBTITLE, STYLES["CoverSub"]),
         Spacer(1, 0.6 * inch),
-        Paragraph("Version 1.0 Review Manuscript", STYLES["CoverSub"]),
+        Paragraph(REVIEW_LABEL, STYLES["CoverSub"]),
         Paragraph(f"Generated {date.today().isoformat()}", STYLES["CoverSub"]),
         Spacer(1, 0.8 * inch),
         Paragraph("Review draft - not final publication copy", STYLES["CoverSub"]),
-        Paragraph("Final cover artwork and final cover copy pending author approval", STYLES["CoverSub"]),
+        Paragraph("Final cover artwork pending author approval", STYLES["CoverSub"]),
         PageBreak(),
     ]
 

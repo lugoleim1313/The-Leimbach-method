@@ -3,7 +3,7 @@ title: "Build Review PDF"
 volume: "Publishing"
 status: "review"
 last_updated: "2026-07-12"
-author: "The Leimbach Method"
+author: "Mika Leimbach"
 ---
 
 # Build Review PDF
@@ -13,13 +13,13 @@ author: "The Leimbach Method"
 
 ## Purpose
 
-This file documents the Version 1.0 review-manuscript PDF build for The Leimbach Method. The output is a proofing artifact, not a final publication PDF. All source chapters remain in `review` status.
+This file documents the Version 1.0 review-manuscript PDF build for *Mika’s Method to the Madness*. The output is a proofing artifact, not a final publication PDF. All source chapters remain in `review` status.
 
 ## Output
 
 Version 1.0 review PDF output:
 
-- [../dist/The-Leimbach-Method-v1.0-review.pdf](../dist/The-Leimbach-Method-v1.0-review.pdf)
+- [../dist/Mikas-Method-to-the-Madness-v1.0-review.pdf](../dist/Mikas-Method-to-the-Madness-v1.0-review.pdf)
 
 The previous compact proof file remains a formatting proof only:
 
@@ -39,15 +39,15 @@ The script validates linked source files, assembles the manuscript, creates the 
 
 ## Source Order
 
-The Version 1.0 review PDF follows [../MANUSCRIPT.md](../MANUSCRIPT.md) and [02-table-of-contents.md](02-table-of-contents.md) for manuscript order, with Issue 34 publication-front-matter sections represented from existing repository placeholders where approved copy is not yet present.
+The Version 1.0 review PDF follows [../MANUSCRIPT.md](../MANUSCRIPT.md) and [02-table-of-contents.md](02-table-of-contents.md) for manuscript order, with front/back matter represented by drafted review copy where final publication approval is still pending.
 
 The generated review PDF includes:
 
 1. Cover
 2. Title page
-3. Copyright placeholder
-4. Dedication placeholder
-5. Foreword placeholder
+3. Copyright page review copy
+4. Dedication review copy
+5. Foreword review copy
 6. Linked table of contents
 7. The Leimbach Philosophy
 8. How to Use This Manual
@@ -57,8 +57,8 @@ The generated review PDF includes:
 12. Volume III - Recovery
 13. Volume IV - Tracking
 14. Exercise Library
-15. The Promise placeholder
-16. About the Author placeholder
+15. The Promise review copy
+16. About the Author review copy
 17. References
 18. Version History
 19. PDF export checklist
@@ -73,7 +73,7 @@ The PDF includes:
 - Review-draft cover
 - Generated date
 - Conservative safety disclaimer near the front
-- Clearly labeled review placeholders for missing approved front/back matter copy
+- Drafted review copy for front/back matter sections, with final status still withheld
 - Page numbers
 - Review-draft footer
 - Source paths for included chapters
@@ -91,7 +91,7 @@ Heat illness symptoms, chest pain, fainting, severe shortness of breath, neurolo
 
 ## Build Checks Before Review
 
-- [x] Confirmed output path is `dist/The-Leimbach-Method-v1.0-review.pdf`.
+- [x] Confirmed output path is `dist/Mikas-Method-to-the-Madness-v1.0-review.pdf`.
 - [x] Confirmed the file is a review PDF, not a final PDF.
 - [x] Confirmed source chapters remain in `review` status.
 - [x] Confirmed no linked manuscript source files are missing.
@@ -105,7 +105,7 @@ Heat illness symptoms, chest pain, fainting, severe shortness of breath, neurolo
 - [x] Confirmed no blank pages were detected.
 - [x] Confirmed the duplicate source TOC pages are not rendered in the reader-facing PDF body.
 - [x] Confirmed raw Markdown link remnants are not visible in extracted PDF text.
-- [x] Confirmed front/back matter placeholders render cleanly and remain labeled as review placeholders.
+- [x] Confirmed front/back matter review copy renders cleanly and remains labeled as review draft material.
 
 ## Not Final
 

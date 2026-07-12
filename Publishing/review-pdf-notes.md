@@ -3,7 +3,7 @@ title: "Review PDF Notes"
 volume: "Publishing"
 status: "review"
 last_updated: "2026-07-12"
-author: "The Leimbach Method"
+author: "Mika Leimbach"
 ---
 
 # Review PDF Notes
@@ -15,7 +15,7 @@ author: "The Leimbach Method"
 
 Generated Version 1.0 review PDF:
 
-- [../dist/The-Leimbach-Method-v1.0-review.pdf](../dist/The-Leimbach-Method-v1.0-review.pdf)
+- [../dist/Mikas-Method-to-the-Madness-v1.0-review.pdf](../dist/Mikas-Method-to-the-Madness-v1.0-review.pdf)
 
 This artifact is a review draft only. It does not mark the manuscript final and does not change any chapter status to `final`.
 
@@ -24,7 +24,7 @@ This artifact is a review draft only. It does not mark the manuscript final and 
 | Item | Result |
 |---|---|
 | Build date | 2026-07-12 |
-| Output file | `dist/The-Leimbach-Method-v1.0-review.pdf` |
+| Output file | `dist/Mikas-Method-to-the-Madness-v1.0-review.pdf` |
 | Page count | 142 pages |
 | Page size | Letter |
 | Source order | `MANUSCRIPT.md`, the generated linked TOC, and Issue 34 front/back matter requirements |
@@ -37,9 +37,10 @@ This artifact is a review draft only. It does not mark the manuscript final and 
 | Duplicate source TOC pages | Removed from the reader-facing PDF body |
 | Raw Markdown link remnants | None detected in PDF text extraction checks |
 | Consolidated references | Present; placeholder reference row replaced with concise grouped references |
-| Front/back matter placeholders | Present; professionally labeled as review placeholders awaiting approved final copy |
+| Front/back matter review copy | Present; copyright, dedication, foreword, The Promise, and About the Author drafted for review |
 | Table readability pass | Present; dense tables use dynamic column widths, repeated headers, and alternating row backgrounds |
-| Full manuscript content | Present, with approved placeholders preserved where source copy is not yet present |
+| Full manuscript content | Present, with final publication status withheld |
+| Updated manuscript title | Present; cover, metadata, title page, and running footer use `Mika’s Method to the Madness` |
 | Modular nutrition meal-builder options | Present; breakfast, lunch, dinner, snack, and dessert option framework added without changing macro targets or meal rows |
 
 ## Rendered Pages Checked
@@ -48,9 +49,9 @@ Representative pages were rendered to PNG and visually inspected:
 
 | Page | Area Checked | Result |
 |---|---|---|
-| 1 | Cover/title page | Clean review-cover layout; review-draft label and page footer visible |
+| 1 | Cover/title page | New title renders cleanly; review-draft label and page footer visible |
 | 2-4 | Linked table of contents | Page numbers present; major sections and chapter entries visible |
-| 5-10 | Front matter and foundation | Source TOC body pages removed; title, copyright, dedication, foreword placeholders and safety disclaimer remain visible |
+| 5-12 | Front matter and foundation | Source TOC body pages removed; title, copyright, dedication, foreword review copy and safety disclaimer remain visible |
 | 24, 27 | Nutrition table pages | Nutrition tables readable with clearer column weighting, repeated headers, and alternating row backgrounds |
 | 40-44, 47, 50, 52, 54, 55, 58 | Meal plan, meal prep, and grocery pages | Dense tables render cleanly without clipping; grocery and meal-plan rows remain readable |
 | 40-41 | Modular meal-builder options | Meal Builder Rule plus breakfast, lunch, dinner, snack, and dessert option tables render cleanly |
@@ -60,11 +61,12 @@ Representative pages were rendered to PNG and visually inspected:
 | 101, 104 | Recovery/safety pages | Heat-stress chapter starts on a clean page; safety language remains visible |
 | 108, 110, 116-117 | Tracking dashboard/checklist pages | Bodyweight, training log, dashboard, and worksheet tables render cleanly |
 | 119, 121, 124, 131 | Exercise Library table pages | Substitution and variation tables render cleanly |
-| 135-140 | Back matter, references, version history, final checklist | The Promise and About the Author placeholders render cleanly; consolidated references and final checklist remain readable |
+| 135-140 | Back matter, references, version history, final checklist | The Promise and About the Author review copy render cleanly; consolidated references and final checklist remain readable |
 
 ## Verification Notes
 
 - Issue #48 proof pass rebuilt the PDF from merged `main` after the modular nutrition meal-builder update and rechecked the new nutrition pages.
+- Issue #50 title/front-back matter pass updated the review title to `Mika’s Method to the Madness`, renamed the PDF artifact, and replaced explicit publication placeholders with drafted review copy.
 - `pdfinfo` reported 142 pages, Letter page size, and readable metadata.
 - `pypdf` reported 142 pages, zero blank pages, 144 link annotations, 72 PDF outline entries, and zero unresolved internal TOC link destinations.
 - Source validation reported no missing manuscript source files.
@@ -72,7 +74,7 @@ Representative pages were rendered to PNG and visually inspected:
 - The generated linked TOC remains near the front; the source `Publishing/02-table-of-contents.md` body is no longer rendered as duplicate reader-facing TOC pages.
 - Text extraction checks found no raw Markdown link remnants such as `](../` or `Start Here]`.
 - The consolidated `REFERENCES.md` section renders as grouped reference entries rather than a compressed placeholder table.
-- Front/back matter placeholder pages were rendered and visually inspected after placeholder cleanup.
+- Front/back matter review-copy pages were rendered and visually inspected after the title and placeholder-copy pass.
 - Issue #48 rendered and visually inspected cover page 1, TOC page 4, safety disclaimer page 5, meal-builder pages 40-41, modular prep page 48, grocery add-on page 55, and final checklist page 141.
 - Nutrition, meal-builder, meal-plan, grocery, training, tracking dashboard, and exercise-library table pages were rendered and visually inspected after the table readability pass.
 - Representative pages were rendered with Poppler `pdftoppm`.
@@ -83,7 +85,7 @@ Representative pages were rendered to PNG and visually inspected:
 
 ## Known Limitations For Later Proofing
 
-- Copyright, dedication, foreword, The Promise, and About the Author remain placeholder sections because approved manuscript copy is not present in the repository.
+- Copyright, dedication, foreword, The Promise, and About the Author now contain drafted review copy and still require author approval before final publication status.
 - Very wide source tables may still need final layout tuning before publication.
 - Chapter-level reference notes remain broad in some chapters and should be proofed against the consolidated reference list before final publication.
 - Final cover design, edition metadata, release notes, and final PDF export settings remain future publication work.

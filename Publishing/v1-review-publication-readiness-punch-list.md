@@ -15,7 +15,7 @@ author: "The Leimbach Method"
 
 | Item | Result |
 |---|---|
-| PDF | `dist/The-Leimbach-Method-v1.0-review.pdf` |
+| PDF | `dist/Mikas-Method-to-the-Madness-v1.0-review.pdf` |
 | Review date | 2026-07-12 |
 | Page count | 117 pages |
 | Page size | Letter |
@@ -46,8 +46,8 @@ The table readability concerns identified in P-008, P-009, P-010, P-012, and P-0
 | ID | Area | Finding | Required Fix | Priority |
 |---|---|---|---|---|
 | P-001 | Cover / title page | The cover is clean but remains a generated review cover with no final cover art, subtitle system, edition metadata, or publication identity beyond the review label. | Create an approved final cover/title-page system in a later publication issue. Keep this PDF labeled as review until then. | high |
-| P-002 | Front matter placeholders | Copyright, dedication, and foreword are explicit placeholders. | Replace only when approved final copy exists. Do not invent final copy. | blocker |
-| P-003 | Back matter placeholders | The Promise and About the Author are explicit placeholders. | Replace only when approved final copy exists. Do not invent final copy. | blocker |
+| P-002 | Front matter review copy | Copyright, dedication, and foreword now have drafted review copy, but final author approval and final metadata are still pending. | Approve, revise, or replace the drafted review copy before final publication. | high |
+| P-003 | Back matter review copy | The Promise and About the Author now have drafted review copy, but final author approval is still pending. | Approve, revise, or replace the drafted review copy before final publication. | high |
 | P-004 | Table of contents duplication | Pages 2-4 contain the generated linked TOC, then pages 5-7 render the source `Publishing/02-table-of-contents.md` as manuscript content. This creates a duplicate TOC experience and exposes raw Markdown-style links. | Keep the generated linked TOC; remove or convert the source TOC chapter from the reader-facing PDF flow. | high |
 | P-005 | Raw Markdown link remnants | Pages 5-7 show link text such as `Start Here](../Implementation/01-start-here.md)` without the opening bracket. | Improve Markdown link rendering or exclude the source TOC content from the PDF body. | high |
 | P-006 | Chapter title pages | Major volume starts are visible, but many individual chapters begin immediately after previous chapter content rather than on clean chapter title pages. | Add consistent chapter-opening rules for publication export, especially for new volume starts and major back matter sections. | medium |
@@ -70,7 +70,7 @@ The table readability concerns identified in P-008, P-009, P-010, P-012, and P-0
 
 | Check | Result |
 |---|---|
-| Cover/front matter placeholders | Present; required placeholders are clearly labeled |
+| Cover/front matter review copy | Present; cover remains text-only and front matter contains drafted review copy |
 | TOC links and page numbers | Generated TOC present; 146 internal links resolved to valid pages |
 | PDF bookmarks | Present; 73 outline entries detected |
 | Page breaks | Mostly usable for review; chapter-start and safety-section breaks need final layout tuning |
@@ -99,4 +99,4 @@ The table readability concerns identified in P-008, P-009, P-010, P-012, and P-0
 - Do not change nutrition, training, recovery, tracking, or philosophy guidance.
 - Do not remove safety language.
 - Do not mark any chapter or version as final.
-- Do not replace placeholders with invented final copy.
+- Do not mark drafted review copy as final until author approval and final proofing are complete.

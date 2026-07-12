@@ -4,7 +4,7 @@ volume: "Publishing"
 chapter: 3
 status: "review"
 last_updated: "2026-07-12"
-author: "The Leimbach Method"
+author: "Mika Leimbach"
 ---
 
 # Front Matter
@@ -13,19 +13,51 @@ author: "The Leimbach Method"
 > **Chapter:** 3  
 > **Status:** Draft for review; not final publication guidance
 
-## Title Page Review Placeholder
+## Title Page
 
-**The Leimbach Method**  
-Powerbuilding, Nutrition, Recovery, and Performance  
-Review Draft Manuscript
+**Mika’s Method to the Madness**
+Powerbuilding, Nutrition, Recovery, and Performance
+Version 1.0 Review Manuscript
 
-Prepared as a linked publication assembly for review. Final title page copy, edition number, publication date, and release notes should be added only after author approval.
+Written by Mika Leimbach
 
-**Placeholder status:** Final publication copy has not been approved. Do not replace this section with invented copy.
+This review manuscript is built for author, coaching, safety, copy, layout, and PDF proof review before any final publication decision. It is not final publication copy.
+
+## Copyright Page
+
+Copyright (c) 2026 Mika Leimbach. All rights reserved.
+
+This is a Version 1.0 review manuscript of *Mika’s Method to the Madness*. It is provided for review, proofing, and author approval. No part of this review manuscript should be reproduced, distributed, sold, or represented as final publication copy without written permission from the author.
+
+This manual is an educational performance system. It is not medical advice, clinical care, diagnosis, treatment, or prevention of disease or injury. Training, nutrition, hydration, supplements, recovery, and heat-stress decisions should be individualized and reviewed with appropriate professionals when needed.
+
+Names, examples, checklists, tables, and protocols are included for manuscript review. Final edition metadata, ISBN, publisher information, and release notes remain pending until a later final publication process.
+
+## Dedication
+
+For the people who keep showing up when the schedule is ugly, the work is heavy, and nobody is watching.
+
+For the ones building a body, a life, and a standard at the same time.
+
+And for every worker, parent, athlete, and regular person who needed a method that could survive real life.
+
+## Foreword
+
+This manual was not built for perfect conditions.
+
+It was built around long shifts, hot days, inconsistent sleep, heavy training, family pressure, missed meals, sore joints, and the kind of weeks where motivation is not enough. The goal is not to pretend life gets easier. The goal is to build a system that still works when it does not.
+
+The method is simple on purpose: train with intent, eat with structure, recover like it matters, track the few numbers that tell the truth, and adjust before small problems become big ones.
+
+That is the standard behind *Mika’s Method to the Madness*. It is not a fantasy plan for someone with unlimited time. It is a practical manual for building strength, size, conditioning, and consistency while living a demanding life.
+
+This review draft should still be challenged. The programming should be reviewed. The safety language should be reviewed. The nutrition should be checked for practicality. The PDF should be proofed before publication. Nothing here becomes final because it looks finished; it becomes final only after it holds up under review.
+
+Use it that way.
 
 ## Author And Project Attribution
 
-Author/project attribution: The Leimbach Method. This manual is written as a personal performance system for Mika Leimbach and should not be presented as medical, clinical, or credentialed professional guidance unless later reviewed and approved by qualified professionals.
+Author/project attribution: Mika Leimbach. This manual is written as a personal performance system for Mika Leimbach and should not be presented as medical, clinical, or credentialed professional guidance unless later reviewed and approved by qualified professionals.
 
 ## Review Draft Notice
 
