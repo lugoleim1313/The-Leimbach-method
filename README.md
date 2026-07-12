@@ -1,15 +1,15 @@
 ---
-title: "The Leimbach Method"
+title: "Mika’s Method to the Madness"
 subtitle: "Powerbuilding, Nutrition, Recovery, and Performance"
 status: "review draft"
 last_updated: "2026-07-09"
 ---
 
-# The Leimbach Method
+# Mika’s Method to the Madness
 
 **A personal performance manual for Mika Leimbach**
 
-The Leimbach Method is a review-draft performance manual that combines implementation guidance, nutrition, strength training, recovery, tracking, an exercise library, and publication-prep documents into one source repository. The project is maintained in Markdown so chapters can be reviewed, revised, linked, version-controlled, and later exported to PDF.
+Mika’s Method to the Madness is a review-draft performance manual that combines implementation guidance, nutrition, strength training, recovery, tracking, an exercise library, and publication-prep documents into one source repository. The project is maintained in Markdown so chapters can be reviewed, revised, linked, version-controlled, and later exported to PDF.
 
 **Athlete profile:** 33 years old, 6'4", approximately 260 lb  
 **Primary objective:** Build toward a lean, strong 275 lb while improving powerlifting performance, conditioning, recovery, and long-term health.

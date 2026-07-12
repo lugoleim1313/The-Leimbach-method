@@ -2,17 +2,17 @@
 title: "Manuscript Assembly"
 status: "review"
 last_updated: "2026-07-09"
-author: "The Leimbach Method"
+author: "Mika Leimbach"
 ---
 
-# The Leimbach Method
+# Mika’s Method to the Madness
 
-## Title Page Placeholder
+## Title Page
 
-**The Leimbach Method**  
-Powerbuilding, Nutrition, Recovery, and Performance  
-Review manuscript assembly  
-Author/project attribution: The Leimbach Method
+**Mika’s Method to the Madness**
+Powerbuilding, Nutrition, Recovery, and Performance
+Review manuscript assembly
+Author/project attribution: Mika Leimbach
 
 ## Safety Disclaimer Placeholder
 
@@ -120,4 +120,4 @@ All linked chapters remain in `review` status unless a future publication issue 
 
 ## PDF Export Readiness Notes
 
-This file is a linked assembly index for review. A later PDF build should confirm chapter order, status fields, safety disclaimer placement, references, tables, page breaks, links, approved placeholders, and layout before generating a final PDF.
+This file is a linked assembly index for review. A later PDF build should confirm chapter order, status fields, safety disclaimer placement, references, tables, page breaks, links, approved review copy, and layout before generating a final PDF.
