@@ -51,7 +51,6 @@ CHAPTERS = [
     Chapter("Front Matter", "Copyright Page", None, "Placeholder only. Approved copyright copy is not present in the repository."),
     Chapter("Front Matter", "Dedication", None, "Placeholder only. Approved dedication copy is not present in the repository."),
     Chapter("Front Matter", "Foreword", None, "Placeholder only. Approved foreword copy is not present in the repository."),
-    Chapter("Front Matter", "Table of Contents", ROOT / "Publishing/02-table-of-contents.md"),
     Chapter("Foundation", "The Leimbach Philosophy", ROOT / "README.md"),
     Chapter("Foundation", "How to Use This Manual", ROOT / "Publishing/03-front-matter.md"),
     Chapter("Implementation Guide", "Start Here", ROOT / "Implementation/01-start-here.md"),
@@ -303,10 +302,11 @@ def parse_markdown(text: str, include_ranges: tuple[str, str] | None = None) -> 
             flush_bullets()
             flow.append(Paragraph(clean_inline(stripped[4:]), STYLES["H3"]))
             continue
-        bullet_match = re.match(r"^([-*]|\d+\.)\s+\[?\s?[xX ]?\]?\s*(.*)$", stripped)
+        bullet_match = re.match(r"^([-*]|\d+\.)\s+(.*)$", stripped)
         if bullet_match:
             flush_paragraph()
-            bullets.append(bullet_match.group(2))
+            item = re.sub(r"^\[[ xX]\]\s+", "", bullet_match.group(2))
+            bullets.append(item)
             continue
         paragraph.append(stripped)
     flush_paragraph()
@@ -323,7 +323,7 @@ def source_meta(path: Path | None) -> dict[str, str]:
 
 
 def chapter_story(chapter: Chapter, previous_section: str | None) -> list:
-    flow: list = [PageBreak()] if chapter.section != previous_section else [Spacer(1, 14)]
+    flow: list = [PageBreak()]
     if chapter.section != previous_section:
         flow.append(bookmark_para(chapter.section, "PartTitle", 0))
         flow.append(Spacer(1, 16))

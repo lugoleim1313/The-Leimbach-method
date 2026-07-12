@@ -33,6 +33,10 @@ The merged review PDF is a complete review artifact, not the earlier 7-page proo
 
 The required fixes before final publication are primarily layout, front/back matter completion, reference completion, and table readability. No program, nutrition, training, recovery, or philosophy content should be rewritten as part of this proof pass.
 
+## Issue 38 Follow-Up
+
+The duplicate rendered source TOC pages and raw Markdown link remnants identified in P-004 and P-005 were addressed in the rebuilt review PDF generated on 2026-07-12. Remaining publication-readiness items still require separate review before any final release decision.
+
 ## Required Fixes
 
 | ID | Area | Finding | Required Fix | Priority |

@@ -2,7 +2,7 @@
 title: "Build Review PDF"
 volume: "Publishing"
 status: "review"
-last_updated: "2026-07-10"
+last_updated: "2026-07-12"
 author: "The Leimbach Method"
 ---
 
@@ -35,11 +35,11 @@ Run the repeatable build script from the repository root:
 python3 Publishing/build_v1_review_pdf.py
 ```
 
-The script validates linked source files, assembles the manuscript, creates the PDF, adds page numbers and bookmarks, and generates a linked table of contents.
+The script validates linked source files, assembles the manuscript, creates the PDF, adds page numbers and bookmarks, and generates a linked table of contents. The generated TOC is the reader-facing TOC; the source `Publishing/02-table-of-contents.md` file is not rendered again as body content.
 
 ## Source Order
 
-The Version 1.0 review PDF uses [../MANUSCRIPT.md](../MANUSCRIPT.md) and [02-table-of-contents.md](02-table-of-contents.md) as the source order, with Issue 34 publication-front-matter sections represented from existing repository placeholders where approved copy is not yet present.
+The Version 1.0 review PDF follows [../MANUSCRIPT.md](../MANUSCRIPT.md) and [02-table-of-contents.md](02-table-of-contents.md) for manuscript order, with Issue 34 publication-front-matter sections represented from existing repository placeholders where approved copy is not yet present.
 
 The generated review PDF includes:
 
@@ -79,6 +79,7 @@ The PDF includes:
 - Review status labels
 - Wrapped table and checklist formatting for proof review
 - PDF bookmarks and linked table of contents entries
+- Chapter-level page breaks for cleaner proof review
 
 ## Safety Disclaimer Placement
 
@@ -99,6 +100,8 @@ Heat illness symptoms, chest pain, fainting, severe shortness of breath, neurolo
 - [x] Confirmed tables and checklists are readable enough for review proofing.
 - [x] Confirmed PDF bookmarks and internal TOC link annotations are present.
 - [x] Confirmed no blank pages were detected.
+- [x] Confirmed the duplicate source TOC pages are not rendered in the reader-facing PDF body.
+- [x] Confirmed raw Markdown link remnants are not visible in extracted PDF text.
 
 ## Not Final
 
