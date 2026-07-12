@@ -2,7 +2,7 @@
 title: "Build Review PDF"
 volume: "Publishing"
 status: "review"
-last_updated: "2026-07-09"
+last_updated: "2026-07-10"
 author: "The Leimbach Method"
 ---
 
@@ -13,66 +13,93 @@ author: "The Leimbach Method"
 
 ## Purpose
 
-This file documents the first full review-manuscript PDF build for The Leimbach Method. The output is a proofing artifact, not a final publication PDF. All source chapters remain in `review` status.
+This file documents the Version 1.0 review-manuscript PDF build for The Leimbach Method. The output is a proofing artifact, not a final publication PDF. All source chapters remain in `review` status.
 
 ## Output
 
-Review PDF output:
+Version 1.0 review PDF output:
+
+- [../dist/The-Leimbach-Method-v1.0-review.pdf](../dist/The-Leimbach-Method-v1.0-review.pdf)
+
+The previous compact proof file remains a formatting proof only:
 
 - [../dist/The-Leimbach-method-review-draft.pdf](../dist/The-Leimbach-method-review-draft.pdf)
 
-Do not rename this file as a final PDF until a later publication approval step explicitly authorizes final release.
+Do not rename either file as a final PDF until a later publication approval step explicitly authorizes final release.
+
+## Build Script
+
+Run the repeatable build script from the repository root:
+
+```bash
+python3 Publishing/build_v1_review_pdf.py
+```
+
+The script validates linked source files, assembles the manuscript, creates the PDF, adds page numbers and bookmarks, and generates a linked table of contents.
 
 ## Source Order
 
-The review PDF uses [../MANUSCRIPT.md](../MANUSCRIPT.md) and [02-table-of-contents.md](02-table-of-contents.md) as the source order.
+The Version 1.0 review PDF uses [../MANUSCRIPT.md](../MANUSCRIPT.md) and [02-table-of-contents.md](02-table-of-contents.md) as the source order, with Issue 34 publication-front-matter sections represented from existing repository placeholders where approved copy is not yet present.
 
 The generated review PDF includes:
 
-1. Front matter and title page placeholder
-2. Safety disclaimer near the front
-3. Table of contents
-4. Implementation Guide
-5. Volume I - Nutrition
-6. Volume II - Training
-7. Volume III - Recovery
-8. Volume IV - Tracking
-9. Exercise Library
-10. Back matter
-11. PDF export checklist
-12. Final review checklist
+1. Cover
+2. Title page
+3. Copyright placeholder
+4. Dedication placeholder
+5. Foreword placeholder
+6. Linked table of contents
+7. The Leimbach Philosophy
+8. How to Use This Manual
+9. Implementation Guide
+10. Volume I - Nutrition
+11. Volume II - Training
+12. Volume III - Recovery
+13. Volume IV - Tracking
+14. Exercise Library
+15. The Promise placeholder
+16. About the Author placeholder
+17. References
+18. Version History
+19. PDF export checklist
+20. Final review checklist
 
 ## Build Format
 
-The full review PDF was generated from the Markdown source files using a local PDF build process. Markdown links were converted to readable text, tables and checklists were preserved in a monospaced review layout, and each source chapter includes its source path and `review` status near the chapter heading.
+The full review PDF is generated from Markdown source files with ReportLab. The build uses proportional typography for body copy, structured tables for Markdown tables, consistent margins, page numbers, running footer text, PDF bookmarks, and a generated table of contents.
 
 The PDF includes:
 
-- Review-draft title page
+- Review-draft cover
 - Generated date
 - Conservative safety disclaimer near the front
 - Page numbers
 - Review-draft footer
 - Source paths for included chapters
 - Review status labels
-- Monospaced table and checklist formatting for proof review
+- Wrapped table and checklist formatting for proof review
+- PDF bookmarks and linked table of contents entries
 
 ## Safety Disclaimer Placement
 
-The title/front page includes the review-draft status and urgent-symptom safety notice. Front matter and relevant chapters also preserve conservative safety language from the Markdown source.
+The title/front-matter section includes the review-draft status and urgent-symptom safety notice. Front matter and relevant chapters also preserve conservative safety language from the Markdown source.
 
 Heat illness symptoms, chest pain, fainting, severe shortness of breath, neurological symptoms, or rapidly worsening symptoms require urgent medical attention.
 
 ## Build Checks Before Review
 
-- [x] Confirmed output path is `dist/The-Leimbach-method-review-draft.pdf`.
+- [x] Confirmed output path is `dist/The-Leimbach-Method-v1.0-review.pdf`.
 - [x] Confirmed the file is a review PDF, not a final PDF.
 - [x] Confirmed source chapters remain in `review` status.
+- [x] Confirmed no linked manuscript source files are missing.
+- [x] Confirmed no duplicate chapter source files, except intentional front-matter extraction.
 - [x] Confirmed safety disclaimer appears near the front.
 - [x] Confirmed representative pages were rendered for visual inspection.
 - [x] Confirmed page numbers are present.
 - [x] Confirmed tables and checklists are readable enough for review proofing.
+- [x] Confirmed PDF bookmarks and internal TOC link annotations are present.
+- [x] Confirmed no blank pages were detected.
 
 ## Not Final
 
-This review PDF is for proofing layout, readability, links, tables, safety disclaimer placement, and page breaks. It should not be distributed as final publication copy.
+This Version 1.0 review PDF is for proofing layout, readability, links, tables, safety disclaimer placement, and page breaks. It should not be distributed as final publication copy.
