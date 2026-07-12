@@ -64,6 +64,7 @@ Representative pages were rendered to PNG and visually inspected:
 
 ## Verification Notes
 
+- Issue #48 proof pass rebuilt the PDF from merged `main` after the modular nutrition meal-builder update and rechecked the new nutrition pages.
 - `pdfinfo` reported 142 pages, Letter page size, and readable metadata.
 - `pypdf` reported 142 pages, zero blank pages, 144 link annotations, 72 PDF outline entries, and zero unresolved internal TOC link destinations.
 - Source validation reported no missing manuscript source files.
@@ -72,6 +73,7 @@ Representative pages were rendered to PNG and visually inspected:
 - Text extraction checks found no raw Markdown link remnants such as `](../` or `Start Here]`.
 - The consolidated `REFERENCES.md` section renders as grouped reference entries rather than a compressed placeholder table.
 - Front/back matter placeholder pages were rendered and visually inspected after placeholder cleanup.
+- Issue #48 rendered and visually inspected cover page 1, TOC page 4, safety disclaimer page 5, meal-builder pages 40-41, modular prep page 48, grocery add-on page 55, and final checklist page 141.
 - Nutrition, meal-builder, meal-plan, grocery, training, tracking dashboard, and exercise-library table pages were rendered and visually inspected after the table readability pass.
 - Representative pages were rendered with Poppler `pdftoppm`.
 - `qpdf` was not installed in this environment, so the PDF was validated with `pdfinfo`, `pypdf`, and rendered PNG inspection instead.
