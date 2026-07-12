@@ -73,6 +73,7 @@ The PDF includes:
 - Review-draft cover
 - Generated date
 - Conservative safety disclaimer near the front
+- Clearly labeled review placeholders for missing approved front/back matter copy
 - Page numbers
 - Review-draft footer
 - Source paths for included chapters
@@ -102,6 +103,7 @@ Heat illness symptoms, chest pain, fainting, severe shortness of breath, neurolo
 - [x] Confirmed no blank pages were detected.
 - [x] Confirmed the duplicate source TOC pages are not rendered in the reader-facing PDF body.
 - [x] Confirmed raw Markdown link remnants are not visible in extracted PDF text.
+- [x] Confirmed front/back matter placeholders render cleanly and remain labeled as review placeholders.
 
 ## Not Final
 
