@@ -28,6 +28,7 @@ from reportlab.platypus import (
     Spacer,
     Table,
     TableStyle,
+    LongTable,
 )
 from reportlab.platypus.tableofcontents import TableOfContents
 
@@ -146,6 +147,8 @@ def styles():
     base.add(ParagraphStyle("H3", parent=base["Heading3"], fontName="Times-BoldItalic", fontSize=10.5, leading=12.4, spaceBefore=6, spaceAfter=3, keepWithNext=True))
     base.add(ParagraphStyle("Body", parent=base["BodyText"], fontName="Times-Roman", fontSize=8.6, leading=10.4, spaceAfter=3.2))
     base.add(ParagraphStyle("Small", parent=base["BodyText"], fontName="Times-Roman", fontSize=7.2, leading=8.4, spaceAfter=2.6))
+    base.add(ParagraphStyle("Tiny", parent=base["BodyText"], fontName="Times-Roman", fontSize=6.7, leading=7.8, spaceAfter=1.8))
+    base.add(ParagraphStyle("TableHeader", parent=base["BodyText"], fontName="Times-Bold", fontSize=7, leading=8.1, textColor=colors.HexColor("#111111"), spaceAfter=1.8))
     base.add(ParagraphStyle("Meta", parent=base["BodyText"], fontName="Times-Italic", fontSize=8, leading=10, textColor=colors.HexColor("#555555"), spaceAfter=8))
     base.add(ParagraphStyle("List", parent=base["BodyText"], fontName="Times-Roman", fontSize=8.4, leading=10.2, leftIndent=14, firstLineIndent=-8, spaceAfter=2))
     base.add(ParagraphStyle("TOCHeading", parent=base["Heading1"], fontName="Times-Bold", fontSize=24, leading=28, alignment=TA_CENTER, spaceAfter=16))
@@ -249,24 +252,39 @@ def parse_table(rows: list[str]) -> Table:
     width = 7.34 * inch
     columns = max(len(r) for r in parsed)
     normalized = [r + [""] * (columns - len(r)) for r in parsed]
-    col_widths = [width / columns] * columns
-    data = [[Paragraph(c, STYLES["Small"]) for c in row] for row in normalized]
-    table = Table(data, colWidths=col_widths, repeatRows=1, hAlign="LEFT", splitByRow=1)
-    table.setStyle(
-        TableStyle(
-            [
-                ("FONT", (0, 0), (-1, -1), "Times-Roman", 7.2),
-                ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#eeeeee")),
-                ("TEXTCOLOR", (0, 0), (-1, 0), colors.HexColor("#111111")),
-                ("GRID", (0, 0), (-1, -1), 0.25, colors.HexColor("#c8c8c8")),
-                ("VALIGN", (0, 0), (-1, -1), "TOP"),
-                ("LEFTPADDING", (0, 0), (-1, -1), 3),
-                ("RIGHTPADDING", (0, 0), (-1, -1), 3),
-                ("TOPPADDING", (0, 0), (-1, -1), 2),
-                ("BOTTOMPADDING", (0, 0), (-1, -1), 2),
-            ]
-        )
-    )
+    dense = columns >= 6 or len(normalized) >= 12
+    body_style = STYLES["Tiny"] if dense else STYLES["Small"]
+    weights: list[float] = []
+    for col in range(columns):
+        values = [re.sub(r"<[^>]+>", "", row[col]) for row in normalized]
+        longest = max((len(v) for v in values), default=1)
+        average = sum(len(v) for v in values) / max(len(values), 1)
+        weights.append(max(4.0, min(24.0, longest * 0.7 + average * 0.3)))
+    total = sum(weights) or 1
+    col_widths = [width * weight / total for weight in weights]
+    min_width = (0.42 if dense else 0.58) * inch
+    max_width = (1.9 if dense else 2.7) * inch
+    col_widths = [max(min_width, min(max_width, w)) for w in col_widths]
+    scale = width / sum(col_widths)
+    col_widths = [w * scale for w in col_widths]
+    data = []
+    for row_index, row in enumerate(normalized):
+        style = STYLES["TableHeader"] if row_index == 0 else body_style
+        data.append([Paragraph(c, style) for c in row])
+    table_class = LongTable if len(normalized) >= 10 else Table
+    table = table_class(data, colWidths=col_widths, repeatRows=1, hAlign="LEFT", splitByRow=1)
+    commands = [
+        ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#e4e7eb")),
+        ("TEXTCOLOR", (0, 0), (-1, 0), colors.HexColor("#111111")),
+        ("GRID", (0, 0), (-1, -1), 0.25, colors.HexColor("#c8c8c8")),
+        ("VALIGN", (0, 0), (-1, -1), "TOP"),
+        ("LEFTPADDING", (0, 0), (-1, -1), 2.4 if dense else 3.2),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 2.4 if dense else 3.2),
+        ("TOPPADDING", (0, 0), (-1, -1), 2.2),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 2.2),
+        ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#f7f7f7")]),
+    ]
+    table.setStyle(TableStyle(commands))
     return table
 
 

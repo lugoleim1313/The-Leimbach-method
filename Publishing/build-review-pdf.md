@@ -66,7 +66,7 @@ The generated review PDF includes:
 
 ## Build Format
 
-The full review PDF is generated from Markdown source files with ReportLab. The build uses proportional typography for body copy, structured tables for Markdown tables, consistent margins, page numbers, running footer text, PDF bookmarks, and a generated table of contents.
+The full review PDF is generated from Markdown source files with ReportLab. The build uses proportional typography for body copy, structured tables for Markdown tables, dynamic table column widths, repeated table headers, consistent margins, page numbers, running footer text, PDF bookmarks, and a generated table of contents.
 
 The PDF includes:
 
@@ -79,6 +79,7 @@ The PDF includes:
 - Source paths for included chapters
 - Review status labels
 - Wrapped table and checklist formatting for proof review
+- Alternating table row backgrounds for dense worksheet readability
 - PDF bookmarks and linked table of contents entries
 - Chapter-level page breaks for cleaner proof review
 
@@ -99,6 +100,7 @@ Heat illness symptoms, chest pain, fainting, severe shortness of breath, neurolo
 - [x] Confirmed representative pages were rendered for visual inspection.
 - [x] Confirmed page numbers are present.
 - [x] Confirmed tables and checklists are readable enough for review proofing.
+- [x] Confirmed dense Nutrition, meal-plan, grocery, Training, Tracking, and Exercise Library tables render cleanly.
 - [x] Confirmed PDF bookmarks and internal TOC link annotations are present.
 - [x] Confirmed no blank pages were detected.
 - [x] Confirmed the duplicate source TOC pages are not rendered in the reader-facing PDF body.

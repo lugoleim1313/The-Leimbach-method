@@ -37,6 +37,10 @@ The required fixes before final publication are primarily layout, front/back mat
 
 The duplicate rendered source TOC pages and raw Markdown link remnants identified in P-004 and P-005 were addressed in the rebuilt review PDF generated on 2026-07-12. Remaining publication-readiness items still require separate review before any final release decision.
 
+## Issue 44 Follow-Up
+
+The table readability concerns identified in P-008, P-009, P-010, P-012, and P-013 were improved for the review PDF with dynamic column widths, repeated headers, wrapped cells, and alternating table row backgrounds. Final publication may still require a separate design pass for printable worksheet or landscape appendix formats.
+
 ## Required Fixes
 
 | ID | Area | Finding | Required Fix | Priority |
