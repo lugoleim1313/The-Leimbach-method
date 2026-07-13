@@ -25,6 +25,10 @@ Version 1.0 final-candidate PDF output:
 
 - [../dist/Mikas-Method-to-the-Madness-v1.0-final-candidate.pdf](../dist/Mikas-Method-to-the-Madness-v1.0-final-candidate.pdf)
 
+Version 1.0 publication PDF output:
+
+- [../dist/Mikas-Method-to-the-Madness-v1.0.pdf](../dist/Mikas-Method-to-the-Madness-v1.0.pdf)
+
 The previous compact proof file remains a formatting proof only:
 
 - [../dist/The-Leimbach-method-review-draft.pdf](../dist/The-Leimbach-method-review-draft.pdf)
@@ -43,6 +47,12 @@ To build the clean final-candidate PDF without review/source traceability labels
 
 ```bash
 python3 Publishing/build_v1_review_pdf.py --final-candidate
+```
+
+To build the publication PDF:
+
+```bash
+python3 Publishing/build_v1_review_pdf.py --publication
 ```
 
 The script validates linked source files, assembles the manuscript, creates the PDF, adds page numbers and bookmarks, and generates a linked table of contents. The generated TOC is the reader-facing TOC; the source `Publishing/02-table-of-contents.md` file is not rendered again as body content.
@@ -96,6 +106,8 @@ The PDF includes:
 
 The final-candidate export writes to a separate file, hides generated `Source:` and `Status:` labels, uses final-candidate cover/footer wording, and adapts front-matter review-manuscript wording for clean proofing. It does not change source chapter front matter, and it does not mark the manuscript final.
 
+The publication export writes to `dist/Mikas-Method-to-the-Madness-v1.0.pdf`, hides generated traceability labels, removes final-candidate/review-manuscript reader-facing labels, omits internal PDF export/final-review checklist chapters, and uses publication cover/footer wording. It does not change Markdown source chapter front matter.
+
 ## Safety Disclaimer Placement
 
 The title/front-matter section includes the review-draft status and urgent-symptom safety notice. Front matter and relevant chapters also preserve conservative safety language from the Markdown source.
@@ -121,6 +133,8 @@ Heat illness symptoms, chest pain, fainting, severe shortness of breath, neurolo
 - [x] Confirmed front/back matter review copy renders cleanly and remains labeled as review draft material.
 - [x] Confirmed clean final-candidate output is available at `dist/Mikas-Method-to-the-Madness-v1.0-final-candidate.pdf`.
 - [x] Confirmed final-candidate output hides generated review/source labels while source chapter statuses remain `review`.
+- [x] Confirmed publication output is available at `dist/Mikas-Method-to-the-Madness-v1.0.pdf`.
+- [x] Confirmed publication output hides generated review/source labels and excludes internal publishing checklists.
 
 ## Not Final
 

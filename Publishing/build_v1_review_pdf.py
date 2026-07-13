@@ -40,9 +40,11 @@ BOOK_TITLE = "Mika’s Method to the Madness"
 BOOK_SUBTITLE = "Powerbuilding, Nutrition, Recovery, and Performance"
 REVIEW_LABEL = "Version 1.0 Review Manuscript"
 FINAL_CANDIDATE_LABEL = "Version 1.0 Final Candidate"
+PUBLICATION_LABEL = "Version 1.0"
 
 OUT = ROOT / "dist" / "Mikas-Method-to-the-Madness-v1.0-review.pdf"
 FINAL_CANDIDATE_OUT = ROOT / "dist" / "Mikas-Method-to-the-Madness-v1.0-final-candidate.pdf"
+PUBLICATION_OUT = ROOT / "dist" / "Mikas-Method-to-the-Madness-v1.0.pdf"
 BUILD_NOTES = ROOT / "Publishing" / "review-pdf-notes.md"
 
 INK = colors.HexColor("#1f252b")
@@ -269,6 +271,8 @@ class BuildMode:
     footer: str
     show_source_labels: bool
     show_review_cover_note: bool
+    show_cover_artwork_note: bool
+    publication: bool
 
 
 REVIEW_MODE = BuildMode(
@@ -278,6 +282,8 @@ REVIEW_MODE = BuildMode(
     footer=f"{BOOK_TITLE} v1.0 Review",
     show_source_labels=True,
     show_review_cover_note=True,
+    show_cover_artwork_note=True,
+    publication=False,
 )
 
 FINAL_CANDIDATE_MODE = BuildMode(
@@ -287,6 +293,19 @@ FINAL_CANDIDATE_MODE = BuildMode(
     footer=f"{BOOK_TITLE} v1.0 Final Candidate",
     show_source_labels=False,
     show_review_cover_note=False,
+    show_cover_artwork_note=True,
+    publication=False,
+)
+
+PUBLICATION_MODE = BuildMode(
+    output=PUBLICATION_OUT,
+    label=PUBLICATION_LABEL,
+    metadata_status="Publication",
+    footer=f"{BOOK_TITLE} v1.0",
+    show_source_labels=False,
+    show_review_cover_note=False,
+    show_cover_artwork_note=False,
+    publication=True,
 )
 
 
@@ -480,6 +499,40 @@ def source_meta(path: Path | None) -> dict[str, str]:
 def render_text_for_mode(text: str, mode: BuildMode) -> str:
     if mode.show_source_labels:
         return text
+    if mode.publication:
+        text = text.replace("Version 1.0 Review Manuscript", "Version 1.0")
+        text = text.replace(
+            "This review manuscript is built for author, coaching, safety, copy, layout, and PDF proof review before any final publication decision. It is not final publication copy.",
+            "This is the Version 1.0 publication edition of the manual.",
+        )
+        text = text.replace(
+            "This is a Version 1.0 review manuscript of *Mika’s Method to the Madness*. It is provided for review, proofing, and author approval. No part of this review manuscript should be reproduced, distributed, sold, or represented as final publication copy without written permission from the author.",
+            "This is Version 1.0 of *Mika’s Method to the Madness*. No part of this manual should be reproduced, distributed, or sold without written permission from the author.",
+        )
+        text = text.replace(
+            "Names, examples, checklists, tables, and protocols are included for manuscript review. Final edition metadata, ISBN, publisher information, and release notes remain pending until a later final publication process.",
+            "Names, examples, checklists, tables, and protocols are included for educational performance use.",
+        )
+        text = text.replace(
+            "This review draft should still be challenged. The programming should be reviewed. The safety language should be reviewed. The nutrition should be checked for practicality. The PDF should be proofed before publication. Nothing here becomes final because it looks finished; it becomes final only after it holds up under review.",
+            "Use this manual with judgment. The system works best when the training, nutrition, recovery, and tracking pieces are applied together and adjusted to real conditions.",
+        )
+        text = text.replace(
+            "This review manuscript is not a medical, clinical, or credentialed professional document. It is a practical performance system prepared for review before final publication.",
+            "This manual is not a medical, clinical, or credentialed professional document. It is a practical performance system.",
+        )
+        text = text.replace(
+            "References should remain concise, relevant, and tied to the chapter where they support practical decisions. Before final publication, confirm that reference notes are formatted consistently and do not imply stronger claims than the source supports.",
+            "References remain concise, relevant, and tied to practical decisions. Reference notes should not imply stronger claims than the source supports.",
+        )
+        text = re.sub(
+            r"## Version History Review Placeholder\n\n\| Version \| Date \| Status \| Notes \|\n\|---\|---\|---\|---\|\n(?:\|.*\|\n)+",
+            "## Version History\n\n| Version | Date | Notes |\n|---|---|---|\n| Version 1.0 | 2026-07-12 | Initial publication PDF export. |\n",
+            text,
+            flags=re.M,
+        )
+        text = re.sub(r"\n## Review Draft Notice\n.*?(?=\n## Safety Disclaimer\n)", "\n", text, flags=re.S)
+        return text
     text = text.replace("Version 1.0 Review Manuscript", "Version 1.0 Final Candidate")
     text = text.replace(
         "This review manuscript is built for author, coaching, safety, copy, layout, and PDF proof review before any final publication decision. It is not final publication copy.",
@@ -536,7 +589,8 @@ def chapter_story(chapter: Chapter, previous_section: str | None, mode: BuildMod
     elif chapter.title == "Mika’s Method to the Madness":
         flow.extend(parse_markdown(text, ("## Who This Method Is For", "## Main Sections")))
     elif chapter.title == "Version History":
-        flow.extend(parse_markdown(text, ("## Version History Review Placeholder", "## Appendix List Review Placeholder")))
+        start_heading = "## Version History" if mode.publication else "## Version History Review Placeholder"
+        flow.extend(parse_markdown(text, (start_heading, "## Appendix List Review Placeholder")))
     elif chapter.title == "The Promise":
         flow.extend(parse_markdown(text, ("## The Promise", "## About the Author")))
     elif chapter.title == "About the Author":
@@ -558,15 +612,19 @@ def cover_story(mode: BuildMode) -> list:
         Spacer(1, 0.12 * inch),
         Paragraph(BOOK_SUBTITLE, STYLES["CoverSub"]),
         Spacer(1, 0.6 * inch),
-        Paragraph(mode.label, STYLES["CoverSub"]),
-        Paragraph(f"Generated {date.today().isoformat()}", STYLES["CoverSub"]),
+        Paragraph("Mika Leimbach" if mode.publication else mode.label, STYLES["CoverSub"]),
+    ]
+    if not mode.publication:
+        story.append(Paragraph(f"Generated {date.today().isoformat()}", STYLES["CoverSub"]))
+    story.extend([
         Spacer(1, 0.45 * inch),
         CoverMark(height=0.55 * inch),
         Spacer(1, 0.3 * inch),
-    ]
+    ])
     if mode.show_review_cover_note:
         story.append(Paragraph("Review draft - not final publication copy", STYLES["CoverSub"]))
-    story.append(Paragraph("Final cover artwork pending author approval", STYLES["CoverSub"]))
+    if mode.show_cover_artwork_note:
+        story.append(Paragraph("Final cover artwork pending author approval", STYLES["CoverSub"]))
     story.append(PageBreak())
     return story
 
@@ -593,6 +651,8 @@ def build(mode: BuildMode = REVIEW_MODE) -> None:
     story.append(toc)
     previous: str | None = None
     for chapter in CHAPTERS[1:]:
+        if mode.publication and chapter.title in {"PDF Export Checklist", "Final Review Checklist"}:
+            continue
         story.extend(chapter_story(chapter, previous, mode))
         previous = chapter.section
     doc = ReviewDoc(str(mode.output), mode)
@@ -600,6 +660,11 @@ def build(mode: BuildMode = REVIEW_MODE) -> None:
 
 
 if __name__ == "__main__":
-    selected_mode = FINAL_CANDIDATE_MODE if "--final-candidate" in sys.argv else REVIEW_MODE
+    if "--publication" in sys.argv:
+        selected_mode = PUBLICATION_MODE
+    elif "--final-candidate" in sys.argv:
+        selected_mode = FINAL_CANDIDATE_MODE
+    else:
+        selected_mode = REVIEW_MODE
     build(selected_mode)
     print(selected_mode.output)
