@@ -3,6 +3,7 @@ from __future__ import annotations
 import html
 import os
 import re
+import sys
 from dataclasses import dataclass
 from datetime import date
 from pathlib import Path
@@ -37,8 +38,10 @@ ROOT = Path(__file__).resolve().parents[1]
 BOOK_TITLE = "Mika’s Method to the Madness"
 BOOK_SUBTITLE = "Powerbuilding, Nutrition, Recovery, and Performance"
 REVIEW_LABEL = "Version 1.0 Review Manuscript"
+FINAL_CANDIDATE_LABEL = "Version 1.0 Final Candidate"
 
 OUT = ROOT / "dist" / "Mikas-Method-to-the-Madness-v1.0-review.pdf"
+FINAL_CANDIDATE_OUT = ROOT / "dist" / "Mikas-Method-to-the-Madness-v1.0-final-candidate.pdf"
 BUILD_NOTES = ROOT / "Publishing" / "review-pdf-notes.md"
 
 
@@ -170,8 +173,37 @@ PLACEHOLDER_INSTRUCTIONS = {
 }
 
 
+@dataclass(frozen=True)
+class BuildMode:
+    output: Path
+    label: str
+    metadata_status: str
+    footer: str
+    show_source_labels: bool
+    show_review_cover_note: bool
+
+
+REVIEW_MODE = BuildMode(
+    output=OUT,
+    label=REVIEW_LABEL,
+    metadata_status="Review",
+    footer=f"{BOOK_TITLE} v1.0 Review",
+    show_source_labels=True,
+    show_review_cover_note=True,
+)
+
+FINAL_CANDIDATE_MODE = BuildMode(
+    output=FINAL_CANDIDATE_OUT,
+    label=FINAL_CANDIDATE_LABEL,
+    metadata_status="Final Candidate",
+    footer=f"{BOOK_TITLE} v1.0 Final Candidate",
+    show_source_labels=False,
+    show_review_cover_note=False,
+)
+
+
 class ReviewDoc(BaseDocTemplate):
-    def __init__(self, filename: str):
+    def __init__(self, filename: str, mode: BuildMode):
         super().__init__(
             filename,
             pagesize=letter,
@@ -179,14 +211,15 @@ class ReviewDoc(BaseDocTemplate):
             rightMargin=0.58 * inch,
             topMargin=0.62 * inch,
             bottomMargin=0.58 * inch,
-            title=f"{BOOK_TITLE} v1.0 Review",
+            title=f"{BOOK_TITLE} v1.0 {mode.metadata_status}",
             author="Mika Leimbach",
-            subject="Version 1.0 review manuscript",
+            subject=f"Version 1.0 {mode.metadata_status.lower()} manuscript",
         )
+        self.mode = mode
         body = Frame(self.leftMargin, self.bottomMargin, self.width, self.height, id="body")
         self.addPageTemplates([PageTemplate(id="body", frames=[body], onPage=self.draw_page)])
         self._heading_count = 0
-        self._running = f"{BOOK_TITLE} v1.0 Review"
+        self._running = mode.footer
 
     def afterFlowable(self, flowable):
         if hasattr(flowable, "_bookmark_title"):
@@ -206,7 +239,7 @@ class ReviewDoc(BaseDocTemplate):
         canvas.line(doc.leftMargin, 0.55 * inch, doc.pagesize[0] - doc.rightMargin, 0.55 * inch)
         canvas.setFont("Times-Roman", 8)
         canvas.setFillColor(colors.HexColor("#555555"))
-        canvas.drawString(doc.leftMargin, 0.38 * inch, f"{BOOK_TITLE} v1.0 Review")
+        canvas.drawString(doc.leftMargin, 0.38 * inch, self.mode.footer)
         canvas.drawRightString(doc.pagesize[0] - doc.rightMargin, 0.38 * inch, str(doc.page))
         canvas.restoreState()
 
@@ -352,7 +385,28 @@ def source_meta(path: Path | None) -> dict[str, str]:
     return fm
 
 
-def chapter_story(chapter: Chapter, previous_section: str | None) -> list:
+def render_text_for_mode(text: str, mode: BuildMode) -> str:
+    if mode.show_source_labels:
+        return text
+    text = text.replace("Version 1.0 Review Manuscript", "Version 1.0 Final Candidate")
+    text = text.replace(
+        "This review manuscript is built for author, coaching, safety, copy, layout, and PDF proof review before any final publication decision. It is not final publication copy.",
+        "This final-candidate manuscript is built for author, coaching, safety, copy, layout, and PDF proofing before any publication decision. It is not final publication copy.",
+    )
+    text = text.replace(
+        "This is a Version 1.0 review manuscript of *Mika’s Method to the Madness*. It is provided for review, proofing, and author approval. No part of this review manuscript should be reproduced, distributed, sold, or represented as final publication copy without written permission from the author.",
+        "This is a Version 1.0 final-candidate manuscript of *Mika’s Method to the Madness*. It is provided for proofing and author approval. No part of this manuscript should be reproduced, distributed, sold, or represented as final publication copy without written permission from the author.",
+    )
+    text = text.replace("included for manuscript review", "included for final-candidate proofing")
+    text = text.replace(
+        "This review draft should still be challenged. The programming should be reviewed. The safety language should be reviewed. The nutrition should be checked for practicality. The PDF should be proofed before publication. Nothing here becomes final because it looks finished; it becomes final only after it holds up under review.",
+        "This final candidate should still be challenged. The programming should be checked. The safety language should be checked. The nutrition should be checked for practicality. The PDF should be proofed before publication. Nothing here becomes final because it looks finished; it becomes final only after it holds up under approval.",
+    )
+    text = re.sub(r"\n## Review Draft Notice\n.*?(?=\n## Safety Disclaimer\n)", "\n", text, flags=re.S)
+    return text
+
+
+def chapter_story(chapter: Chapter, previous_section: str | None, mode: BuildMode) -> list:
     flow: list = [PageBreak()]
     if chapter.section != previous_section:
         flow.append(bookmark_para(chapter.section, "PartTitle", 0))
@@ -361,8 +415,9 @@ def chapter_story(chapter: Chapter, previous_section: str | None) -> list:
     meta = source_meta(chapter.path)
     status = meta.get("status", "review")
     source = chapter.path.relative_to(ROOT).as_posix() if chapter.path else "Generated review placeholder"
-    flow.append(Paragraph(f"Source: {source} | Status: {clean_inline(status)}", STYLES["Meta"]))
-    if chapter.source_note:
+    if mode.show_source_labels:
+        flow.append(Paragraph(f"Source: {source} | Status: {clean_inline(status)}", STYLES["Meta"]))
+    if chapter.source_note and mode.show_source_labels:
         flow.append(Paragraph(clean_inline(chapter.source_note), STYLES["Meta"]))
     if chapter.path is None:
         flow.append(Paragraph("Review placeholder - final copy needed.", STYLES["H2"]))
@@ -371,7 +426,7 @@ def chapter_story(chapter: Chapter, previous_section: str | None) -> list:
         flow.append(Spacer(1, 6))
         flow.append(Paragraph("This placeholder is intentionally preserved for review and does not mark the manuscript final.", STYLES["Meta"]))
         return flow
-    text = chapter.path.read_text()
+    text = render_text_for_mode(chapter.path.read_text(), mode)
     if chapter.title == "Title Page":
         flow.extend(parse_markdown(text, ("## Title Page", "## Copyright Page")))
         flow.extend(parse_markdown(text, ("## Safety Disclaimer", "## How To Use This Manual")))
@@ -396,21 +451,23 @@ def chapter_story(chapter: Chapter, previous_section: str | None) -> list:
     return flow
 
 
-def cover_story() -> list:
-    return [
+def cover_story(mode: BuildMode) -> list:
+    story = [
         Spacer(1, 1.35 * inch),
-        Paragraph("REVIEW MANUSCRIPT", STYLES["CoverSub"]),
+        Paragraph(mode.label.upper(), STYLES["CoverSub"]),
         Spacer(1, 0.35 * inch),
         Paragraph(BOOK_TITLE.upper(), STYLES["CoverTitle"]),
         Paragraph(BOOK_SUBTITLE, STYLES["CoverSub"]),
         Spacer(1, 0.6 * inch),
-        Paragraph(REVIEW_LABEL, STYLES["CoverSub"]),
+        Paragraph(mode.label, STYLES["CoverSub"]),
         Paragraph(f"Generated {date.today().isoformat()}", STYLES["CoverSub"]),
         Spacer(1, 0.8 * inch),
-        Paragraph("Review draft - not final publication copy", STYLES["CoverSub"]),
-        Paragraph("Final cover artwork pending author approval", STYLES["CoverSub"]),
-        PageBreak(),
     ]
+    if mode.show_review_cover_note:
+        story.append(Paragraph("Review draft - not final publication copy", STYLES["CoverSub"]))
+    story.append(Paragraph("Final cover artwork pending author approval", STYLES["CoverSub"]))
+    story.append(PageBreak())
+    return story
 
 
 def validate_sources() -> tuple[list[str], list[str]]:
@@ -420,12 +477,12 @@ def validate_sources() -> tuple[list[str], list[str]]:
     return missing, duplicates
 
 
-def build() -> None:
+def build(mode: BuildMode = REVIEW_MODE) -> None:
     missing, duplicates = validate_sources()
     if missing:
         raise SystemExit("Missing manuscript files:\n" + "\n".join(missing))
-    OUT.parent.mkdir(exist_ok=True)
-    story = cover_story()
+    mode.output.parent.mkdir(exist_ok=True)
+    story = cover_story(mode)
     toc = TableOfContents()
     toc.levelStyles = [
         ParagraphStyle("TOCLevel0", fontName="Times-Bold", fontSize=11, leading=14, leftIndent=0, firstLineIndent=0, spaceBefore=5),
@@ -435,12 +492,13 @@ def build() -> None:
     story.append(toc)
     previous: str | None = None
     for chapter in CHAPTERS[1:]:
-        story.extend(chapter_story(chapter, previous))
+        story.extend(chapter_story(chapter, previous, mode))
         previous = chapter.section
-    doc = ReviewDoc(str(OUT))
+    doc = ReviewDoc(str(mode.output), mode)
     doc.multiBuild(story)
 
 
 if __name__ == "__main__":
-    build()
-    print(OUT)
+    selected_mode = FINAL_CANDIDATE_MODE if "--final-candidate" in sys.argv else REVIEW_MODE
+    build(selected_mode)
+    print(selected_mode.output)
