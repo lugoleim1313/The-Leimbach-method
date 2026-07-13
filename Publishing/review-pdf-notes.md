@@ -76,6 +76,7 @@ Representative pages were rendered to PNG and visually inspected:
 | 8-9, 15, 90, 92 | Issue #54 story/start revision pages | Why This Exists, Week One Entry, Starting the Block at Week 1, and Starting the Next Block render cleanly |
 | 8-9 | Issue #54 Creed pages | The Creed renders cleanly in both front matter and foundation |
 | 1, 5, 15, 55, 104, 140 | Issue #56 final-candidate proof pages | Cover, front matter/safety, Week One Entry, grocery/add-on table page, recovery/safety table page, and final checklist page render cleanly without generated review/source labels |
+| 8-9 | PR #57 follow-up proof pages | Page 8 Foreword no longer repeats The Creed; page 9 Foundation title reads `Mika’s Method to the Madness` and retains the single Creed copy |
 
 ## Verification Notes
 
@@ -87,6 +88,7 @@ Representative pages were rendered to PNG and visually inspected:
 - Issue #56 final-candidate export pass added a clean `--final-candidate` build mode, generated `dist/Mikas-Method-to-the-Madness-v1.0-final-candidate.pdf`, and preserved the traceable review PDF output.
 - `pdfinfo` reported 140 pages, Letter page size, and final-candidate metadata for the clean final-candidate PDF.
 - `pypdf` reported 140 final-candidate pages, zero blank pages, 144 link annotations, required manuscript sections present, and no generated `Source:`, `Status: review`, `Version 1.0 Review Manuscript`, or review-draft cover wording.
+- PR #57 follow-up renamed the Foundation chapter title from `The Leimbach Philosophy` to `Mika’s Method to the Madness` and removed the duplicate Creed from the Foreword page range.
 - `pdfinfo` reported 142 pages, Letter page size, and readable metadata.
 - `pypdf` reported 142 pages, zero blank pages, 144 link annotations, 72 PDF outline entries, and zero unresolved internal TOC link destinations.
 - Source validation reported no missing manuscript source files.
