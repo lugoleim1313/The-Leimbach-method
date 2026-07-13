@@ -17,6 +17,10 @@ Generated Version 1.0 review PDF:
 
 - [../dist/Mikas-Method-to-the-Madness-v1.0-review.pdf](../dist/Mikas-Method-to-the-Madness-v1.0-review.pdf)
 
+Generated Version 1.0 final-candidate PDF:
+
+- [../dist/Mikas-Method-to-the-Madness-v1.0-final-candidate.pdf](../dist/Mikas-Method-to-the-Madness-v1.0-final-candidate.pdf)
+
 This artifact is a review draft only. It does not mark the manuscript final and does not change any chapter status to `final`.
 
 ## Build Summary
@@ -26,6 +30,8 @@ This artifact is a review draft only. It does not mark the manuscript final and 
 | Build date | 2026-07-12 |
 | Output file | `dist/Mikas-Method-to-the-Madness-v1.0-review.pdf` |
 | Page count | 142 pages |
+| Final-candidate output file | `dist/Mikas-Method-to-the-Madness-v1.0-final-candidate.pdf` |
+| Final-candidate page count | 140 pages |
 | Page size | Letter |
 | Source order | `MANUSCRIPT.md`, the generated linked TOC, and Issue 34 front/back matter requirements |
 | Review label | Present on cover and footer |
@@ -45,6 +51,7 @@ This artifact is a review draft only. It does not mark the manuscript final and 
 | Creed | Present; front matter and foundation include The Creed |
 | Week One start | Present; reader-facing implementation and training guidance starts the next full 6-week block at Week 1 |
 | Modular nutrition meal-builder options | Present; breakfast, lunch, dinner, snack, and dessert option framework added without changing macro targets or meal rows |
+| Clean final-candidate labels | Present; generated source/status labels hidden and front-matter review-manuscript wording adapted for clean proofing |
 
 ## Rendered Pages Checked
 
@@ -68,6 +75,7 @@ Representative pages were rendered to PNG and visually inspected:
 | 1-8, 40, 135-141 | Issue #52 post-merge proof pages | Renamed cover, TOC, safety disclaimer, front matter review copy, meal-builder page, back matter, references, version history, and final checklist render cleanly |
 | 8-9, 15, 90, 92 | Issue #54 story/start revision pages | Why This Exists, Week One Entry, Starting the Block at Week 1, and Starting the Next Block render cleanly |
 | 8-9 | Issue #54 Creed pages | The Creed renders cleanly in both front matter and foundation |
+| 1, 5, 15, 55, 104, 140 | Issue #56 final-candidate proof pages | Cover, front matter/safety, Week One Entry, grocery/add-on table page, recovery/safety table page, and final checklist page render cleanly without generated review/source labels |
 
 ## Verification Notes
 
@@ -76,6 +84,9 @@ Representative pages were rendered to PNG and visually inspected:
 - Issue #52 post-merge proof pass rebuilt the renamed PDF from merged `main` and rechecked metadata, TOC, bookmarks, links, page numbers, front matter, meal-builder content, back matter, references, version history, and final checklist pages.
 - Issue #54 story/start revision pass added author purpose/life-context copy and removed reader-facing Week 4 entry guidance in favor of starting the next full 6-week block at Week 1.
 - Issue #54 follow-up added The Creed to front matter and foundation, then rebuilt and rechecked the PDF.
+- Issue #56 final-candidate export pass added a clean `--final-candidate` build mode, generated `dist/Mikas-Method-to-the-Madness-v1.0-final-candidate.pdf`, and preserved the traceable review PDF output.
+- `pdfinfo` reported 140 pages, Letter page size, and final-candidate metadata for the clean final-candidate PDF.
+- `pypdf` reported 140 final-candidate pages, zero blank pages, 144 link annotations, required manuscript sections present, and no generated `Source:`, `Status: review`, `Version 1.0 Review Manuscript`, or review-draft cover wording.
 - `pdfinfo` reported 142 pages, Letter page size, and readable metadata.
 - `pypdf` reported 142 pages, zero blank pages, 144 link annotations, 72 PDF outline entries, and zero unresolved internal TOC link destinations.
 - Source validation reported no missing manuscript source files.
