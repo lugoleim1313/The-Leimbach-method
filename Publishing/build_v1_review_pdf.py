@@ -59,7 +59,7 @@ CHAPTERS = [
     Chapter("Front Matter", "Copyright Page", ROOT / "Publishing/03-front-matter.md"),
     Chapter("Front Matter", "Dedication", ROOT / "Publishing/03-front-matter.md"),
     Chapter("Front Matter", "Foreword", ROOT / "Publishing/03-front-matter.md"),
-    Chapter("Foundation", "The Leimbach Philosophy", ROOT / "README.md"),
+    Chapter("Foundation", "Mika’s Method to the Madness", ROOT / "README.md"),
     Chapter("Foundation", "How to Use This Manual", ROOT / "Publishing/03-front-matter.md"),
     Chapter("Implementation Guide", "Start Here", ROOT / "Implementation/01-start-here.md"),
     Chapter("Implementation Guide", "First-Week Setup", ROOT / "Implementation/02-first-week-setup.md"),
@@ -435,10 +435,10 @@ def chapter_story(chapter: Chapter, previous_section: str | None, mode: BuildMod
     elif chapter.title == "Dedication":
         flow.extend(parse_markdown(text, ("## Dedication", "## Foreword")))
     elif chapter.title == "Foreword":
-        flow.extend(parse_markdown(text, ("## Foreword", "## Author And Project Attribution")))
+        flow.extend(parse_markdown(text, ("## Foreword", "## The Creed")))
     elif chapter.title == "How to Use This Manual":
         flow.extend(parse_markdown(text, ("## How To Use This Manual", "## Who This Manual Is For")))
-    elif chapter.title == "The Leimbach Philosophy":
+    elif chapter.title == "Mika’s Method to the Madness":
         flow.extend(parse_markdown(text, ("## Who This Method Is For", "## Main Sections")))
     elif chapter.title == "Version History":
         flow.extend(parse_markdown(text, ("## Version History Review Placeholder", "## Appendix List Review Placeholder")))
