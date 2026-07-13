@@ -32,6 +32,22 @@ The purpose is to turn ambition into an operating system: train with intent, eat
 
 This is not only a training plan. It is a way to prove that a demanding life does not have to erase standards.
 
+## The Creed
+
+I do not wait for perfect conditions.
+
+I train with intent, eat with structure, recover with discipline, and track what tells the truth.
+
+I do not test my max to prove I am strong. I build strength with repeatable work.
+
+I do not let one bad shift, one missed meal, one poor night of sleep, or one hard week become the reason I quit.
+
+I adjust. I repeat. I rebuild. I keep moving.
+
+I respect pain, red flags, heat, and recovery because the goal is not one heroic day. The goal is years of progress.
+
+I am not chasing chaos. I am building a method inside it.
+
 ## Main Sections
 
 - [Implementation Guide](Implementation/01-start-here.md): start-here roadmap, first-week setup, week-one entry, weekly operating rhythm, common scenarios, and copy-ready checklists.

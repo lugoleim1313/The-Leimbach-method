@@ -67,6 +67,22 @@ This manual is my attempt to turn that standard into something usable: train har
 
 If this works, it should not only build a better total or a bigger body. It should build a better operating system for the person doing the work.
 
+## The Creed
+
+I do not wait for perfect conditions.
+
+I train with intent, eat with structure, recover with discipline, and track what tells the truth.
+
+I do not test my max to prove I am strong. I build strength with repeatable work.
+
+I do not let one bad shift, one missed meal, one poor night of sleep, or one hard week become the reason I quit.
+
+I adjust. I repeat. I rebuild. I keep moving.
+
+I respect pain, red flags, heat, and recovery because the goal is not one heroic day. The goal is years of progress.
+
+I am not chasing chaos. I am building a method inside it.
+
 ## Author And Project Attribution
 
 Author/project attribution: Mika Leimbach. This manual is written as a personal performance system for Mika Leimbach and should not be presented as medical, clinical, or credentialed professional guidance unless later reviewed and approved by qualified professionals.
