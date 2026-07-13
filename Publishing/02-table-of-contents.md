@@ -3,7 +3,7 @@ title: "Table of Contents"
 volume: "Publishing"
 chapter: 2
 status: "review"
-last_updated: "2026-07-09"
+last_updated: "2026-07-12"
 author: "The Leimbach Method"
 ---
 
@@ -22,7 +22,7 @@ author: "The Leimbach Method"
 
 1. [Start Here](../Implementation/01-start-here.md)
 2. [First-Week Setup](../Implementation/02-first-week-setup.md)
-3. [Mid-Block Entry](../Implementation/03-mid-block-entry.md)
+3. [Week One Entry](../Implementation/03-week-one-entry.md)
 4. [Weekly Operating Rhythm](../Implementation/04-weekly-operating-rhythm.md)
 5. [Common Scenarios](../Implementation/05-common-scenarios.md)
 6. [User Checklists](../Implementation/06-user-checklists.md)
