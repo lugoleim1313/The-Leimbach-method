@@ -3,7 +3,7 @@ title: "User Checklists"
 volume: "Implementation Guide"
 chapter: 6
 status: "review"
-last_updated: "2026-07-09"
+last_updated: "2026-07-12"
 author: "The Leimbach Method"
 ---
 
@@ -24,7 +24,7 @@ Heat illness symptoms, chest pain, fainting, severe shortness of breath, neurolo
 | Item | Done |
 |---|---|
 | Read Start Here, First-Week Setup, and Weekly Operating Rhythm |  |
-| Choose start point: Week 1 / Week 4 / restart / repeat |  |
+| Confirm Week 1 start date for the next 6-week block |  |
 | Copy weekly dashboard |  |
 | Set first review day |  |
 | List current work shifts |  |
@@ -100,15 +100,16 @@ Heat illness symptoms, chest pain, fainting, severe shortness of breath, neurolo
 | Choose one training decision |  |
 | Choose one recovery decision |  |
 
-## Mid-Block Entry Checklist
+## Week One Entry Checklist
 
 | Item | Done |
 |---|---|
-| Confirm recent training consistency |  |
-| Confirm current RPE loads are known |  |
+| Confirm next 6-week block start date |  |
+| Estimate conservative Week 1 RPE loads |  |
 | Check sleep, heat, soreness, and readiness |  |
-| Decide Week 4 / Week 5 / repeat-build / restart Week 1 |  |
-| Plan Week 6 as lower stress |  |
+| Record starting bodyweight and waist |  |
+| Start nutrition plan and meal prep |  |
+| Prepare tracking dashboard before first session |  |
 | Avoid max testing |  |
 
 ## Red-Flag Checklist

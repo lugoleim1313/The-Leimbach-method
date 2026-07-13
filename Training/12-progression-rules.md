@@ -3,7 +3,7 @@ title: "Progression Rules"
 volume: "Volume II — Training"
 chapter: 12
 status: "review"
-last_updated: "2026-07-09"
+last_updated: "2026-07-12"
 author: "The Leimbach Method"
 ---
 
@@ -120,14 +120,16 @@ Deload early when performance drops across multiple sessions, joint pain trends 
 | Outcome | Next Step |
 |---|---|
 | Block went well | Start a new block with slightly higher entry loads |
-| Week 4 was strong but Week 5/6 felt needed | Keep the same structure and progress slowly |
+| Week 4 was strong and Week 5/6 managed fatigue well | Keep the same structure and progress slowly |
 | Fatigue was high | Add a longer deload or lower volume in the next block |
 | Technique improved but loads did not | Keep RPE approach and build volume quality |
 | Pain or medical red flags appeared | Coach/clinician review before continuing |
 
-## If Starting at Week 4
+## Starting the Next Block
 
-Use Week 4 as an entry assessment, not a test. Select loads by ramping to the prescribed RPE with clean technique. If RPE 8 arrives at a lower load than expected, stop there. If readiness is yellow, run Week 4 like a Week 3 build. If readiness is red, run a consolidation week and then proceed to Week 5/6.
+Start the method at Week 1 of the next full 6-week block. Use Week 1 to set conservative RPE-based entry loads, record baseline performance, and connect training data to the nutrition and tracking systems from the beginning.
+
+Do not skip ahead because a previous training week felt hard. If current loads are uncertain, Week 1 should be lighter and cleaner rather than treated like a test.
 
 ## Copy-Ready Progression Checklist
 
@@ -146,7 +148,7 @@ Use Week 4 as an entry assessment, not a test. Select loads by ramping to the pr
 ## Coach Review Notes
 
 - Confirm current training maxes before any percentage progression is added.
-- Confirm whether Week 4 should be treated as an entry week, build week, or strongest productive week.
+- Confirm Week 1 entry loads are conservative and repeatable enough to support clean tracking.
 - Review pain, injury concerns, neurological symptoms, chest pain, severe shortness of breath, or persistent joint issues with a coach and clinician.
 
 ## References

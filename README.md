@@ -2,7 +2,7 @@
 title: "Mika’s Method to the Madness"
 subtitle: "Powerbuilding, Nutrition, Recovery, and Performance"
 status: "review draft"
-last_updated: "2026-07-09"
+last_updated: "2026-07-12"
 ---
 
 # Mika’s Method to the Madness
@@ -24,9 +24,17 @@ Heat illness symptoms, chest pain, fainting, severe shortness of breath, neurolo
 
 This method is written for a large strength athlete working rotating oilfield shifts who wants a practical system for building size, strength, conditioning, and recovery capacity. It assumes long workdays, hot environments, inconsistent sleep, heavy barbell training, and the need for simple weekly decisions.
 
+## Why This Exists
+
+Mika’s Method to the Madness exists because progress has to survive real life. It was built from the problem of trying to become bigger, stronger, healthier, and more consistent while working demanding shifts, managing heat, missing perfect sleep, training heavy, and still needing a plan that can be repeated.
+
+The purpose is to turn ambition into an operating system: train with intent, eat with structure, recover before problems stack up, track the numbers that matter, and make the next useful decision instead of waiting for perfect conditions.
+
+This is not only a training plan. It is a way to prove that a demanding life does not have to erase standards.
+
 ## Main Sections
 
-- [Implementation Guide](Implementation/01-start-here.md): start-here roadmap, first-week setup, mid-block entry, weekly operating rhythm, common scenarios, and copy-ready checklists.
+- [Implementation Guide](Implementation/01-start-here.md): start-here roadmap, first-week setup, week-one entry, weekly operating rhythm, common scenarios, and copy-ready checklists.
 - [Volume I - Nutrition](Nutrition/01-athlete-profile.md): athlete profile, nutrition philosophy, macro targets, meal timing, meal prep, groceries, hydration, supplements, and adjustment rules.
 - [Volume II - Training](Training/01-program-overview.md): program overview, readiness, warm-up, squat, bench, deadlift, accessory work, core work, conditioning, deloads, the first 6-week block, and progression rules.
 - [Volume III - Recovery](Recovery/01-recovery-overview.md): recovery overview, sleep, shift work, heat stress, soreness and pain management, weekly planning, and recovery checklists.

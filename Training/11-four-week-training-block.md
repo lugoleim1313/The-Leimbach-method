@@ -3,7 +3,7 @@ title: "First Six-Week Strength Block"
 volume: "Volume II — Training"
 chapter: 11
 status: "review"
-last_updated: "2026-07-09"
+last_updated: "2026-07-12"
 author: "The Leimbach Method"
 ---
 
@@ -32,7 +32,7 @@ Build productive strength practice in the squat, bench, and deadlift while keepi
 | Readiness | Green/yellow/red rules apply every session |
 | Top work | Main lifts usually stay RPE 6-8 in Weeks 1-5 |
 | Deadlift volume | Conservative; quality beats total tonnage |
-| Current entry point | If already around Week 4, use the Week 4 section below |
+| Current entry point | Start the next full block at Week 1 and track from the beginning |
 
 ## Six-Week Layout
 
@@ -136,18 +136,11 @@ Readiness modification: yellow means deadlift top work caps at RPE 7 and back-of
 | Training review | Check readiness trends, missed reps, soreness, and schedule |
 | Plan Monday | Choose training window around day/night shift |
 
-## If Starting This Plan Around Week 4
+## Starting the Block at Week 1
 
-Do not guess loads from old maxes. Enter with RPE and bar speed.
+Begin this plan at Week 1 of the next full training block. Record the first week of squat, bench, deadlift, conditioning, bodyweight, waist, nutrition compliance, readiness, and recovery notes so later adjustments are based on clean data.
 
-| Question | Decision |
-|---|---|
-| Warm-ups move fast and technique is stable | Run Week 4 as the strongest productive week, up to RPE 8 |
-| Warm-ups feel average or sleep/work stress is high | Treat Week 4 like Week 3: productive build, RPE 7-7.5 |
-| Bar speed is slow, joints are irritated, or heat stress is high | Treat Week 4 like Week 5: consolidate, RPE 6.5-7 |
-| Pain, neurological symptoms, chest pain, severe shortness of breath, or persistent joint issues appear | Stop the concerning work and seek coach/clinician review |
-
-Weeks 5-6 after a Week 4 start should consolidate and deload. Week 5 should not force a max. Week 6 should reduce load, volume, and intensity even if Week 4 went well.
+Do not guess from old maxes or skip ahead. Week 1 is not a throwaway week; it sets the entry loads and gives the weekly dashboard a useful starting point.
 
 ## Day-Shift and Night-Shift Scheduling Notes
 
@@ -158,10 +151,11 @@ Weeks 5-6 after a Week 4 start should consolidate and deload. Week 5 should not 
 | Long hot shift | Start yellow until warm-ups prove otherwise |
 | Rotation change | Use recovery day, technique session, or repeat the week instead of forcing load |
 
-## Copy-Ready Week 4-6 Continuation Table
+## Copy-Ready Block Review Table
 
 | Week | Squat | Bench | Deadlift | Conditioning |
 |---|---|---|---|---|
+| Week 1 | Establish clean entry work | Establish clean entry work | Conservative entry pulls | Standard or reduced intervals |
 | Week 4 | Strong productive work, cap RPE 8 | Strong productive work, cap RPE 8 | Strong but conservative, cap RPE 8 | Recoverable intervals |
 | Week 5 | Consolidate, RPE 7-7.5 | Consolidate, RPE 7-7.5 | Consolidate, RPE 7 | Reduce if readiness dips |
 | Week 6 | Deload, RPE 5-6 | Deload, RPE 5-6 | Deload, RPE 5-6 | Easy only |
@@ -169,7 +163,7 @@ Weeks 5-6 after a Week 4 start should consolidate and deload. Week 5 should not 
 ## Coach Review Notes
 
 - Confirm current training maxes before percentage work is added.
-- Confirm whether the athlete is truly entering around Week 4 or should restart at Week 1.
+- Confirm Week 1 entry loads are conservative enough for clean tracking.
 - Review pain, injury concerns, neurological symptoms, chest pain, severe shortness of breath, or persistent joint issues with a coach and clinician.
 
 ## References

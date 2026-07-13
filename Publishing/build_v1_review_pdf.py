@@ -60,7 +60,7 @@ CHAPTERS = [
     Chapter("Foundation", "How to Use This Manual", ROOT / "Publishing/03-front-matter.md"),
     Chapter("Implementation Guide", "Start Here", ROOT / "Implementation/01-start-here.md"),
     Chapter("Implementation Guide", "First-Week Setup", ROOT / "Implementation/02-first-week-setup.md"),
-    Chapter("Implementation Guide", "Mid-Block Entry", ROOT / "Implementation/03-mid-block-entry.md"),
+    Chapter("Implementation Guide", "Week One Entry", ROOT / "Implementation/03-week-one-entry.md"),
     Chapter("Implementation Guide", "Weekly Operating Rhythm", ROOT / "Implementation/04-weekly-operating-rhythm.md"),
     Chapter("Implementation Guide", "Common Scenarios", ROOT / "Implementation/05-common-scenarios.md"),
     Chapter("Implementation Guide", "User Checklists", ROOT / "Implementation/06-user-checklists.md"),

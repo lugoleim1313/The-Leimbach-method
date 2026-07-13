@@ -3,7 +3,7 @@ title: "Start Here"
 volume: "Implementation Guide"
 chapter: 1
 status: "review"
-last_updated: "2026-07-09"
+last_updated: "2026-07-12"
 author: "The Leimbach Method"
 ---
 
@@ -58,9 +58,8 @@ This method is built for a large strength athlete working rotating oilfield shif
 
 | Situation | Starting Point |
 |---|---|
-| New to the current plan or coming off inconsistent training | Start at Week 1 |
-| Already training hard and roughly around Week 4 loading | Start around Week 4 after readiness check |
-| Coming back after time off | Restart at Week 1 or run a build week |
+| Starting the method with the next training cycle | Start at Week 1 |
+| Coming back after time off | Restart at Week 1 or run a conservative Week 1 |
 | One bad week from work, sleep, heat, or missed sessions | Repeat the week |
 | Pain changes technique or red flags appear | Stop the session and seek coach/clinician review or urgent care when warranted |
 
@@ -70,7 +69,7 @@ This method is built for a large strength athlete working rotating oilfield shif
 |---|---|
 | Read Start Here, First-Week Setup, and Weekly Operating Rhythm |  |
 | Record starting bodyweight and waist |  |
-| Pick training start point: Week 1 / Week 4 / repeat week / restart |  |
+| Confirm Week 1 start date for the next 6-week block |  |
 | Set nutrition targets and meal-prep plan |  |
 | Set hydration/cooler plan for work shifts |  |
 | Set sleep anchors and recovery days |  |
