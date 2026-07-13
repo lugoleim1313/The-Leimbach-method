@@ -59,7 +59,7 @@ The generated review PDF includes:
 4. Dedication review copy
 5. Foreword review copy
 6. Linked table of contents
-7. The Leimbach Philosophy
+7. Mika’s Method to the Madness
 8. How to Use This Manual
 9. Implementation Guide
 10. Volume I - Nutrition
@@ -76,7 +76,7 @@ The generated review PDF includes:
 
 ## Build Format
 
-The full review PDF is generated from Markdown source files with ReportLab. The build uses proportional typography for body copy, structured tables for Markdown tables, dynamic table column widths, repeated table headers, consistent margins, page numbers, running footer text, PDF bookmarks, and a generated table of contents.
+The full review PDF is generated from Markdown source files with ReportLab. The build uses proportional typography for body copy, structured tables for Markdown tables, dynamic table column widths, repeated table headers, consistent margins, page numbers, running footer text, PDF bookmarks, code-native visual accents, section divider bands, and a generated table of contents.
 
 The PDF includes:
 
@@ -90,6 +90,7 @@ The PDF includes:
 - Review status labels
 - Wrapped table and checklist formatting for proof review
 - Alternating table row backgrounds for dense worksheet readability
+- Code-native cover marks, section bands, chapter accent rules, and footer accents
 - PDF bookmarks and linked table of contents entries
 - Chapter-level page breaks for cleaner proof review
 

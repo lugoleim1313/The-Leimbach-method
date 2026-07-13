@@ -18,6 +18,7 @@ from reportlab.platypus import (
     BaseDocTemplate,
     Frame,
     FrameBreak,
+    Flowable,
     KeepTogether,
     ListFlowable,
     ListItem,
@@ -43,6 +44,25 @@ FINAL_CANDIDATE_LABEL = "Version 1.0 Final Candidate"
 OUT = ROOT / "dist" / "Mikas-Method-to-the-Madness-v1.0-review.pdf"
 FINAL_CANDIDATE_OUT = ROOT / "dist" / "Mikas-Method-to-the-Madness-v1.0-final-candidate.pdf"
 BUILD_NOTES = ROOT / "Publishing" / "review-pdf-notes.md"
+
+INK = colors.HexColor("#1f252b")
+STEEL = colors.HexColor("#4f5d68")
+BRASS = colors.HexColor("#a7792b")
+RUST = colors.HexColor("#8c3f2f")
+MIST = colors.HexColor("#f3f5f6")
+PAPER = colors.HexColor("#faf9f6")
+LINE = colors.HexColor("#c9c3b8")
+SECTION_PALETTE = {
+    "Front Matter": BRASS,
+    "Foundation": INK,
+    "Implementation Guide": colors.HexColor("#7a5a2b"),
+    "Volume I - Nutrition": colors.HexColor("#4f6f52"),
+    "Volume II - Training": RUST,
+    "Volume III - Recovery": colors.HexColor("#3f6678"),
+    "Volume IV - Tracking": colors.HexColor("#6b5d8f"),
+    "Exercise Library": colors.HexColor("#595f66"),
+    "Back Matter": colors.HexColor("#6a6258"),
+}
 
 
 @dataclass(frozen=True)
@@ -146,23 +166,91 @@ def clean_inline(text: str) -> str:
 
 def styles():
     base = getSampleStyleSheet()
-    base.add(ParagraphStyle("CoverTitle", parent=base["Title"], fontName="Times-Bold", fontSize=32, leading=36, alignment=TA_CENTER, spaceAfter=18))
-    base.add(ParagraphStyle("CoverSub", parent=base["Normal"], fontName="Times-Roman", fontSize=15, leading=20, alignment=TA_CENTER, spaceAfter=10))
-    base.add(ParagraphStyle("PartTitle", parent=base["Title"], fontName="Times-Bold", fontSize=24, leading=30, alignment=TA_CENTER, spaceAfter=16))
-    base.add(ParagraphStyle("ChapterTitle", parent=base["Heading1"], fontName="Times-Bold", fontSize=20, leading=24, spaceAfter=12, keepWithNext=True))
-    base.add(ParagraphStyle("H2", parent=base["Heading2"], fontName="Times-Bold", fontSize=12.2, leading=14.4, spaceBefore=7, spaceAfter=3, keepWithNext=True))
-    base.add(ParagraphStyle("H3", parent=base["Heading3"], fontName="Times-BoldItalic", fontSize=10.5, leading=12.4, spaceBefore=6, spaceAfter=3, keepWithNext=True))
+    base.add(ParagraphStyle("CoverTitle", parent=base["Title"], fontName="Times-Bold", fontSize=34, leading=38, alignment=TA_CENTER, textColor=INK, spaceAfter=18))
+    base.add(ParagraphStyle("CoverSub", parent=base["Normal"], fontName="Times-Roman", fontSize=14.5, leading=19, alignment=TA_CENTER, textColor=STEEL, spaceAfter=10))
+    base.add(ParagraphStyle("PartTitle", parent=base["Title"], fontName="Times-Bold", fontSize=23, leading=29, alignment=TA_CENTER, textColor=INK, spaceAfter=12))
+    base.add(ParagraphStyle("ChapterTitle", parent=base["Heading1"], fontName="Times-Bold", fontSize=20.5, leading=24.5, textColor=INK, spaceAfter=8, keepWithNext=True))
+    base.add(ParagraphStyle("H2", parent=base["Heading2"], fontName="Times-Bold", fontSize=12.2, leading=14.4, textColor=INK, spaceBefore=7, spaceAfter=3, keepWithNext=True))
+    base.add(ParagraphStyle("H3", parent=base["Heading3"], fontName="Times-BoldItalic", fontSize=10.5, leading=12.4, textColor=STEEL, spaceBefore=6, spaceAfter=3, keepWithNext=True))
     base.add(ParagraphStyle("Body", parent=base["BodyText"], fontName="Times-Roman", fontSize=8.6, leading=10.4, spaceAfter=3.2))
     base.add(ParagraphStyle("Small", parent=base["BodyText"], fontName="Times-Roman", fontSize=7.2, leading=8.4, spaceAfter=2.6))
     base.add(ParagraphStyle("Tiny", parent=base["BodyText"], fontName="Times-Roman", fontSize=6.7, leading=7.8, spaceAfter=1.8))
-    base.add(ParagraphStyle("TableHeader", parent=base["BodyText"], fontName="Times-Bold", fontSize=7, leading=8.1, textColor=colors.HexColor("#111111"), spaceAfter=1.8))
+    base.add(ParagraphStyle("TableHeader", parent=base["BodyText"], fontName="Times-Bold", fontSize=7, leading=8.1, textColor=colors.white, spaceAfter=1.8))
     base.add(ParagraphStyle("Meta", parent=base["BodyText"], fontName="Times-Italic", fontSize=8, leading=10, textColor=colors.HexColor("#555555"), spaceAfter=8))
     base.add(ParagraphStyle("List", parent=base["BodyText"], fontName="Times-Roman", fontSize=8.4, leading=10.2, leftIndent=14, firstLineIndent=-8, spaceAfter=2))
-    base.add(ParagraphStyle("TOCHeading", parent=base["Heading1"], fontName="Times-Bold", fontSize=24, leading=28, alignment=TA_CENTER, spaceAfter=16))
+    base.add(ParagraphStyle("TOCHeading", parent=base["Heading1"], fontName="Times-Bold", fontSize=24, leading=28, alignment=TA_CENTER, textColor=INK, spaceAfter=16))
     return base
 
 
 STYLES = styles()
+
+
+class AccentRule(Flowable):
+    def __init__(self, color=BRASS, width=7.2 * inch, height=0.12 * inch):
+        super().__init__()
+        self.width = width
+        self.height = height
+        self.color = color
+        self.hAlign = "CENTER"
+
+    def draw(self):
+        self.canv.saveState()
+        self.canv.setStrokeColor(LINE)
+        self.canv.setLineWidth(0.35)
+        self.canv.line(0, self.height / 2, self.width, self.height / 2)
+        self.canv.setStrokeColor(self.color)
+        self.canv.setLineWidth(1.6)
+        self.canv.line(0, self.height / 2, min(1.55 * inch, self.width), self.height / 2)
+        self.canv.restoreState()
+
+
+class CoverMark(Flowable):
+    def __init__(self, width=7.2 * inch, height=1.05 * inch):
+        super().__init__()
+        self.width = width
+        self.height = height
+        self.hAlign = "CENTER"
+
+    def draw(self):
+        c = self.canv
+        c.saveState()
+        c.setFillColor(PAPER)
+        c.setStrokeColor(LINE)
+        c.setLineWidth(0.7)
+        c.roundRect(0, 0, self.width, self.height, 5, stroke=1, fill=1)
+        c.setStrokeColor(BRASS)
+        c.setLineWidth(2.4)
+        c.line(0.25 * inch, 0.24 * inch, self.width - 0.25 * inch, self.height - 0.24 * inch)
+        c.setStrokeColor(RUST)
+        c.setLineWidth(1.2)
+        c.line(0.25 * inch, self.height - 0.24 * inch, self.width - 0.25 * inch, 0.24 * inch)
+        c.setStrokeColor(INK)
+        c.setLineWidth(0.9)
+        c.rect(0.18 * inch, 0.18 * inch, self.width - 0.36 * inch, self.height - 0.36 * inch, stroke=1, fill=0)
+        c.restoreState()
+
+
+class SectionBand(Flowable):
+    def __init__(self, section: str, width=7.2 * inch, height=0.42 * inch):
+        super().__init__()
+        self.section = section
+        self.width = width
+        self.height = height
+        self.color = SECTION_PALETTE.get(section, BRASS)
+        self.hAlign = "CENTER"
+
+    def draw(self):
+        c = self.canv
+        c.saveState()
+        c.setFillColor(PAPER)
+        c.setStrokeColor(LINE)
+        c.roundRect(0, 0, self.width, self.height, 4, stroke=1, fill=1)
+        c.setFillColor(self.color)
+        c.rect(0, 0, 0.16 * inch, self.height, stroke=0, fill=1)
+        c.setFont("Times-Bold", 8.5)
+        c.setFillColor(STEEL)
+        c.drawString(0.28 * inch, 0.15 * inch, self.section.upper())
+        c.restoreState()
 
 
 PLACEHOLDER_INSTRUCTIONS = {
@@ -234,11 +322,14 @@ class ReviewDoc(BaseDocTemplate):
 
     def draw_page(self, canvas, doc):
         canvas.saveState()
-        canvas.setStrokeColor(colors.HexColor("#d0d0d0"))
-        canvas.setLineWidth(0.3)
-        canvas.line(doc.leftMargin, 0.55 * inch, doc.pagesize[0] - doc.rightMargin, 0.55 * inch)
+        canvas.setStrokeColor(LINE)
+        canvas.setLineWidth(0.35)
+        canvas.line(doc.leftMargin, 0.56 * inch, doc.pagesize[0] - doc.rightMargin, 0.56 * inch)
+        canvas.setStrokeColor(BRASS)
+        canvas.setLineWidth(1.2)
+        canvas.line(doc.leftMargin, 0.56 * inch, doc.leftMargin + 1.2 * inch, 0.56 * inch)
         canvas.setFont("Times-Roman", 8)
-        canvas.setFillColor(colors.HexColor("#555555"))
+        canvas.setFillColor(STEEL)
         canvas.drawString(doc.leftMargin, 0.38 * inch, self.mode.footer)
         canvas.drawRightString(doc.pagesize[0] - doc.rightMargin, 0.38 * inch, str(doc.page))
         canvas.restoreState()
@@ -291,15 +382,16 @@ def parse_table(rows: list[str]) -> Table:
     table_class = LongTable if len(normalized) >= 10 else Table
     table = table_class(data, colWidths=col_widths, repeatRows=1, hAlign="LEFT", splitByRow=1)
     commands = [
-        ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#e4e7eb")),
-        ("TEXTCOLOR", (0, 0), (-1, 0), colors.HexColor("#111111")),
-        ("GRID", (0, 0), (-1, -1), 0.25, colors.HexColor("#c8c8c8")),
+        ("BACKGROUND", (0, 0), (-1, 0), INK),
+        ("TEXTCOLOR", (0, 0), (-1, 0), colors.white),
+        ("GRID", (0, 0), (-1, -1), 0.25, LINE),
+        ("BOX", (0, 0), (-1, -1), 0.65, STEEL),
         ("VALIGN", (0, 0), (-1, -1), "TOP"),
         ("LEFTPADDING", (0, 0), (-1, -1), 2.4 if dense else 3.2),
         ("RIGHTPADDING", (0, 0), (-1, -1), 2.4 if dense else 3.2),
         ("TOPPADDING", (0, 0), (-1, -1), 2.2),
         ("BOTTOMPADDING", (0, 0), (-1, -1), 2.2),
-        ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#f7f7f7")]),
+        ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#f6f4ef")]),
     ]
     table.setStyle(TableStyle(commands))
     return table
@@ -410,8 +502,11 @@ def chapter_story(chapter: Chapter, previous_section: str | None, mode: BuildMod
     flow: list = [PageBreak()]
     if chapter.section != previous_section:
         flow.append(bookmark_para(chapter.section, "PartTitle", 0))
-        flow.append(Spacer(1, 16))
+        flow.append(SectionBand(chapter.section))
+        flow.append(Spacer(1, 14))
     flow.append(bookmark_para(chapter.title, "ChapterTitle", 1))
+    flow.append(AccentRule(SECTION_PALETTE.get(chapter.section, BRASS)))
+    flow.append(Spacer(1, 5))
     meta = source_meta(chapter.path)
     status = meta.get("status", "review")
     source = chapter.path.relative_to(ROOT).as_posix() if chapter.path else "Generated review placeholder"
@@ -453,15 +548,21 @@ def chapter_story(chapter: Chapter, previous_section: str | None, mode: BuildMod
 
 def cover_story(mode: BuildMode) -> list:
     story = [
-        Spacer(1, 1.35 * inch),
+        Spacer(1, 0.8 * inch),
+        CoverMark(),
+        Spacer(1, 0.42 * inch),
         Paragraph(mode.label.upper(), STYLES["CoverSub"]),
         Spacer(1, 0.35 * inch),
         Paragraph(BOOK_TITLE.upper(), STYLES["CoverTitle"]),
+        AccentRule(BRASS, width=4.7 * inch),
+        Spacer(1, 0.12 * inch),
         Paragraph(BOOK_SUBTITLE, STYLES["CoverSub"]),
         Spacer(1, 0.6 * inch),
         Paragraph(mode.label, STYLES["CoverSub"]),
         Paragraph(f"Generated {date.today().isoformat()}", STYLES["CoverSub"]),
-        Spacer(1, 0.8 * inch),
+        Spacer(1, 0.45 * inch),
+        CoverMark(height=0.55 * inch),
+        Spacer(1, 0.3 * inch),
     ]
     if mode.show_review_cover_note:
         story.append(Paragraph("Review draft - not final publication copy", STYLES["CoverSub"]))
